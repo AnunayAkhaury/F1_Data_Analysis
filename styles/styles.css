@@ -1,0 +1,53 @@
+/* styles/styles.css */
+#scrolly-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+/* pin starter map with scroll*/
+.scroll__graphic {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+    
+    /* column format */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Aligns content to the top of the container */
+    align-items: center;         /* Keeps the map centered */
+    
+    /* margins */
+    padding-top: 40px; 
+    box-sizing: border-box;
+}
+
+/* title + map spacing */
+.map-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* Starter Map position */
+.map-title {
+    margin-top: 0;         
+    margin-bottom: 15px;   
+    font-family: sans-serif;
+    color: #2b2d42;
+}
+
+.scroll__text {
+    width: 40%;
+}
+
+/* scroll break points */
+.step {
+    margin-bottom: 80vh; 
+    padding: 1.5rem;
+    font-family: sans-serif;
+    transition: opacity 0.3s ease-in-out; 
+}

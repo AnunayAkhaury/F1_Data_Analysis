@@ -1,0 +1,8027 @@
+{
+  "1950": [
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Indianapolis 500",
+      "location": "Indianapolis",
+      "country": "USA",
+      "lat": 39.795,
+      "lng": -86.2347
+    },
+    {
+      "name_race": "Swiss Grand Prix",
+      "location": "Bern",
+      "country": "Switzerland",
+      "lat": 46.9589,
+      "lng": 7.40194
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Reims",
+      "country": "France",
+      "lat": 49.2542,
+      "lng": 3.93083
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    }
+  ],
+  "1951": [
+    {
+      "name_race": "Swiss Grand Prix",
+      "location": "Bern",
+      "country": "Switzerland",
+      "lat": 46.9589,
+      "lng": 7.40194
+    },
+    {
+      "name_race": "Indianapolis 500",
+      "location": "Indianapolis",
+      "country": "USA",
+      "lat": 39.795,
+      "lng": -86.2347
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Reims",
+      "country": "France",
+      "lat": 49.2542,
+      "lng": 3.93083
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Barcelona",
+      "country": "Spain",
+      "lat": 41.3903,
+      "lng": 2.11667
+    }
+  ],
+  "1952": [
+    {
+      "name_race": "Swiss Grand Prix",
+      "location": "Bern",
+      "country": "Switzerland",
+      "lat": 46.9589,
+      "lng": 7.40194
+    },
+    {
+      "name_race": "Indianapolis 500",
+      "location": "Indianapolis",
+      "country": "USA",
+      "lat": 39.795,
+      "lng": -86.2347
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Rouen",
+      "country": "France",
+      "lat": 49.3306,
+      "lng": 1.00458
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    }
+  ],
+  "1953": [
+    {
+      "name_race": "Argentine Grand Prix",
+      "location": "Buenos Aires",
+      "country": "Argentina",
+      "lat": -34.6943,
+      "lng": -58.4593
+    },
+    {
+      "name_race": "Indianapolis 500",
+      "location": "Indianapolis",
+      "country": "USA",
+      "lat": 39.795,
+      "lng": -86.2347
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Reims",
+      "country": "France",
+      "lat": 49.2542,
+      "lng": 3.93083
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Swiss Grand Prix",
+      "location": "Bern",
+      "country": "Switzerland",
+      "lat": 46.9589,
+      "lng": 7.40194
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    }
+  ],
+  "1954": [
+    {
+      "name_race": "Argentine Grand Prix",
+      "location": "Buenos Aires",
+      "country": "Argentina",
+      "lat": -34.6943,
+      "lng": -58.4593
+    },
+    {
+      "name_race": "Indianapolis 500",
+      "location": "Indianapolis",
+      "country": "USA",
+      "lat": 39.795,
+      "lng": -86.2347
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Reims",
+      "country": "France",
+      "lat": 49.2542,
+      "lng": 3.93083
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Swiss Grand Prix",
+      "location": "Bern",
+      "country": "Switzerland",
+      "lat": 46.9589,
+      "lng": 7.40194
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Barcelona",
+      "country": "Spain",
+      "lat": 41.3903,
+      "lng": 2.11667
+    }
+  ],
+  "1955": [
+    {
+      "name_race": "Argentine Grand Prix",
+      "location": "Buenos Aires",
+      "country": "Argentina",
+      "lat": -34.6943,
+      "lng": -58.4593
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Indianapolis 500",
+      "location": "Indianapolis",
+      "country": "USA",
+      "lat": 39.795,
+      "lng": -86.2347
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Liverpool",
+      "country": "UK",
+      "lat": 53.4769,
+      "lng": -2.94056
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    }
+  ],
+  "1956": [
+    {
+      "name_race": "Argentine Grand Prix",
+      "location": "Buenos Aires",
+      "country": "Argentina",
+      "lat": -34.6943,
+      "lng": -58.4593
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Indianapolis 500",
+      "location": "Indianapolis",
+      "country": "USA",
+      "lat": 39.795,
+      "lng": -86.2347
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Reims",
+      "country": "France",
+      "lat": 49.2542,
+      "lng": 3.93083
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    }
+  ],
+  "1957": [
+    {
+      "name_race": "Argentine Grand Prix",
+      "location": "Buenos Aires",
+      "country": "Argentina",
+      "lat": -34.6943,
+      "lng": -58.4593
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Indianapolis 500",
+      "location": "Indianapolis",
+      "country": "USA",
+      "lat": 39.795,
+      "lng": -86.2347
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Rouen",
+      "country": "France",
+      "lat": 49.3306,
+      "lng": 1.00458
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Liverpool",
+      "country": "UK",
+      "lat": 53.4769,
+      "lng": -2.94056
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Pescara Grand Prix",
+      "location": "Pescara",
+      "country": "Italy",
+      "lat": 42.475,
+      "lng": 14.1508
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    }
+  ],
+  "1958": [
+    {
+      "name_race": "Argentine Grand Prix",
+      "location": "Buenos Aires",
+      "country": "Argentina",
+      "lat": -34.6943,
+      "lng": -58.4593
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "Indianapolis 500",
+      "location": "Indianapolis",
+      "country": "USA",
+      "lat": 39.795,
+      "lng": -86.2347
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Reims",
+      "country": "France",
+      "lat": 49.2542,
+      "lng": 3.93083
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Portuguese Grand Prix",
+      "location": "Oporto",
+      "country": "Portugal",
+      "lat": 41.1705,
+      "lng": -8.67325
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Moroccan Grand Prix",
+      "location": "Casablanca",
+      "country": "Morocco",
+      "lat": 33.5786,
+      "lng": -7.6875
+    }
+  ],
+  "1959": [
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Indianapolis 500",
+      "location": "Indianapolis",
+      "country": "USA",
+      "lat": 39.795,
+      "lng": -86.2347
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Reims",
+      "country": "France",
+      "lat": 49.2542,
+      "lng": 3.93083
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Liverpool",
+      "country": "UK",
+      "lat": 53.4769,
+      "lng": -2.94056
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Berlin",
+      "country": "Germany",
+      "lat": 52.4806,
+      "lng": 13.2514
+    },
+    {
+      "name_race": "Portuguese Grand Prix",
+      "location": "Lisbon",
+      "country": "Portugal",
+      "lat": 38.7197,
+      "lng": -9.20306
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "Florida",
+      "country": "USA",
+      "lat": 27.4547,
+      "lng": -81.3483
+    }
+  ],
+  "1960": [
+    {
+      "name_race": "Argentine Grand Prix",
+      "location": "Buenos Aires",
+      "country": "Argentina",
+      "lat": -34.6943,
+      "lng": -58.4593
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Indianapolis 500",
+      "location": "Indianapolis",
+      "country": "USA",
+      "lat": 39.795,
+      "lng": -86.2347
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Reims",
+      "country": "France",
+      "lat": 49.2542,
+      "lng": 3.93083
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "Portuguese Grand Prix",
+      "location": "Oporto",
+      "country": "Portugal",
+      "lat": 41.1705,
+      "lng": -8.67325
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "California",
+      "country": "USA",
+      "lat": 33.937,
+      "lng": -117.273
+    }
+  ],
+  "1961": [
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Reims",
+      "country": "France",
+      "lat": 49.2542,
+      "lng": 3.93083
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Liverpool",
+      "country": "UK",
+      "lat": 53.4769,
+      "lng": -2.94056
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "New York State",
+      "country": "USA",
+      "lat": 42.3369,
+      "lng": -76.9272
+    }
+  ],
+  "1962": [
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Rouen",
+      "country": "France",
+      "lat": 49.3306,
+      "lng": 1.00458
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Liverpool",
+      "country": "UK",
+      "lat": 53.4769,
+      "lng": -2.94056
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "New York State",
+      "country": "USA",
+      "lat": 42.3369,
+      "lng": -76.9272
+    },
+    {
+      "name_race": "South African Grand Prix",
+      "location": "Eastern Cape Province",
+      "country": "South Africa",
+      "lat": -33.0486,
+      "lng": 27.8736
+    }
+  ],
+  "1963": [
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Reims",
+      "country": "France",
+      "lat": 49.2542,
+      "lng": 3.93083
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "New York State",
+      "country": "USA",
+      "lat": 42.3369,
+      "lng": -76.9272
+    },
+    {
+      "name_race": "Mexican Grand Prix",
+      "location": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.4042,
+      "lng": -99.0907
+    },
+    {
+      "name_race": "South African Grand Prix",
+      "location": "Eastern Cape Province",
+      "country": "South Africa",
+      "lat": -33.0486,
+      "lng": 27.8736
+    }
+  ],
+  "1964": [
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Rouen",
+      "country": "France",
+      "lat": 49.3306,
+      "lng": 1.00458
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Kent",
+      "country": "UK",
+      "lat": 51.3569,
+      "lng": 0.263056
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Styria",
+      "country": "Austria",
+      "lat": 47.2039,
+      "lng": 14.7478
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "New York State",
+      "country": "USA",
+      "lat": 42.3369,
+      "lng": -76.9272
+    },
+    {
+      "name_race": "Mexican Grand Prix",
+      "location": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.4042,
+      "lng": -99.0907
+    }
+  ],
+  "1965": [
+    {
+      "name_race": "South African Grand Prix",
+      "location": "Eastern Cape Province",
+      "country": "South Africa",
+      "lat": -33.0486,
+      "lng": 27.8736
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Clermont-Ferrand",
+      "country": "France",
+      "lat": 45.7472,
+      "lng": 3.03889
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "New York State",
+      "country": "USA",
+      "lat": 42.3369,
+      "lng": -76.9272
+    },
+    {
+      "name_race": "Mexican Grand Prix",
+      "location": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.4042,
+      "lng": -99.0907
+    }
+  ],
+  "1966": [
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Reims",
+      "country": "France",
+      "lat": 49.2542,
+      "lng": 3.93083
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Kent",
+      "country": "UK",
+      "lat": 51.3569,
+      "lng": 0.263056
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "New York State",
+      "country": "USA",
+      "lat": 42.3369,
+      "lng": -76.9272
+    },
+    {
+      "name_race": "Mexican Grand Prix",
+      "location": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.4042,
+      "lng": -99.0907
+    }
+  ],
+  "1967": [
+    {
+      "name_race": "South African Grand Prix",
+      "location": "Midrand",
+      "country": "South Africa",
+      "lat": -25.9894,
+      "lng": 28.0767
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Le Mans",
+      "country": "France",
+      "lat": 47.95,
+      "lng": 0.224231
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Ontario",
+      "country": "Canada",
+      "lat": 44.0481,
+      "lng": -78.6756
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "New York State",
+      "country": "USA",
+      "lat": 42.3369,
+      "lng": -76.9272
+    },
+    {
+      "name_race": "Mexican Grand Prix",
+      "location": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.4042,
+      "lng": -99.0907
+    }
+  ],
+  "1968": [
+    {
+      "name_race": "South African Grand Prix",
+      "location": "Midrand",
+      "country": "South Africa",
+      "lat": -25.9894,
+      "lng": 28.0767
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Madrid",
+      "country": "Spain",
+      "lat": 40.6171,
+      "lng": -3.58558
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Rouen",
+      "country": "France",
+      "lat": 49.3306,
+      "lng": 1.00458
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Kent",
+      "country": "UK",
+      "lat": 51.3569,
+      "lng": 0.263056
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Quebec",
+      "country": "Canada",
+      "lat": 46.1877,
+      "lng": -74.6099
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "New York State",
+      "country": "USA",
+      "lat": 42.3369,
+      "lng": -76.9272
+    },
+    {
+      "name_race": "Mexican Grand Prix",
+      "location": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.4042,
+      "lng": -99.0907
+    }
+  ],
+  "1969": [
+    {
+      "name_race": "South African Grand Prix",
+      "location": "Midrand",
+      "country": "South Africa",
+      "lat": -25.9894,
+      "lng": 28.0767
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Barcelona",
+      "country": "Spain",
+      "lat": 41.3664,
+      "lng": 2.15167
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Clermont-Ferrand",
+      "country": "France",
+      "lat": 45.7472,
+      "lng": 3.03889
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Ontario",
+      "country": "Canada",
+      "lat": 44.0481,
+      "lng": -78.6756
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "New York State",
+      "country": "USA",
+      "lat": 42.3369,
+      "lng": -76.9272
+    },
+    {
+      "name_race": "Mexican Grand Prix",
+      "location": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.4042,
+      "lng": -99.0907
+    }
+  ],
+  "1970": [
+    {
+      "name_race": "South African Grand Prix",
+      "location": "Midrand",
+      "country": "South Africa",
+      "lat": -25.9894,
+      "lng": 28.0767
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Madrid",
+      "country": "Spain",
+      "lat": 40.6171,
+      "lng": -3.58558
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Clermont-Ferrand",
+      "country": "France",
+      "lat": 45.7472,
+      "lng": 3.03889
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Kent",
+      "country": "UK",
+      "lat": 51.3569,
+      "lng": 0.263056
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Quebec",
+      "country": "Canada",
+      "lat": 46.1877,
+      "lng": -74.6099
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "New York State",
+      "country": "USA",
+      "lat": 42.3369,
+      "lng": -76.9272
+    },
+    {
+      "name_race": "Mexican Grand Prix",
+      "location": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.4042,
+      "lng": -99.0907
+    }
+  ],
+  "1971": [
+    {
+      "name_race": "South African Grand Prix",
+      "location": "Midrand",
+      "country": "South Africa",
+      "lat": -25.9894,
+      "lng": 28.0767
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Barcelona",
+      "country": "Spain",
+      "lat": 41.3664,
+      "lng": 2.15167
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Le Castellet",
+      "country": "France",
+      "lat": 43.2506,
+      "lng": 5.79167
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Ontario",
+      "country": "Canada",
+      "lat": 44.0481,
+      "lng": -78.6756
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "New York State",
+      "country": "USA",
+      "lat": 42.3369,
+      "lng": -76.9272
+    }
+  ],
+  "1972": [
+    {
+      "name_race": "Argentine Grand Prix",
+      "location": "Buenos Aires",
+      "country": "Argentina",
+      "lat": -34.6943,
+      "lng": -58.4593
+    },
+    {
+      "name_race": "South African Grand Prix",
+      "location": "Midrand",
+      "country": "South Africa",
+      "lat": -25.9894,
+      "lng": 28.0767
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Madrid",
+      "country": "Spain",
+      "lat": 40.6171,
+      "lng": -3.58558
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Brussels",
+      "country": "Belgium",
+      "lat": 50.6211,
+      "lng": 4.32694
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Clermont-Ferrand",
+      "country": "France",
+      "lat": 45.7472,
+      "lng": 3.03889
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Kent",
+      "country": "UK",
+      "lat": 51.3569,
+      "lng": 0.263056
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Ontario",
+      "country": "Canada",
+      "lat": 44.0481,
+      "lng": -78.6756
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "New York State",
+      "country": "USA",
+      "lat": 42.3369,
+      "lng": -76.9272
+    }
+  ],
+  "1973": [
+    {
+      "name_race": "Argentine Grand Prix",
+      "location": "Buenos Aires",
+      "country": "Argentina",
+      "lat": -34.6943,
+      "lng": -58.4593
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "South African Grand Prix",
+      "location": "Midrand",
+      "country": "South Africa",
+      "lat": -25.9894,
+      "lng": 28.0767
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Barcelona",
+      "country": "Spain",
+      "lat": 41.3664,
+      "lng": 2.15167
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Heusden-Zolder",
+      "country": "Belgium",
+      "lat": 50.9894,
+      "lng": 5.25694
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Swedish Grand Prix",
+      "location": "Anderstorp",
+      "country": "Sweden",
+      "lat": 57.2653,
+      "lng": 13.6042
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Le Castellet",
+      "country": "France",
+      "lat": 43.2506,
+      "lng": 5.79167
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Ontario",
+      "country": "Canada",
+      "lat": 44.0481,
+      "lng": -78.6756
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "New York State",
+      "country": "USA",
+      "lat": 42.3369,
+      "lng": -76.9272
+    }
+  ],
+  "1974": [
+    {
+      "name_race": "Argentine Grand Prix",
+      "location": "Buenos Aires",
+      "country": "Argentina",
+      "lat": -34.6943,
+      "lng": -58.4593
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "South African Grand Prix",
+      "location": "Midrand",
+      "country": "South Africa",
+      "lat": -25.9894,
+      "lng": 28.0767
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Madrid",
+      "country": "Spain",
+      "lat": 40.6171,
+      "lng": -3.58558
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Brussels",
+      "country": "Belgium",
+      "lat": 50.6211,
+      "lng": 4.32694
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Swedish Grand Prix",
+      "location": "Anderstorp",
+      "country": "Sweden",
+      "lat": 57.2653,
+      "lng": 13.6042
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Dijon",
+      "country": "France",
+      "lat": 47.3625,
+      "lng": 4.89913
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Kent",
+      "country": "UK",
+      "lat": 51.3569,
+      "lng": 0.263056
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Ontario",
+      "country": "Canada",
+      "lat": 44.0481,
+      "lng": -78.6756
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "New York State",
+      "country": "USA",
+      "lat": 42.3369,
+      "lng": -76.9272
+    }
+  ],
+  "1975": [
+    {
+      "name_race": "Argentine Grand Prix",
+      "location": "Buenos Aires",
+      "country": "Argentina",
+      "lat": -34.6943,
+      "lng": -58.4593
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "South African Grand Prix",
+      "location": "Midrand",
+      "country": "South Africa",
+      "lat": -25.9894,
+      "lng": 28.0767
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Barcelona",
+      "country": "Spain",
+      "lat": 41.3664,
+      "lng": 2.15167
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Heusden-Zolder",
+      "country": "Belgium",
+      "lat": 50.9894,
+      "lng": 5.25694
+    },
+    {
+      "name_race": "Swedish Grand Prix",
+      "location": "Anderstorp",
+      "country": "Sweden",
+      "lat": 57.2653,
+      "lng": 13.6042
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Le Castellet",
+      "country": "France",
+      "lat": 43.2506,
+      "lng": 5.79167
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "New York State",
+      "country": "USA",
+      "lat": 42.3369,
+      "lng": -76.9272
+    }
+  ],
+  "1976": [
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "South African Grand Prix",
+      "location": "Midrand",
+      "country": "South Africa",
+      "lat": -25.9894,
+      "lng": 28.0767
+    },
+    {
+      "name_race": "United States Grand Prix West",
+      "location": "California",
+      "country": "USA",
+      "lat": 33.7651,
+      "lng": -118.189
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Madrid",
+      "country": "Spain",
+      "lat": 40.6171,
+      "lng": -3.58558
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Heusden-Zolder",
+      "country": "Belgium",
+      "lat": 50.9894,
+      "lng": 5.25694
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Swedish Grand Prix",
+      "location": "Anderstorp",
+      "country": "Sweden",
+      "lat": 57.2653,
+      "lng": 13.6042
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Le Castellet",
+      "country": "France",
+      "lat": 43.2506,
+      "lng": 5.79167
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Kent",
+      "country": "UK",
+      "lat": 51.3569,
+      "lng": 0.263056
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Ontario",
+      "country": "Canada",
+      "lat": 44.0481,
+      "lng": -78.6756
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "New York State",
+      "country": "USA",
+      "lat": 42.3369,
+      "lng": -76.9272
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Oyama",
+      "country": "Japan",
+      "lat": 35.3717,
+      "lng": 138.927
+    }
+  ],
+  "1977": [
+    {
+      "name_race": "Argentine Grand Prix",
+      "location": "Buenos Aires",
+      "country": "Argentina",
+      "lat": -34.6943,
+      "lng": -58.4593
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "South African Grand Prix",
+      "location": "Midrand",
+      "country": "South Africa",
+      "lat": -25.9894,
+      "lng": 28.0767
+    },
+    {
+      "name_race": "United States Grand Prix West",
+      "location": "California",
+      "country": "USA",
+      "lat": 33.7651,
+      "lng": -118.189
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Madrid",
+      "country": "Spain",
+      "lat": 40.6171,
+      "lng": -3.58558
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Heusden-Zolder",
+      "country": "Belgium",
+      "lat": 50.9894,
+      "lng": 5.25694
+    },
+    {
+      "name_race": "Swedish Grand Prix",
+      "location": "Anderstorp",
+      "country": "Sweden",
+      "lat": 57.2653,
+      "lng": 13.6042
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Dijon",
+      "country": "France",
+      "lat": 47.3625,
+      "lng": 4.89913
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "New York State",
+      "country": "USA",
+      "lat": 42.3369,
+      "lng": -76.9272
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Ontario",
+      "country": "Canada",
+      "lat": 44.0481,
+      "lng": -78.6756
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Oyama",
+      "country": "Japan",
+      "lat": 35.3717,
+      "lng": 138.927
+    }
+  ],
+  "1978": [
+    {
+      "name_race": "Argentine Grand Prix",
+      "location": "Buenos Aires",
+      "country": "Argentina",
+      "lat": -34.6943,
+      "lng": -58.4593
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "Rio de Janeiro",
+      "country": "Brazil",
+      "lat": -22.9756,
+      "lng": -43.395
+    },
+    {
+      "name_race": "South African Grand Prix",
+      "location": "Midrand",
+      "country": "South Africa",
+      "lat": -25.9894,
+      "lng": 28.0767
+    },
+    {
+      "name_race": "United States Grand Prix West",
+      "location": "California",
+      "country": "USA",
+      "lat": 33.7651,
+      "lng": -118.189
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Heusden-Zolder",
+      "country": "Belgium",
+      "lat": 50.9894,
+      "lng": 5.25694
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Madrid",
+      "country": "Spain",
+      "lat": 40.6171,
+      "lng": -3.58558
+    },
+    {
+      "name_race": "Swedish Grand Prix",
+      "location": "Anderstorp",
+      "country": "Sweden",
+      "lat": 57.2653,
+      "lng": 13.6042
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Le Castellet",
+      "country": "France",
+      "lat": 43.2506,
+      "lng": 5.79167
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Kent",
+      "country": "UK",
+      "lat": 51.3569,
+      "lng": 0.263056
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "New York State",
+      "country": "USA",
+      "lat": 42.3369,
+      "lng": -76.9272
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    }
+  ],
+  "1979": [
+    {
+      "name_race": "Argentine Grand Prix",
+      "location": "Buenos Aires",
+      "country": "Argentina",
+      "lat": -34.6943,
+      "lng": -58.4593
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "South African Grand Prix",
+      "location": "Midrand",
+      "country": "South Africa",
+      "lat": -25.9894,
+      "lng": 28.0767
+    },
+    {
+      "name_race": "United States Grand Prix West",
+      "location": "California",
+      "country": "USA",
+      "lat": 33.7651,
+      "lng": -118.189
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Madrid",
+      "country": "Spain",
+      "lat": 40.6171,
+      "lng": -3.58558
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Heusden-Zolder",
+      "country": "Belgium",
+      "lat": 50.9894,
+      "lng": 5.25694
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Dijon",
+      "country": "France",
+      "lat": 47.3625,
+      "lng": 4.89913
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "New York State",
+      "country": "USA",
+      "lat": 42.3369,
+      "lng": -76.9272
+    }
+  ],
+  "1980": [
+    {
+      "name_race": "Argentine Grand Prix",
+      "location": "Buenos Aires",
+      "country": "Argentina",
+      "lat": -34.6943,
+      "lng": -58.4593
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "South African Grand Prix",
+      "location": "Midrand",
+      "country": "South Africa",
+      "lat": -25.9894,
+      "lng": 28.0767
+    },
+    {
+      "name_race": "United States Grand Prix West",
+      "location": "California",
+      "country": "USA",
+      "lat": 33.7651,
+      "lng": -118.189
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Heusden-Zolder",
+      "country": "Belgium",
+      "lat": 50.9894,
+      "lng": 5.25694
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Le Castellet",
+      "country": "France",
+      "lat": 43.2506,
+      "lng": 5.79167
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Kent",
+      "country": "UK",
+      "lat": 51.3569,
+      "lng": 0.263056
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Imola",
+      "country": "Italy",
+      "lat": 44.3439,
+      "lng": 11.7167
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "New York State",
+      "country": "USA",
+      "lat": 42.3369,
+      "lng": -76.9272
+    }
+  ],
+  "1981": [
+    {
+      "name_race": "United States Grand Prix West",
+      "location": "California",
+      "country": "USA",
+      "lat": 33.7651,
+      "lng": -118.189
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "Rio de Janeiro",
+      "country": "Brazil",
+      "lat": -22.9756,
+      "lng": -43.395
+    },
+    {
+      "name_race": "Argentine Grand Prix",
+      "location": "Buenos Aires",
+      "country": "Argentina",
+      "lat": -34.6943,
+      "lng": -58.4593
+    },
+    {
+      "name_race": "San Marino Grand Prix",
+      "location": "Imola",
+      "country": "Italy",
+      "lat": 44.3439,
+      "lng": 11.7167
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Heusden-Zolder",
+      "country": "Belgium",
+      "lat": 50.9894,
+      "lng": 5.25694
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Madrid",
+      "country": "Spain",
+      "lat": 40.6171,
+      "lng": -3.58558
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Dijon",
+      "country": "France",
+      "lat": 47.3625,
+      "lng": 4.89913
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "Caesars Palace Grand Prix",
+      "location": "Nevada",
+      "country": "USA",
+      "lat": 36.1162,
+      "lng": -115.174
+    }
+  ],
+  "1982": [
+    {
+      "name_race": "South African Grand Prix",
+      "location": "Midrand",
+      "country": "South Africa",
+      "lat": -25.9894,
+      "lng": 28.0767
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "Rio de Janeiro",
+      "country": "Brazil",
+      "lat": -22.9756,
+      "lng": -43.395
+    },
+    {
+      "name_race": "United States Grand Prix West",
+      "location": "California",
+      "country": "USA",
+      "lat": 33.7651,
+      "lng": -118.189
+    },
+    {
+      "name_race": "San Marino Grand Prix",
+      "location": "Imola",
+      "country": "Italy",
+      "lat": 44.3439,
+      "lng": 11.7167
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Heusden-Zolder",
+      "country": "Belgium",
+      "lat": 50.9894,
+      "lng": 5.25694
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Detroit Grand Prix",
+      "location": "Detroit",
+      "country": "USA",
+      "lat": 42.3298,
+      "lng": -83.0401
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Kent",
+      "country": "UK",
+      "lat": 51.3569,
+      "lng": 0.263056
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Le Castellet",
+      "country": "France",
+      "lat": 43.2506,
+      "lng": 5.79167
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "Swiss Grand Prix",
+      "location": "Dijon",
+      "country": "France",
+      "lat": 47.3625,
+      "lng": 4.89913
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Caesars Palace Grand Prix",
+      "location": "Nevada",
+      "country": "USA",
+      "lat": 36.1162,
+      "lng": -115.174
+    }
+  ],
+  "1983": [
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "Rio de Janeiro",
+      "country": "Brazil",
+      "lat": -22.9756,
+      "lng": -43.395
+    },
+    {
+      "name_race": "United States Grand Prix West",
+      "location": "California",
+      "country": "USA",
+      "lat": 33.7651,
+      "lng": -118.189
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Le Castellet",
+      "country": "France",
+      "lat": 43.2506,
+      "lng": 5.79167
+    },
+    {
+      "name_race": "San Marino Grand Prix",
+      "location": "Imola",
+      "country": "Italy",
+      "lat": 44.3439,
+      "lng": 11.7167
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Detroit Grand Prix",
+      "location": "Detroit",
+      "country": "USA",
+      "lat": 42.3298,
+      "lng": -83.0401
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "European Grand Prix",
+      "location": "Kent",
+      "country": "UK",
+      "lat": 51.3569,
+      "lng": 0.263056
+    },
+    {
+      "name_race": "South African Grand Prix",
+      "location": "Midrand",
+      "country": "South Africa",
+      "lat": -25.9894,
+      "lng": 28.0767
+    }
+  ],
+  "1984": [
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "Rio de Janeiro",
+      "country": "Brazil",
+      "lat": -22.9756,
+      "lng": -43.395
+    },
+    {
+      "name_race": "South African Grand Prix",
+      "location": "Midrand",
+      "country": "South Africa",
+      "lat": -25.9894,
+      "lng": 28.0767
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Heusden-Zolder",
+      "country": "Belgium",
+      "lat": 50.9894,
+      "lng": 5.25694
+    },
+    {
+      "name_race": "San Marino Grand Prix",
+      "location": "Imola",
+      "country": "Italy",
+      "lat": 44.3439,
+      "lng": 11.7167
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Dijon",
+      "country": "France",
+      "lat": 47.3625,
+      "lng": 4.89913
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "Detroit Grand Prix",
+      "location": "Detroit",
+      "country": "USA",
+      "lat": 42.3298,
+      "lng": -83.0401
+    },
+    {
+      "name_race": "Dallas Grand Prix",
+      "location": "Dallas",
+      "country": "USA",
+      "lat": 32.7774,
+      "lng": -96.7587
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Kent",
+      "country": "UK",
+      "lat": 51.3569,
+      "lng": 0.263056
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "European Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Portuguese Grand Prix",
+      "location": "Estoril",
+      "country": "Portugal",
+      "lat": 38.7506,
+      "lng": -9.39417
+    }
+  ],
+  "1985": [
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "Rio de Janeiro",
+      "country": "Brazil",
+      "lat": -22.9756,
+      "lng": -43.395
+    },
+    {
+      "name_race": "Portuguese Grand Prix",
+      "location": "Estoril",
+      "country": "Portugal",
+      "lat": 38.7506,
+      "lng": -9.39417
+    },
+    {
+      "name_race": "San Marino Grand Prix",
+      "location": "Imola",
+      "country": "Italy",
+      "lat": 44.3439,
+      "lng": 11.7167
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "Detroit Grand Prix",
+      "location": "Detroit",
+      "country": "USA",
+      "lat": 42.3298,
+      "lng": -83.0401
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Le Castellet",
+      "country": "France",
+      "lat": 43.2506,
+      "lng": 5.79167
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "European Grand Prix",
+      "location": "Kent",
+      "country": "UK",
+      "lat": 51.3569,
+      "lng": 0.263056
+    },
+    {
+      "name_race": "South African Grand Prix",
+      "location": "Midrand",
+      "country": "South Africa",
+      "lat": -25.9894,
+      "lng": 28.0767
+    },
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Adelaide",
+      "country": "Australia",
+      "lat": -34.9272,
+      "lng": 138.617
+    }
+  ],
+  "1986": [
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "Rio de Janeiro",
+      "country": "Brazil",
+      "lat": -22.9756,
+      "lng": -43.395
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Jerez de la Frontera",
+      "country": "Spain",
+      "lat": 36.7083,
+      "lng": -6.03417
+    },
+    {
+      "name_race": "San Marino Grand Prix",
+      "location": "Imola",
+      "country": "Italy",
+      "lat": 44.3439,
+      "lng": 11.7167
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "Detroit Grand Prix",
+      "location": "Detroit",
+      "country": "USA",
+      "lat": 42.3298,
+      "lng": -83.0401
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Le Castellet",
+      "country": "France",
+      "lat": 43.2506,
+      "lng": 5.79167
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Kent",
+      "country": "UK",
+      "lat": 51.3569,
+      "lng": 0.263056
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Portuguese Grand Prix",
+      "location": "Estoril",
+      "country": "Portugal",
+      "lat": 38.7506,
+      "lng": -9.39417
+    },
+    {
+      "name_race": "Mexican Grand Prix",
+      "location": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.4042,
+      "lng": -99.0907
+    },
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Adelaide",
+      "country": "Australia",
+      "lat": -34.9272,
+      "lng": 138.617
+    }
+  ],
+  "1987": [
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "Rio de Janeiro",
+      "country": "Brazil",
+      "lat": -22.9756,
+      "lng": -43.395
+    },
+    {
+      "name_race": "San Marino Grand Prix",
+      "location": "Imola",
+      "country": "Italy",
+      "lat": 44.3439,
+      "lng": 11.7167
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Detroit Grand Prix",
+      "location": "Detroit",
+      "country": "USA",
+      "lat": 42.3298,
+      "lng": -83.0401
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Le Castellet",
+      "country": "France",
+      "lat": 43.2506,
+      "lng": 5.79167
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Portuguese Grand Prix",
+      "location": "Estoril",
+      "country": "Portugal",
+      "lat": 38.7506,
+      "lng": -9.39417
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Jerez de la Frontera",
+      "country": "Spain",
+      "lat": 36.7083,
+      "lng": -6.03417
+    },
+    {
+      "name_race": "Mexican Grand Prix",
+      "location": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.4042,
+      "lng": -99.0907
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    },
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Adelaide",
+      "country": "Australia",
+      "lat": -34.9272,
+      "lng": 138.617
+    }
+  ],
+  "1988": [
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "Rio de Janeiro",
+      "country": "Brazil",
+      "lat": -22.9756,
+      "lng": -43.395
+    },
+    {
+      "name_race": "San Marino Grand Prix",
+      "location": "Imola",
+      "country": "Italy",
+      "lat": 44.3439,
+      "lng": 11.7167
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Mexican Grand Prix",
+      "location": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.4042,
+      "lng": -99.0907
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "Detroit Grand Prix",
+      "location": "Detroit",
+      "country": "USA",
+      "lat": 42.3298,
+      "lng": -83.0401
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Le Castellet",
+      "country": "France",
+      "lat": 43.2506,
+      "lng": 5.79167
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Portuguese Grand Prix",
+      "location": "Estoril",
+      "country": "Portugal",
+      "lat": 38.7506,
+      "lng": -9.39417
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Jerez de la Frontera",
+      "country": "Spain",
+      "lat": 36.7083,
+      "lng": -6.03417
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    },
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Adelaide",
+      "country": "Australia",
+      "lat": -34.9272,
+      "lng": 138.617
+    }
+  ],
+  "1989": [
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "Rio de Janeiro",
+      "country": "Brazil",
+      "lat": -22.9756,
+      "lng": -43.395
+    },
+    {
+      "name_race": "San Marino Grand Prix",
+      "location": "Imola",
+      "country": "Italy",
+      "lat": 44.3439,
+      "lng": 11.7167
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Mexican Grand Prix",
+      "location": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.4042,
+      "lng": -99.0907
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "Phoenix",
+      "country": "USA",
+      "lat": 33.4479,
+      "lng": -112.075
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Le Castellet",
+      "country": "France",
+      "lat": 43.2506,
+      "lng": 5.79167
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Portuguese Grand Prix",
+      "location": "Estoril",
+      "country": "Portugal",
+      "lat": 38.7506,
+      "lng": -9.39417
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Jerez de la Frontera",
+      "country": "Spain",
+      "lat": 36.7083,
+      "lng": -6.03417
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    },
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Adelaide",
+      "country": "Australia",
+      "lat": -34.9272,
+      "lng": 138.617
+    }
+  ],
+  "1990": [
+    {
+      "name_race": "United States Grand Prix",
+      "location": "Phoenix",
+      "country": "USA",
+      "lat": 33.4479,
+      "lng": -112.075
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "San Marino Grand Prix",
+      "location": "Imola",
+      "country": "Italy",
+      "lat": 44.3439,
+      "lng": 11.7167
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "Mexican Grand Prix",
+      "location": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.4042,
+      "lng": -99.0907
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Le Castellet",
+      "country": "France",
+      "lat": 43.2506,
+      "lng": 5.79167
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Portuguese Grand Prix",
+      "location": "Estoril",
+      "country": "Portugal",
+      "lat": 38.7506,
+      "lng": -9.39417
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Jerez de la Frontera",
+      "country": "Spain",
+      "lat": 36.7083,
+      "lng": -6.03417
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    },
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Adelaide",
+      "country": "Australia",
+      "lat": -34.9272,
+      "lng": 138.617
+    }
+  ],
+  "1991": [
+    {
+      "name_race": "United States Grand Prix",
+      "location": "Phoenix",
+      "country": "USA",
+      "lat": 33.4479,
+      "lng": -112.075
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "San Marino Grand Prix",
+      "location": "Imola",
+      "country": "Italy",
+      "lat": 44.3439,
+      "lng": 11.7167
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "Mexican Grand Prix",
+      "location": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.4042,
+      "lng": -99.0907
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Magny Cours",
+      "country": "France",
+      "lat": 46.8642,
+      "lng": 3.16361
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Portuguese Grand Prix",
+      "location": "Estoril",
+      "country": "Portugal",
+      "lat": 38.7506,
+      "lng": -9.39417
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    },
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Adelaide",
+      "country": "Australia",
+      "lat": -34.9272,
+      "lng": 138.617
+    }
+  ],
+  "1992": [
+    {
+      "name_race": "South African Grand Prix",
+      "location": "Midrand",
+      "country": "South Africa",
+      "lat": -25.9894,
+      "lng": 28.0767
+    },
+    {
+      "name_race": "Mexican Grand Prix",
+      "location": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.4042,
+      "lng": -99.0907
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "San Marino Grand Prix",
+      "location": "Imola",
+      "country": "Italy",
+      "lat": 44.3439,
+      "lng": 11.7167
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Magny Cours",
+      "country": "France",
+      "lat": 46.8642,
+      "lng": 3.16361
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Portuguese Grand Prix",
+      "location": "Estoril",
+      "country": "Portugal",
+      "lat": 38.7506,
+      "lng": -9.39417
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    },
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Adelaide",
+      "country": "Australia",
+      "lat": -34.9272,
+      "lng": 138.617
+    }
+  ],
+  "1993": [
+    {
+      "name_race": "South African Grand Prix",
+      "location": "Midrand",
+      "country": "South Africa",
+      "lat": -25.9894,
+      "lng": 28.0767
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "European Grand Prix",
+      "location": "Castle Donington",
+      "country": "UK",
+      "lat": 52.8306,
+      "lng": -1.37528
+    },
+    {
+      "name_race": "San Marino Grand Prix",
+      "location": "Imola",
+      "country": "Italy",
+      "lat": 44.3439,
+      "lng": 11.7167
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Magny Cours",
+      "country": "France",
+      "lat": 46.8642,
+      "lng": 3.16361
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Portuguese Grand Prix",
+      "location": "Estoril",
+      "country": "Portugal",
+      "lat": 38.7506,
+      "lng": -9.39417
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    },
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Adelaide",
+      "country": "Australia",
+      "lat": -34.9272,
+      "lng": 138.617
+    }
+  ],
+  "1994": [
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "Pacific Grand Prix",
+      "location": "Okayama",
+      "country": "Japan",
+      "lat": 34.915,
+      "lng": 134.221
+    },
+    {
+      "name_race": "San Marino Grand Prix",
+      "location": "Imola",
+      "country": "Italy",
+      "lat": 44.3439,
+      "lng": 11.7167
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Magny Cours",
+      "country": "France",
+      "lat": 46.8642,
+      "lng": 3.16361
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Portuguese Grand Prix",
+      "location": "Estoril",
+      "country": "Portugal",
+      "lat": 38.7506,
+      "lng": -9.39417
+    },
+    {
+      "name_race": "European Grand Prix",
+      "location": "Jerez de la Frontera",
+      "country": "Spain",
+      "lat": 36.7083,
+      "lng": -6.03417
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    },
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Adelaide",
+      "country": "Australia",
+      "lat": -34.9272,
+      "lng": 138.617
+    }
+  ],
+  "1995": [
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "Argentine Grand Prix",
+      "location": "Buenos Aires",
+      "country": "Argentina",
+      "lat": -34.6943,
+      "lng": -58.4593
+    },
+    {
+      "name_race": "San Marino Grand Prix",
+      "location": "Imola",
+      "country": "Italy",
+      "lat": 44.3439,
+      "lng": 11.7167
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Magny Cours",
+      "country": "France",
+      "lat": 46.8642,
+      "lng": 3.16361
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Portuguese Grand Prix",
+      "location": "Estoril",
+      "country": "Portugal",
+      "lat": 38.7506,
+      "lng": -9.39417
+    },
+    {
+      "name_race": "European Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Pacific Grand Prix",
+      "location": "Okayama",
+      "country": "Japan",
+      "lat": 34.915,
+      "lng": 134.221
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    },
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Adelaide",
+      "country": "Australia",
+      "lat": -34.9272,
+      "lng": 138.617
+    }
+  ],
+  "1996": [
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Melbourne",
+      "country": "Australia",
+      "lat": -37.8497,
+      "lng": 144.968
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "Argentine Grand Prix",
+      "location": "Buenos Aires",
+      "country": "Argentina",
+      "lat": -34.6943,
+      "lng": -58.4593
+    },
+    {
+      "name_race": "European Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "San Marino Grand Prix",
+      "location": "Imola",
+      "country": "Italy",
+      "lat": 44.3439,
+      "lng": 11.7167
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Magny Cours",
+      "country": "France",
+      "lat": 46.8642,
+      "lng": 3.16361
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Portuguese Grand Prix",
+      "location": "Estoril",
+      "country": "Portugal",
+      "lat": 38.7506,
+      "lng": -9.39417
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    }
+  ],
+  "1997": [
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Melbourne",
+      "country": "Australia",
+      "lat": -37.8497,
+      "lng": 144.968
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "Argentine Grand Prix",
+      "location": "Buenos Aires",
+      "country": "Argentina",
+      "lat": -34.6943,
+      "lng": -58.4593
+    },
+    {
+      "name_race": "San Marino Grand Prix",
+      "location": "Imola",
+      "country": "Italy",
+      "lat": 44.3439,
+      "lng": 11.7167
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Magny Cours",
+      "country": "France",
+      "lat": 46.8642,
+      "lng": 3.16361
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "Luxembourg Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    },
+    {
+      "name_race": "European Grand Prix",
+      "location": "Jerez de la Frontera",
+      "country": "Spain",
+      "lat": 36.7083,
+      "lng": -6.03417
+    }
+  ],
+  "1998": [
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Melbourne",
+      "country": "Australia",
+      "lat": -37.8497,
+      "lng": 144.968
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "Argentine Grand Prix",
+      "location": "Buenos Aires",
+      "country": "Argentina",
+      "lat": -34.6943,
+      "lng": -58.4593
+    },
+    {
+      "name_race": "San Marino Grand Prix",
+      "location": "Imola",
+      "country": "Italy",
+      "lat": 44.3439,
+      "lng": 11.7167
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Magny Cours",
+      "country": "France",
+      "lat": 46.8642,
+      "lng": 3.16361
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Luxembourg Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    }
+  ],
+  "1999": [
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Melbourne",
+      "country": "Australia",
+      "lat": -37.8497,
+      "lng": 144.968
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "San Marino Grand Prix",
+      "location": "Imola",
+      "country": "Italy",
+      "lat": 44.3439,
+      "lng": 11.7167
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Magny Cours",
+      "country": "France",
+      "lat": 46.8642,
+      "lng": 3.16361
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "European Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Malaysian Grand Prix",
+      "location": "Kuala Lumpur",
+      "country": "Malaysia",
+      "lat": 2.76083,
+      "lng": 101.738
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    }
+  ],
+  "2000": [
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Melbourne",
+      "country": "Australia",
+      "lat": -37.8497,
+      "lng": 144.968
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "San Marino Grand Prix",
+      "location": "Imola",
+      "country": "Italy",
+      "lat": 44.3439,
+      "lng": 11.7167
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "European Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Magny Cours",
+      "country": "France",
+      "lat": 46.8642,
+      "lng": 3.16361
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "Indianapolis",
+      "country": "USA",
+      "lat": 39.795,
+      "lng": -86.2347
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    },
+    {
+      "name_race": "Malaysian Grand Prix",
+      "location": "Kuala Lumpur",
+      "country": "Malaysia",
+      "lat": 2.76083,
+      "lng": 101.738
+    }
+  ],
+  "2001": [
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Melbourne",
+      "country": "Australia",
+      "lat": -37.8497,
+      "lng": 144.968
+    },
+    {
+      "name_race": "Malaysian Grand Prix",
+      "location": "Kuala Lumpur",
+      "country": "Malaysia",
+      "lat": 2.76083,
+      "lng": 101.738
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "San Marino Grand Prix",
+      "location": "Imola",
+      "country": "Italy",
+      "lat": 44.3439,
+      "lng": 11.7167
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "European Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Magny Cours",
+      "country": "France",
+      "lat": 46.8642,
+      "lng": 3.16361
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "Indianapolis",
+      "country": "USA",
+      "lat": 39.795,
+      "lng": -86.2347
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    }
+  ],
+  "2002": [
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Melbourne",
+      "country": "Australia",
+      "lat": -37.8497,
+      "lng": 144.968
+    },
+    {
+      "name_race": "Malaysian Grand Prix",
+      "location": "Kuala Lumpur",
+      "country": "Malaysia",
+      "lat": 2.76083,
+      "lng": 101.738
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "San Marino Grand Prix",
+      "location": "Imola",
+      "country": "Italy",
+      "lat": 44.3439,
+      "lng": 11.7167
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "European Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Magny Cours",
+      "country": "France",
+      "lat": 46.8642,
+      "lng": 3.16361
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "Indianapolis",
+      "country": "USA",
+      "lat": 39.795,
+      "lng": -86.2347
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    }
+  ],
+  "2003": [
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Melbourne",
+      "country": "Australia",
+      "lat": -37.8497,
+      "lng": 144.968
+    },
+    {
+      "name_race": "Malaysian Grand Prix",
+      "location": "Kuala Lumpur",
+      "country": "Malaysia",
+      "lat": 2.76083,
+      "lng": 101.738
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "San Marino Grand Prix",
+      "location": "Imola",
+      "country": "Italy",
+      "lat": 44.3439,
+      "lng": 11.7167
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "European Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Magny Cours",
+      "country": "France",
+      "lat": 46.8642,
+      "lng": 3.16361
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "Indianapolis",
+      "country": "USA",
+      "lat": 39.795,
+      "lng": -86.2347
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    }
+  ],
+  "2004": [
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Melbourne",
+      "country": "Australia",
+      "lat": -37.8497,
+      "lng": 144.968
+    },
+    {
+      "name_race": "Malaysian Grand Prix",
+      "location": "Kuala Lumpur",
+      "country": "Malaysia",
+      "lat": 2.76083,
+      "lng": 101.738
+    },
+    {
+      "name_race": "Bahrain Grand Prix",
+      "location": "Sakhir",
+      "country": "Bahrain",
+      "lat": 26.0325,
+      "lng": 50.5106
+    },
+    {
+      "name_race": "San Marino Grand Prix",
+      "location": "Imola",
+      "country": "Italy",
+      "lat": 44.3439,
+      "lng": 11.7167
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "European Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "Indianapolis",
+      "country": "USA",
+      "lat": 39.795,
+      "lng": -86.2347
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Magny Cours",
+      "country": "France",
+      "lat": 46.8642,
+      "lng": 3.16361
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Chinese Grand Prix",
+      "location": "Shanghai",
+      "country": "China",
+      "lat": 31.3389,
+      "lng": 121.22
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    }
+  ],
+  "2005": [
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Melbourne",
+      "country": "Australia",
+      "lat": -37.8497,
+      "lng": 144.968
+    },
+    {
+      "name_race": "Malaysian Grand Prix",
+      "location": "Kuala Lumpur",
+      "country": "Malaysia",
+      "lat": 2.76083,
+      "lng": 101.738
+    },
+    {
+      "name_race": "Bahrain Grand Prix",
+      "location": "Sakhir",
+      "country": "Bahrain",
+      "lat": 26.0325,
+      "lng": 50.5106
+    },
+    {
+      "name_race": "San Marino Grand Prix",
+      "location": "Imola",
+      "country": "Italy",
+      "lat": 44.3439,
+      "lng": 11.7167
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "European Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "Indianapolis",
+      "country": "USA",
+      "lat": 39.795,
+      "lng": -86.2347
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Magny Cours",
+      "country": "France",
+      "lat": 46.8642,
+      "lng": 3.16361
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Turkish Grand Prix",
+      "location": "Istanbul",
+      "country": "Turkey",
+      "lat": 40.9517,
+      "lng": 29.405
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    },
+    {
+      "name_race": "Chinese Grand Prix",
+      "location": "Shanghai",
+      "country": "China",
+      "lat": 31.3389,
+      "lng": 121.22
+    }
+  ],
+  "2006": [
+    {
+      "name_race": "Bahrain Grand Prix",
+      "location": "Sakhir",
+      "country": "Bahrain",
+      "lat": 26.0325,
+      "lng": 50.5106
+    },
+    {
+      "name_race": "Malaysian Grand Prix",
+      "location": "Kuala Lumpur",
+      "country": "Malaysia",
+      "lat": 2.76083,
+      "lng": 101.738
+    },
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Melbourne",
+      "country": "Australia",
+      "lat": -37.8497,
+      "lng": 144.968
+    },
+    {
+      "name_race": "San Marino Grand Prix",
+      "location": "Imola",
+      "country": "Italy",
+      "lat": 44.3439,
+      "lng": 11.7167
+    },
+    {
+      "name_race": "European Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "Indianapolis",
+      "country": "USA",
+      "lat": 39.795,
+      "lng": -86.2347
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Magny Cours",
+      "country": "France",
+      "lat": 46.8642,
+      "lng": 3.16361
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Turkish Grand Prix",
+      "location": "Istanbul",
+      "country": "Turkey",
+      "lat": 40.9517,
+      "lng": 29.405
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Chinese Grand Prix",
+      "location": "Shanghai",
+      "country": "China",
+      "lat": 31.3389,
+      "lng": 121.22
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    }
+  ],
+  "2007": [
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Melbourne",
+      "country": "Australia",
+      "lat": -37.8497,
+      "lng": 144.968
+    },
+    {
+      "name_race": "Malaysian Grand Prix",
+      "location": "Kuala Lumpur",
+      "country": "Malaysia",
+      "lat": 2.76083,
+      "lng": 101.738
+    },
+    {
+      "name_race": "Bahrain Grand Prix",
+      "location": "Sakhir",
+      "country": "Bahrain",
+      "lat": 26.0325,
+      "lng": 50.5106
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "Indianapolis",
+      "country": "USA",
+      "lat": 39.795,
+      "lng": -86.2347
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Magny Cours",
+      "country": "France",
+      "lat": 46.8642,
+      "lng": 3.16361
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "European Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Turkish Grand Prix",
+      "location": "Istanbul",
+      "country": "Turkey",
+      "lat": 40.9517,
+      "lng": 29.405
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Oyama",
+      "country": "Japan",
+      "lat": 35.3717,
+      "lng": 138.927
+    },
+    {
+      "name_race": "Chinese Grand Prix",
+      "location": "Shanghai",
+      "country": "China",
+      "lat": 31.3389,
+      "lng": 121.22
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    }
+  ],
+  "2008": [
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Melbourne",
+      "country": "Australia",
+      "lat": -37.8497,
+      "lng": 144.968
+    },
+    {
+      "name_race": "Malaysian Grand Prix",
+      "location": "Kuala Lumpur",
+      "country": "Malaysia",
+      "lat": 2.76083,
+      "lng": 101.738
+    },
+    {
+      "name_race": "Bahrain Grand Prix",
+      "location": "Sakhir",
+      "country": "Bahrain",
+      "lat": 26.0325,
+      "lng": 50.5106
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "Turkish Grand Prix",
+      "location": "Istanbul",
+      "country": "Turkey",
+      "lat": 40.9517,
+      "lng": 29.405
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Magny Cours",
+      "country": "France",
+      "lat": 46.8642,
+      "lng": 3.16361
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "European Grand Prix",
+      "location": "Valencia",
+      "country": "Spain",
+      "lat": 39.4589,
+      "lng": -0.331667
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Singapore Grand Prix",
+      "location": "Marina Bay",
+      "country": "Singapore",
+      "lat": 1.2914,
+      "lng": 103.864
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Oyama",
+      "country": "Japan",
+      "lat": 35.3717,
+      "lng": 138.927
+    },
+    {
+      "name_race": "Chinese Grand Prix",
+      "location": "Shanghai",
+      "country": "China",
+      "lat": 31.3389,
+      "lng": 121.22
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    }
+  ],
+  "2009": [
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Melbourne",
+      "country": "Australia",
+      "lat": -37.8497,
+      "lng": 144.968
+    },
+    {
+      "name_race": "Malaysian Grand Prix",
+      "location": "Kuala Lumpur",
+      "country": "Malaysia",
+      "lat": 2.76083,
+      "lng": 101.738
+    },
+    {
+      "name_race": "Chinese Grand Prix",
+      "location": "Shanghai",
+      "country": "China",
+      "lat": 31.3389,
+      "lng": 121.22
+    },
+    {
+      "name_race": "Bahrain Grand Prix",
+      "location": "Sakhir",
+      "country": "Bahrain",
+      "lat": 26.0325,
+      "lng": 50.5106
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Turkish Grand Prix",
+      "location": "Istanbul",
+      "country": "Turkey",
+      "lat": 40.9517,
+      "lng": 29.405
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "European Grand Prix",
+      "location": "Valencia",
+      "country": "Spain",
+      "lat": 39.4589,
+      "lng": -0.331667
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Singapore Grand Prix",
+      "location": "Marina Bay",
+      "country": "Singapore",
+      "lat": 1.2914,
+      "lng": 103.864
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "Abu Dhabi Grand Prix",
+      "location": "Abu Dhabi",
+      "country": "UAE",
+      "lat": 24.4672,
+      "lng": 54.6031
+    }
+  ],
+  "2010": [
+    {
+      "name_race": "Bahrain Grand Prix",
+      "location": "Sakhir",
+      "country": "Bahrain",
+      "lat": 26.0325,
+      "lng": 50.5106
+    },
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Melbourne",
+      "country": "Australia",
+      "lat": -37.8497,
+      "lng": 144.968
+    },
+    {
+      "name_race": "Malaysian Grand Prix",
+      "location": "Kuala Lumpur",
+      "country": "Malaysia",
+      "lat": 2.76083,
+      "lng": 101.738
+    },
+    {
+      "name_race": "Chinese Grand Prix",
+      "location": "Shanghai",
+      "country": "China",
+      "lat": 31.3389,
+      "lng": 121.22
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Turkish Grand Prix",
+      "location": "Istanbul",
+      "country": "Turkey",
+      "lat": 40.9517,
+      "lng": 29.405
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "European Grand Prix",
+      "location": "Valencia",
+      "country": "Spain",
+      "lat": 39.4589,
+      "lng": -0.331667
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Singapore Grand Prix",
+      "location": "Marina Bay",
+      "country": "Singapore",
+      "lat": 1.2914,
+      "lng": 103.864
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    },
+    {
+      "name_race": "Korean Grand Prix",
+      "location": "Yeongam County",
+      "country": "Korea",
+      "lat": 34.7333,
+      "lng": 126.417
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "Abu Dhabi Grand Prix",
+      "location": "Abu Dhabi",
+      "country": "UAE",
+      "lat": 24.4672,
+      "lng": 54.6031
+    }
+  ],
+  "2011": [
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Melbourne",
+      "country": "Australia",
+      "lat": -37.8497,
+      "lng": 144.968
+    },
+    {
+      "name_race": "Malaysian Grand Prix",
+      "location": "Kuala Lumpur",
+      "country": "Malaysia",
+      "lat": 2.76083,
+      "lng": 101.738
+    },
+    {
+      "name_race": "Chinese Grand Prix",
+      "location": "Shanghai",
+      "country": "China",
+      "lat": 31.3389,
+      "lng": 121.22
+    },
+    {
+      "name_race": "Turkish Grand Prix",
+      "location": "Istanbul",
+      "country": "Turkey",
+      "lat": 40.9517,
+      "lng": 29.405
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "European Grand Prix",
+      "location": "Valencia",
+      "country": "Spain",
+      "lat": 39.4589,
+      "lng": -0.331667
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Singapore Grand Prix",
+      "location": "Marina Bay",
+      "country": "Singapore",
+      "lat": 1.2914,
+      "lng": 103.864
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    },
+    {
+      "name_race": "Korean Grand Prix",
+      "location": "Yeongam County",
+      "country": "Korea",
+      "lat": 34.7333,
+      "lng": 126.417
+    },
+    {
+      "name_race": "Indian Grand Prix",
+      "location": "Uttar Pradesh",
+      "country": "India",
+      "lat": 28.3487,
+      "lng": 77.5331
+    },
+    {
+      "name_race": "Abu Dhabi Grand Prix",
+      "location": "Abu Dhabi",
+      "country": "UAE",
+      "lat": 24.4672,
+      "lng": 54.6031
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    }
+  ],
+  "2012": [
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Melbourne",
+      "country": "Australia",
+      "lat": -37.8497,
+      "lng": 144.968
+    },
+    {
+      "name_race": "Malaysian Grand Prix",
+      "location": "Kuala Lumpur",
+      "country": "Malaysia",
+      "lat": 2.76083,
+      "lng": 101.738
+    },
+    {
+      "name_race": "Chinese Grand Prix",
+      "location": "Shanghai",
+      "country": "China",
+      "lat": 31.3389,
+      "lng": 121.22
+    },
+    {
+      "name_race": "Bahrain Grand Prix",
+      "location": "Sakhir",
+      "country": "Bahrain",
+      "lat": 26.0325,
+      "lng": 50.5106
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "European Grand Prix",
+      "location": "Valencia",
+      "country": "Spain",
+      "lat": 39.4589,
+      "lng": -0.331667
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Singapore Grand Prix",
+      "location": "Marina Bay",
+      "country": "Singapore",
+      "lat": 1.2914,
+      "lng": 103.864
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    },
+    {
+      "name_race": "Korean Grand Prix",
+      "location": "Yeongam County",
+      "country": "Korea",
+      "lat": 34.7333,
+      "lng": 126.417
+    },
+    {
+      "name_race": "Indian Grand Prix",
+      "location": "Uttar Pradesh",
+      "country": "India",
+      "lat": 28.3487,
+      "lng": 77.5331
+    },
+    {
+      "name_race": "Abu Dhabi Grand Prix",
+      "location": "Abu Dhabi",
+      "country": "UAE",
+      "lat": 24.4672,
+      "lng": 54.6031
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "Austin",
+      "country": "USA",
+      "lat": 30.1328,
+      "lng": -97.6411
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    }
+  ],
+  "2013": [
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Melbourne",
+      "country": "Australia",
+      "lat": -37.8497,
+      "lng": 144.968
+    },
+    {
+      "name_race": "Malaysian Grand Prix",
+      "location": "Kuala Lumpur",
+      "country": "Malaysia",
+      "lat": 2.76083,
+      "lng": 101.738
+    },
+    {
+      "name_race": "Chinese Grand Prix",
+      "location": "Shanghai",
+      "country": "China",
+      "lat": 31.3389,
+      "lng": 121.22
+    },
+    {
+      "name_race": "Bahrain Grand Prix",
+      "location": "Sakhir",
+      "country": "Bahrain",
+      "lat": 26.0325,
+      "lng": 50.5106
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Singapore Grand Prix",
+      "location": "Marina Bay",
+      "country": "Singapore",
+      "lat": 1.2914,
+      "lng": 103.864
+    },
+    {
+      "name_race": "Korean Grand Prix",
+      "location": "Yeongam County",
+      "country": "Korea",
+      "lat": 34.7333,
+      "lng": 126.417
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    },
+    {
+      "name_race": "Indian Grand Prix",
+      "location": "Uttar Pradesh",
+      "country": "India",
+      "lat": 28.3487,
+      "lng": 77.5331
+    },
+    {
+      "name_race": "Abu Dhabi Grand Prix",
+      "location": "Abu Dhabi",
+      "country": "UAE",
+      "lat": 24.4672,
+      "lng": 54.6031
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "Austin",
+      "country": "USA",
+      "lat": 30.1328,
+      "lng": -97.6411
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    }
+  ],
+  "2014": [
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Melbourne",
+      "country": "Australia",
+      "lat": -37.8497,
+      "lng": 144.968
+    },
+    {
+      "name_race": "Malaysian Grand Prix",
+      "location": "Kuala Lumpur",
+      "country": "Malaysia",
+      "lat": 2.76083,
+      "lng": 101.738
+    },
+    {
+      "name_race": "Bahrain Grand Prix",
+      "location": "Sakhir",
+      "country": "Bahrain",
+      "lat": 26.0325,
+      "lng": 50.5106
+    },
+    {
+      "name_race": "Chinese Grand Prix",
+      "location": "Shanghai",
+      "country": "China",
+      "lat": 31.3389,
+      "lng": 121.22
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Singapore Grand Prix",
+      "location": "Marina Bay",
+      "country": "Singapore",
+      "lat": 1.2914,
+      "lng": 103.864
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    },
+    {
+      "name_race": "Russian Grand Prix",
+      "location": "Sochi",
+      "country": "Russia",
+      "lat": 43.4057,
+      "lng": 39.9578
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "Austin",
+      "country": "USA",
+      "lat": 30.1328,
+      "lng": -97.6411
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "Abu Dhabi Grand Prix",
+      "location": "Abu Dhabi",
+      "country": "UAE",
+      "lat": 24.4672,
+      "lng": 54.6031
+    }
+  ],
+  "2015": [
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "Bahrain Grand Prix",
+      "location": "Sakhir",
+      "country": "Bahrain",
+      "lat": 26.0325,
+      "lng": 50.5106
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "Chinese Grand Prix",
+      "location": "Shanghai",
+      "country": "China",
+      "lat": 31.3389,
+      "lng": 121.22
+    },
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Melbourne",
+      "country": "Australia",
+      "lat": -37.8497,
+      "lng": 144.968
+    },
+    {
+      "name_race": "Malaysian Grand Prix",
+      "location": "Kuala Lumpur",
+      "country": "Malaysia",
+      "lat": 2.76083,
+      "lng": 101.738
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Singapore Grand Prix",
+      "location": "Marina Bay",
+      "country": "Singapore",
+      "lat": 1.2914,
+      "lng": 103.864
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    },
+    {
+      "name_race": "Russian Grand Prix",
+      "location": "Sochi",
+      "country": "Russia",
+      "lat": 43.4057,
+      "lng": 39.9578
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "Austin",
+      "country": "USA",
+      "lat": 30.1328,
+      "lng": -97.6411
+    },
+    {
+      "name_race": "Mexican Grand Prix",
+      "location": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.4042,
+      "lng": -99.0907
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "Abu Dhabi Grand Prix",
+      "location": "Abu Dhabi",
+      "country": "UAE",
+      "lat": 24.4672,
+      "lng": 54.6031
+    }
+  ],
+  "2016": [
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Melbourne",
+      "country": "Australia",
+      "lat": -37.8497,
+      "lng": 144.968
+    },
+    {
+      "name_race": "Bahrain Grand Prix",
+      "location": "Sakhir",
+      "country": "Bahrain",
+      "lat": 26.0325,
+      "lng": 50.5106
+    },
+    {
+      "name_race": "Chinese Grand Prix",
+      "location": "Shanghai",
+      "country": "China",
+      "lat": 31.3389,
+      "lng": 121.22
+    },
+    {
+      "name_race": "Russian Grand Prix",
+      "location": "Sochi",
+      "country": "Russia",
+      "lat": 43.4057,
+      "lng": 39.9578
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "European Grand Prix",
+      "location": "Baku",
+      "country": "Azerbaijan",
+      "lat": 40.3725,
+      "lng": 49.8533
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Singapore Grand Prix",
+      "location": "Marina Bay",
+      "country": "Singapore",
+      "lat": 1.2914,
+      "lng": 103.864
+    },
+    {
+      "name_race": "Malaysian Grand Prix",
+      "location": "Kuala Lumpur",
+      "country": "Malaysia",
+      "lat": 2.76083,
+      "lng": 101.738
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "Austin",
+      "country": "USA",
+      "lat": 30.1328,
+      "lng": -97.6411
+    },
+    {
+      "name_race": "Mexican Grand Prix",
+      "location": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.4042,
+      "lng": -99.0907
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "Abu Dhabi Grand Prix",
+      "location": "Abu Dhabi",
+      "country": "UAE",
+      "lat": 24.4672,
+      "lng": 54.6031
+    }
+  ],
+  "2017": [
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Melbourne",
+      "country": "Australia",
+      "lat": -37.8497,
+      "lng": 144.968
+    },
+    {
+      "name_race": "Chinese Grand Prix",
+      "location": "Shanghai",
+      "country": "China",
+      "lat": 31.3389,
+      "lng": 121.22
+    },
+    {
+      "name_race": "Bahrain Grand Prix",
+      "location": "Sakhir",
+      "country": "Bahrain",
+      "lat": 26.0325,
+      "lng": 50.5106
+    },
+    {
+      "name_race": "Russian Grand Prix",
+      "location": "Sochi",
+      "country": "Russia",
+      "lat": 43.4057,
+      "lng": 39.9578
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "Azerbaijan Grand Prix",
+      "location": "Baku",
+      "country": "Azerbaijan",
+      "lat": 40.3725,
+      "lng": 49.8533
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Singapore Grand Prix",
+      "location": "Marina Bay",
+      "country": "Singapore",
+      "lat": 1.2914,
+      "lng": 103.864
+    },
+    {
+      "name_race": "Malaysian Grand Prix",
+      "location": "Kuala Lumpur",
+      "country": "Malaysia",
+      "lat": 2.76083,
+      "lng": 101.738
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "Austin",
+      "country": "USA",
+      "lat": 30.1328,
+      "lng": -97.6411
+    },
+    {
+      "name_race": "Mexican Grand Prix",
+      "location": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.4042,
+      "lng": -99.0907
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "Abu Dhabi Grand Prix",
+      "location": "Abu Dhabi",
+      "country": "UAE",
+      "lat": 24.4672,
+      "lng": 54.6031
+    }
+  ],
+  "2018": [
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Melbourne",
+      "country": "Australia",
+      "lat": -37.8497,
+      "lng": 144.968
+    },
+    {
+      "name_race": "Bahrain Grand Prix",
+      "location": "Sakhir",
+      "country": "Bahrain",
+      "lat": 26.0325,
+      "lng": 50.5106
+    },
+    {
+      "name_race": "Chinese Grand Prix",
+      "location": "Shanghai",
+      "country": "China",
+      "lat": 31.3389,
+      "lng": 121.22
+    },
+    {
+      "name_race": "Azerbaijan Grand Prix",
+      "location": "Baku",
+      "country": "Azerbaijan",
+      "lat": 40.3725,
+      "lng": 49.8533
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Le Castellet",
+      "country": "France",
+      "lat": 43.2506,
+      "lng": 5.79167
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Singapore Grand Prix",
+      "location": "Marina Bay",
+      "country": "Singapore",
+      "lat": 1.2914,
+      "lng": 103.864
+    },
+    {
+      "name_race": "Russian Grand Prix",
+      "location": "Sochi",
+      "country": "Russia",
+      "lat": 43.4057,
+      "lng": 39.9578
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "Austin",
+      "country": "USA",
+      "lat": 30.1328,
+      "lng": -97.6411
+    },
+    {
+      "name_race": "Mexican Grand Prix",
+      "location": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.4042,
+      "lng": -99.0907
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "Abu Dhabi Grand Prix",
+      "location": "Abu Dhabi",
+      "country": "UAE",
+      "lat": 24.4672,
+      "lng": 54.6031
+    }
+  ],
+  "2019": [
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Melbourne",
+      "country": "Australia",
+      "lat": -37.8497,
+      "lng": 144.968
+    },
+    {
+      "name_race": "Bahrain Grand Prix",
+      "location": "Sakhir",
+      "country": "Bahrain",
+      "lat": 26.0325,
+      "lng": 50.5106
+    },
+    {
+      "name_race": "Chinese Grand Prix",
+      "location": "Shanghai",
+      "country": "China",
+      "lat": 31.3389,
+      "lng": 121.22
+    },
+    {
+      "name_race": "Azerbaijan Grand Prix",
+      "location": "Baku",
+      "country": "Azerbaijan",
+      "lat": 40.3725,
+      "lng": 49.8533
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Le Castellet",
+      "country": "France",
+      "lat": 43.2506,
+      "lng": 5.79167
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "German Grand Prix",
+      "location": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lng": 8.56583
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Singapore Grand Prix",
+      "location": "Marina Bay",
+      "country": "Singapore",
+      "lat": 1.2914,
+      "lng": 103.864
+    },
+    {
+      "name_race": "Russian Grand Prix",
+      "location": "Sochi",
+      "country": "Russia",
+      "lat": 43.4057,
+      "lng": 39.9578
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    },
+    {
+      "name_race": "Mexican Grand Prix",
+      "location": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.4042,
+      "lng": -99.0907
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "Austin",
+      "country": "USA",
+      "lat": 30.1328,
+      "lng": -97.6411
+    },
+    {
+      "name_race": "Brazilian Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "Abu Dhabi Grand Prix",
+      "location": "Abu Dhabi",
+      "country": "UAE",
+      "lat": 24.4672,
+      "lng": 54.6031
+    }
+  ],
+  "2020": [
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "Styrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "70th Anniversary Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Tuscan Grand Prix",
+      "location": "Mugello",
+      "country": "Italy",
+      "lat": 43.9975,
+      "lng": 11.3719
+    },
+    {
+      "name_race": "Russian Grand Prix",
+      "location": "Sochi",
+      "country": "Russia",
+      "lat": 43.4057,
+      "lng": 39.9578
+    },
+    {
+      "name_race": "Eifel Grand Prix",
+      "location": "N\u00fcrburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lng": 6.9475
+    },
+    {
+      "name_race": "Portuguese Grand Prix",
+      "location": "Portim\u00e3o",
+      "country": "Portugal",
+      "lat": 37.227,
+      "lng": -8.6267
+    },
+    {
+      "name_race": "Emilia Romagna Grand Prix",
+      "location": "Imola",
+      "country": "Italy",
+      "lat": 44.3439,
+      "lng": 11.7167
+    },
+    {
+      "name_race": "Turkish Grand Prix",
+      "location": "Istanbul",
+      "country": "Turkey",
+      "lat": 40.9517,
+      "lng": 29.405
+    },
+    {
+      "name_race": "Bahrain Grand Prix",
+      "location": "Sakhir",
+      "country": "Bahrain",
+      "lat": 26.0325,
+      "lng": 50.5106
+    },
+    {
+      "name_race": "Sakhir Grand Prix",
+      "location": "Sakhir",
+      "country": "Bahrain",
+      "lat": 26.0325,
+      "lng": 50.5106
+    },
+    {
+      "name_race": "Abu Dhabi Grand Prix",
+      "location": "Abu Dhabi",
+      "country": "UAE",
+      "lat": 24.4672,
+      "lng": 54.6031
+    }
+  ],
+  "2021": [
+    {
+      "name_race": "Emilia Romagna Grand Prix",
+      "location": "Imola",
+      "country": "Italy",
+      "lat": 44.3439,
+      "lng": 11.7167
+    },
+    {
+      "name_race": "Bahrain Grand Prix",
+      "location": "Sakhir",
+      "country": "Bahrain",
+      "lat": 26.0325,
+      "lng": 50.5106
+    },
+    {
+      "name_race": "Qatar Grand Prix",
+      "location": "Al Daayen",
+      "country": "Qatar",
+      "lat": 25.49,
+      "lng": 51.4542
+    },
+    {
+      "name_race": "Portuguese Grand Prix",
+      "location": "Portim\u00e3o",
+      "country": "Portugal",
+      "lat": 37.227,
+      "lng": -8.6267
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Azerbaijan Grand Prix",
+      "location": "Baku",
+      "country": "Azerbaijan",
+      "lat": 40.3725,
+      "lng": 49.8533
+    },
+    {
+      "name_race": "Styrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Le Castellet",
+      "country": "France",
+      "lat": 43.2506,
+      "lng": 5.79167
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Russian Grand Prix",
+      "location": "Sochi",
+      "country": "Russia",
+      "lat": 43.4057,
+      "lng": 39.9578
+    },
+    {
+      "name_race": "Turkish Grand Prix",
+      "location": "Istanbul",
+      "country": "Turkey",
+      "lat": 40.9517,
+      "lng": 29.405
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "Austin",
+      "country": "USA",
+      "lat": 30.1328,
+      "lng": -97.6411
+    },
+    {
+      "name_race": "Mexico City Grand Prix",
+      "location": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.4042,
+      "lng": -99.0907
+    },
+    {
+      "name_race": "S\u00e3o Paulo Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "Saudi Arabian Grand Prix",
+      "location": "Jeddah",
+      "country": "Saudi Arabia",
+      "lat": 21.6319,
+      "lng": 39.1044
+    },
+    {
+      "name_race": "Abu Dhabi Grand Prix",
+      "location": "Abu Dhabi",
+      "country": "UAE",
+      "lat": 24.4672,
+      "lng": 54.6031
+    }
+  ],
+  "2022": [
+    {
+      "name_race": "Bahrain Grand Prix",
+      "location": "Sakhir",
+      "country": "Bahrain",
+      "lat": 26.0325,
+      "lng": 50.5106
+    },
+    {
+      "name_race": "Saudi Arabian Grand Prix",
+      "location": "Jeddah",
+      "country": "Saudi Arabia",
+      "lat": 21.6319,
+      "lng": 39.1044
+    },
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Melbourne",
+      "country": "Australia",
+      "lat": -37.8497,
+      "lng": 144.968
+    },
+    {
+      "name_race": "Emilia Romagna Grand Prix",
+      "location": "Imola",
+      "country": "Italy",
+      "lat": 44.3439,
+      "lng": 11.7167
+    },
+    {
+      "name_race": "Miami Grand Prix",
+      "location": "Miami",
+      "country": "USA",
+      "lat": 25.9581,
+      "lng": -80.2389
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Azerbaijan Grand Prix",
+      "location": "Baku",
+      "country": "Azerbaijan",
+      "lat": 40.3725,
+      "lng": 49.8533
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "French Grand Prix",
+      "location": "Le Castellet",
+      "country": "France",
+      "lat": 43.2506,
+      "lng": 5.79167
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Singapore Grand Prix",
+      "location": "Marina Bay",
+      "country": "Singapore",
+      "lat": 1.2914,
+      "lng": 103.864
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "Austin",
+      "country": "USA",
+      "lat": 30.1328,
+      "lng": -97.6411
+    },
+    {
+      "name_race": "Mexico City Grand Prix",
+      "location": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.4042,
+      "lng": -99.0907
+    },
+    {
+      "name_race": "S\u00e3o Paulo Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "Abu Dhabi Grand Prix",
+      "location": "Abu Dhabi",
+      "country": "UAE",
+      "lat": 24.4672,
+      "lng": 54.6031
+    }
+  ],
+  "2023": [
+    {
+      "name_race": "Bahrain Grand Prix",
+      "location": "Sakhir",
+      "country": "Bahrain",
+      "lat": 26.0325,
+      "lng": 50.5106
+    },
+    {
+      "name_race": "Saudi Arabian Grand Prix",
+      "location": "Jeddah",
+      "country": "Saudi Arabia",
+      "lat": 21.6319,
+      "lng": 39.1044
+    },
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Melbourne",
+      "country": "Australia",
+      "lat": -37.8497,
+      "lng": 144.968
+    },
+    {
+      "name_race": "Azerbaijan Grand Prix",
+      "location": "Baku",
+      "country": "Azerbaijan",
+      "lat": 40.3725,
+      "lng": 49.8533
+    },
+    {
+      "name_race": "Miami Grand Prix",
+      "location": "Miami",
+      "country": "USA",
+      "lat": 25.9581,
+      "lng": -80.2389
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Singapore Grand Prix",
+      "location": "Marina Bay",
+      "country": "Singapore",
+      "lat": 1.2914,
+      "lng": 103.864
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    },
+    {
+      "name_race": "Qatar Grand Prix",
+      "location": "Al Daayen",
+      "country": "Qatar",
+      "lat": 25.49,
+      "lng": 51.4542
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "Austin",
+      "country": "USA",
+      "lat": 30.1328,
+      "lng": -97.6411
+    },
+    {
+      "name_race": "Mexico City Grand Prix",
+      "location": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.4042,
+      "lng": -99.0907
+    },
+    {
+      "name_race": "S\u00e3o Paulo Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "Las Vegas Grand Prix",
+      "location": "Las Vegas",
+      "country": "United States",
+      "lat": 36.1147,
+      "lng": -115.173
+    },
+    {
+      "name_race": "Abu Dhabi Grand Prix",
+      "location": "Abu Dhabi",
+      "country": "UAE",
+      "lat": 24.4672,
+      "lng": 54.6031
+    }
+  ],
+  "2024": [
+    {
+      "name_race": "Bahrain Grand Prix",
+      "location": "Sakhir",
+      "country": "Bahrain",
+      "lat": 26.0325,
+      "lng": 50.5106
+    },
+    {
+      "name_race": "Saudi Arabian Grand Prix",
+      "location": "Jeddah",
+      "country": "Saudi Arabia",
+      "lat": 21.6319,
+      "lng": 39.1044
+    },
+    {
+      "name_race": "Australian Grand Prix",
+      "location": "Melbourne",
+      "country": "Australia",
+      "lat": -37.8497,
+      "lng": 144.968
+    },
+    {
+      "name_race": "Japanese Grand Prix",
+      "location": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lng": 136.541
+    },
+    {
+      "name_race": "Chinese Grand Prix",
+      "location": "Shanghai",
+      "country": "China",
+      "lat": 31.3389,
+      "lng": 121.22
+    },
+    {
+      "name_race": "Miami Grand Prix",
+      "location": "Miami",
+      "country": "USA",
+      "lat": 25.9581,
+      "lng": -80.2389
+    },
+    {
+      "name_race": "Emilia Romagna Grand Prix",
+      "location": "Imola",
+      "country": "Italy",
+      "lat": 44.3439,
+      "lng": 11.7167
+    },
+    {
+      "name_race": "Monaco Grand Prix",
+      "location": "Monte-Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lng": 7.42056
+    },
+    {
+      "name_race": "Canadian Grand Prix",
+      "location": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lng": -73.5228
+    },
+    {
+      "name_race": "Spanish Grand Prix",
+      "location": "Montmel\u00f3",
+      "country": "Spain",
+      "lat": 41.57,
+      "lng": 2.26111
+    },
+    {
+      "name_race": "Austrian Grand Prix",
+      "location": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lng": 14.7647
+    },
+    {
+      "name_race": "British Grand Prix",
+      "location": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lng": -1.01694
+    },
+    {
+      "name_race": "Hungarian Grand Prix",
+      "location": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lng": 19.2486
+    },
+    {
+      "name_race": "Belgian Grand Prix",
+      "location": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lng": 5.97139
+    },
+    {
+      "name_race": "Dutch Grand Prix",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lng": 4.54092
+    },
+    {
+      "name_race": "Italian Grand Prix",
+      "location": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lng": 9.28111
+    },
+    {
+      "name_race": "Azerbaijan Grand Prix",
+      "location": "Baku",
+      "country": "Azerbaijan",
+      "lat": 40.3725,
+      "lng": 49.8533
+    },
+    {
+      "name_race": "Singapore Grand Prix",
+      "location": "Marina Bay",
+      "country": "Singapore",
+      "lat": 1.2914,
+      "lng": 103.864
+    },
+    {
+      "name_race": "United States Grand Prix",
+      "location": "Austin",
+      "country": "USA",
+      "lat": 30.1328,
+      "lng": -97.6411
+    },
+    {
+      "name_race": "Mexico City Grand Prix",
+      "location": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.4042,
+      "lng": -99.0907
+    },
+    {
+      "name_race": "S\u00e3o Paulo Grand Prix",
+      "location": "S\u00e3o Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lng": -46.6997
+    },
+    {
+      "name_race": "Las Vegas Grand Prix",
+      "location": "Las Vegas",
+      "country": "United States",
+      "lat": 36.1147,
+      "lng": -115.173
+    },
+    {
+      "name_race": "Qatar Grand Prix",
+      "location": "Al Daayen",
+      "country": "Qatar",
+      "lat": 25.49,
+      "lng": 51.4542
+    },
+    {
+      "name_race": "Abu Dhabi Grand Prix",
+      "location": "Abu Dhabi",
+      "country": "UAE",
+      "lat": 24.4672,
+      "lng": 54.6031
+    }
+  ]
+}

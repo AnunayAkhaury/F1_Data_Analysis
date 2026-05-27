@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Data</title>
+    
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+    <main id="scrolly-container">
+        
+        <section class="scroll__graphic">
+            <div class="map-wrapper">
+                <h2 class="map-title">F1 Race Location Timeline</h2>
+                <svg id="f1-map" width="800" height="500"></svg>
+            </div>
+        </section>
+
+        <section class="scroll__text">
+            <!-- Set up like this to move the map
+             from year to year
+             -->
+            <div class="step" data-year="1950">
+                <h3>1950</h3>
+                <p>
+                    Blah blah
+                </p>
+            </div>
+
+            <div class="step" data-year="1975">
+                <h3>1975</h3>
+                <p>
+                    Blah blah
+                </p>
+            </div>
+
+            <div class="step" data-year="2024">
+                <h3>2024</h3>
+                <p>
+                    random text
+                </p>
+            </div>
+        </section>
+    </main>
+
+  
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/scrollama"></script>
+    <script src="https://unpkg.com/topojson@3"></script> 
+    <script src="https://unpkg.com/world-atlas@2/world-atlas.min.js"></script>
+    <script type="module" src="scripts/main.js"></script>
+</body>
+</html>
