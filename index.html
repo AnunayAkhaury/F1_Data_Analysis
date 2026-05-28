@@ -3,43 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>F1 Data</title>
+    <title>From Europe to the World | F1 Data Story</title>
     
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
+    <header class="story-header">
+        <p class="eyebrow">Formula 1 final project storyboard scaffold</p>
+        <h1>From Europe to the World</h1>
+        <p>
+            This story will explain how Formula 1 grew from a mostly European championship into
+            a global sport, then connect that expansion to the constructors and drivers who defined
+            each competitive era.
+        </p>
+    </header>
 
     <main id="scrolly-container">
-        
         <section class="scroll__graphic">
-            <div class="map-wrapper">
-                <h2 class="map-title">F1 Race Location Timeline</h2>
-                <svg id="f1-map" width="800" height="500"></svg>
+            <div class="graphic-stack">
+                <div class="map-wrapper">
+                    <h2 class="map-title">Circuit Expansion Map</h2>
+                    <svg id="f1-map" width="800" height="500"></svg>
+                </div>
+
+                <!--
+                    Scene 4 target:
+                    This panel should become a continent timeline that uses the same years as the map.
+                    It should answer: when did the calendar stop being mostly European?
+                -->
+                <section class="planned-panel" id="continent-panel">
+                    <h2>Calendar by Continent</h2>
+                    <div id="continent-timeline" class="planned-chart">
+                        Timeline placeholder
+                    </div>
+                </section>
+
+                <!--
+                    Scene 5 target:
+                    This panel should become the advanced visualization, most likely a streamgraph.
+                    It should answer: which constructors dominated each era after the calendar changed?
+                -->
+                <section class="planned-panel" id="constructor-panel">
+                    <h2>Constructor Dominance</h2>
+                    <div id="constructor-stream" class="planned-chart">
+                        Streamgraph placeholder
+                    </div>
+                </section>
+
+                <!--
+                    Scene 6 target:
+                    This panel should become the driver drilldown for a selected constructor or era.
+                    It should answer: which drivers were responsible for that era of dominance?
+                -->
+                <section class="planned-panel" id="driver-panel">
+                    <h2>Driver Drilldown</h2>
+                    <div id="driver-focus" class="planned-chart">
+                        Driver timeline placeholder
+                    </div>
+                </section>
             </div>
         </section>
 
         <section class="scroll__text">
-            <!-- Set up like this to move the map
-             from year to year
-             -->
-            <div class="step" data-year="1950">
-                <h3>1950</h3>
+            <!--
+                Story structure:
+                Each step should move the audience through one concrete scene.
+                data-map-year is only for the current starter map, so later scenes can be added
+                without forcing every step to update the map.
+            -->
+            <div class="step" data-scene="opening" data-map-year="1950">
+                <h3>1. The question</h3>
                 <p>
-                    Blah blah
+                    Formula 1 began with a compact European calendar. The story starts by asking
+                    how that calendar became global and why different eras of dominance emerged.
                 </p>
             </div>
 
-            <div class="step" data-year="1975">
-                <h3>1975</h3>
+            <div class="step" data-scene="europe-baseline" data-map-year="1950">
+                <h3>2. European origins</h3>
                 <p>
-                    Blah blah
+                    Show the early circuits first. This scene should make Europe feel like the
+                    baseline before the story expands outward.
                 </p>
             </div>
 
-            <div class="step" data-year="2024">
-                <h3>2024</h3>
+            <div class="step" data-scene="global-expansion" data-map-year="2024">
+                <h3>3. Expansion beyond Europe</h3>
                 <p>
-                    random text
+                    Animate new race locations by year or decade. The transition should feel like
+                    the sport is spreading from a regional calendar into a global one.
+                </p>
+            </div>
+
+            <div class="step" data-scene="continent-summary">
+                <h3>4. The calendar becomes global</h3>
+                <p>
+                    Change from individual circuit points to an aggregated continent timeline.
+                    This is the bridge between geography and competition.
+                </p>
+            </div>
+
+            <div class="step" data-scene="constructor-dominance">
+                <h3>5. Constructor eras</h3>
+                <p>
+                    Keep the same time axis, but shift attention from where F1 raced to which teams
+                    controlled points and championships during each era.
+                </p>
+            </div>
+
+            <div class="step" data-scene="driver-drilldown">
+                <h3>6. Drivers inside dominant teams</h3>
+                <p>
+                    Drill into selected constructor eras to show the drivers behind the dominance.
+                    This keeps driver analysis connected to the main story instead of feeling separate.
+                </p>
+            </div>
+
+            <div class="step" data-scene="open-exploration">
+                <h3>7. Explore the full history</h3>
+                <p>
+                    End with open interaction: scrub years, select constructors, and compare driver
+                    eras after the guided story has taught the audience how to read the views.
                 </p>
             </div>
         </section>

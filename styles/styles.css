@@ -1,8 +1,43 @@
 /* styles/styles.css */
+body {
+    margin: 0;
+    background: #edf7fa;
+    color: #1f2933;
+    font-family: Arial, sans-serif;
+}
+
+.story-header {
+    padding: 28px 40px 18px;
+    max-width: 980px;
+}
+
+.story-header h1 {
+    margin: 0 0 8px;
+    font-size: 42px;
+}
+
+.story-header p {
+    margin: 0;
+    color: #52616f;
+    line-height: 1.45;
+}
+
+.eyebrow {
+    color: #c1121f;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
 #scrolly-container {
     display: flex;
     position: relative;
     width: 100%;
+    gap: 28px;
+    padding: 0 28px 40px;
+    box-sizing: border-box;
 }
 
 /* pin starter map with scroll*/
@@ -10,7 +45,7 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    width: 50%;
+    width: 58%;
     height: 100vh;
     
     /* column format */
@@ -24,30 +59,96 @@
     box-sizing: border-box;
 }
 
+.graphic-stack {
+    width: 100%;
+    max-height: calc(100vh - 64px);
+    overflow: auto;
+}
+
 /* title + map spacing */
 .map-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    background: #ffffff;
+    border: 1px solid #c5d9e8;
+    border-radius: 12px;
+    box-sizing: border-box;
+    margin-bottom: 14px;
+    padding: 18px;
 }
 
 /* Starter Map position */
 .map-title {
     margin-top: 0;         
     margin-bottom: 15px;   
-    font-family: sans-serif;
     color: #2b2d42;
 }
 
+.planned-panel {
+    background: #ffffff;
+    border: 1px solid #c5d9e8;
+    border-radius: 12px;
+    margin-bottom: 14px;
+    padding: 16px;
+}
+
+.planned-panel h2 {
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.planned-chart {
+    align-items: center;
+    border: 1px dashed #9fb8ca;
+    border-radius: 10px;
+    color: #7b8794;
+    display: flex;
+    justify-content: center;
+    min-height: 120px;
+}
+
 .scroll__text {
-    width: 40%;
+    width: 38%;
 }
 
 /* scroll break points */
 .step {
     margin-bottom: 80vh; 
     padding: 1.5rem;
-    font-family: sans-serif;
+    background: #ffffff;
+    border: 1px solid #c5d9e8;
+    border-radius: 12px;
     transition: opacity 0.3s ease-in-out; 
+}
+
+.step.is-active {
+    border-color: #e63946;
+    box-shadow: 0 10px 28px rgba(31, 41, 51, 0.12);
+}
+
+.step h3 {
+    margin-top: 0;
+}
+
+.step p {
+    color: #52616f;
+    line-height: 1.45;
+}
+
+@media (max-width: 900px) {
+    #scrolly-container {
+        display: block;
+    }
+
+    .scroll__graphic,
+    .scroll__text {
+        position: static;
+        width: 100%;
+    }
+
+    .scroll__graphic {
+        height: auto;
+    }
 }

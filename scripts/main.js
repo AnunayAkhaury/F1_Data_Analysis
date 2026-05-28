@@ -1,50 +1,51 @@
-// scripts/main.js
 import { testMap, updateMap } from './charts/startermap.js';
+import { storyScenes } from './storyboard.js';
 
-function testTransition() {
-    // call our testMap
+function startStoryScaffold() {
+    // Start the current map prototype. The later chart modules should attach to the empty panels in index.html.
     testMap();
 
-    // try out scrollmama
     const scroller = scrollama();
 
-    //scrolling setup
     scroller
         .setup({
             step: ".scroll__text .step", 
             offset: 0.5                  
         })
-        //downward scrolling
          .onStepEnter(response => {
             d3.selectAll('.step').classed('is-active', false);
             d3.select(response.element).classed('is-active', true);
             
-            // get data year from html file
-            const currentYear = +d3.select(response.element).attr("data-year");
-            updateMap(currentYear);
+            const activeStep = d3.select(response.element);
+            const sceneId = activeStep.attr("data-scene");
+            const mapYear = activeStep.attr("data-map-year");
+            const scenePlan = storyScenes.find(scene => scene.id === sceneId);
+
+            // Log the scene plan for now, so the storyboard can be tested before the real views are built.
+            console.log("Current storyboard scene:", scenePlan);
+
+            // Only map-focused scenes update the starter map. Later scenes will update other panels.
+            if (mapYear) {
+                updateMap(+mapYear);
+            }
         })
-        //upward scrolling
         .onStepExit(response => {
-            // change map based on upward movement
             if (response.direction === "up") {
-                const currentYear = +d3.select(response.element).attr("data-year");
-                
-                // hardcoded for testing
-                if (currentYear === 1975) {
-                    updateMap(1950);
-                } else if (currentYear === 2026) {
-                    updateMap(1975);
+                const previousStep = response.element.previousElementSibling;
+
+                if (previousStep) {
+                    const previousYear = d3.select(previousStep).attr("data-map-year");
+
+                    if (previousYear) {
+                        updateMap(+previousYear);
+                    }
                 }
             }
         });
 
-
-    // calculate layout psoitioning
     scroller.resize();
-
     window.addEventListener("resize", scroller.resize);
 }
 
-testTransition();
-
+startStoryScaffold();
 
