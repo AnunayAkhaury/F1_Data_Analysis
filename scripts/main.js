@@ -1,9 +1,11 @@
 import { testMap, updateMap } from './charts/startermap.js';
+import { drawContinentTimeline, updateContinentTimeline } from './charts/continentTimeline.js';
 import { storyScenes } from './storyboard.js';
 
 function startStoryScaffold() {
-    // Start the current map prototype. The later chart modules should attach to the empty panels in index.html.
+    // Start the map and timeline once, then let scroll events update their current era.
     testMap();
+    drawContinentTimeline().catch(error => console.error("Timeline setup failed:", error));
 
     const scroller = scrollama();
 
@@ -20,14 +22,17 @@ function startStoryScaffold() {
             const sceneId = activeStep.attr("data-scene");
             const mapYear = activeStep.attr("data-map-year");
             const scenePlan = storyScenes.find(scene => scene.id === sceneId);
-
-            // Log the scene plan for now, so the storyboard can be tested before the real views are built.
-            console.log("Current storyboard scene:", scenePlan);
+            const sceneState = {
+                ...(scenePlan ?? { id: sceneId }),
+                mapYear: mapYear ? +mapYear : null
+            };
 
             // Only map-focused scenes update the starter map. Later scenes will update other panels.
             if (mapYear) {
                 updateMap(+mapYear);
             }
+
+            updateContinentTimeline(sceneState);
         })
         .onStepExit(response => {
             if (response.direction === "up") {
@@ -35,17 +40,40 @@ function startStoryScaffold() {
 
                 if (previousStep) {
                     const previousYear = d3.select(previousStep).attr("data-map-year");
+                    const previousSceneId = d3.select(previousStep).attr("data-scene");
+                    const previousScenePlan = storyScenes.find(scene => scene.id === previousSceneId);
 
                     if (previousYear) {
                         updateMap(+previousYear);
                     }
+
+                    updateContinentTimeline({
+                        ...(previousScenePlan ?? { id: previousSceneId }),
+                        mapYear: previousYear ? +previousYear : null
+                    });
                 }
             }
         });
 
     scroller.resize();
     window.addEventListener("resize", scroller.resize);
+    window.addEventListener("f1-era-change", event => {
+        updateMap(event.detail.mapYear);
+        updateContinentTimeline(event.detail);
+    });
+
+    const postMapSection = document.querySelector(".post-map-story");
+
+    if (postMapSection) {
+        const hideMapCards = new IntersectionObserver(entries => {
+            const [entry] = entries;
+            document.body.classList.toggle("hide-map-story-card", entry.isIntersecting);
+        }, {
+            rootMargin: "0px 0px -70% 0px"
+        });
+
+        hideMapCards.observe(postMapSection);
+    }
 }
 
 startStoryScaffold();
-

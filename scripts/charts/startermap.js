@@ -3,10 +3,14 @@ const svg = d3.select("#f1-map");
 const width = +svg.attr("width");
 const height = +svg.attr("height");
 
+svg
+    .attr("viewBox", `0 0 ${width} ${height}`)
+    .attr("preserveAspectRatio", "xMidYMid meet");
+
 // load in world map
 const projection = d3.geoEqualEarth()
-    .scale(140)
-    .translate([width / 2, height / 2 + 20]);
+    .scale(230)
+    .translate([width / 2, height / 2 + 28]);
 const worldMap = d3.geoPath().projection(projection);
 
 // hold json file
@@ -26,8 +30,8 @@ export function testMap() {
                 .enter().append("path")
                 .attr("d", worldMap)
                 .attr("fill", "#e1e5ea")
-                .attr("stroke", "#050404")
-                .attr("stroke-width", 0.5);
+                .attr("stroke", "#7b8794")
+                .attr("stroke-width", 0.55);
 
             // canvas node to point marks
             svg.append("g").attr("class", "markers-layer");
@@ -62,7 +66,7 @@ export function updateMap(selectedYear) {
         .append("circle")
         .attr("cx", d => projection([d.lng, d.lat])[0])
         .attr("cy", d => projection([d.lng, d.lat])[1])
-        .attr("r", 3)
+        .attr("r", 4.5)
         .attr("fill", "#e63946")
         //.attr("opacity", 0.85)
         //.attr("stroke", "#050404")
