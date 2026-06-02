@@ -83,20 +83,35 @@ const countryRegion = new Map([
 ]);
 
 const timelineBox = {
-    width: 1800,
-    height: 96,
-    margin: { top: 16, right: 110, bottom: 30, left: 110 }
+    width: 2200,
+    height: 190,
+    margin: { top: 48, right: 70, bottom: 48, left: 70 }
 };
 
 const timelineState = {
     ready: false,
     summaries: new Map(),
     pendingScene: null,
-    activeEra: "european-origins"
+    year: 1950,
+    summaryYear: null,
+    labelYear: null,
+    activeEraId: null
 };
 
+const clampTimelineYear = year => {
+    const cleanYear = Number(year);
+
+    if (!Number.isFinite(cleanYear)) return 1950;
+
+    return Math.max(1950, Math.min(2024, cleanYear));
+};
+
+const seasonTimelineYear = year => Math.round(clampTimelineYear(year));
+
 function eraForYear(year) {
-    return f1Eras.find(era => year >= era.start && year <= era.end) ?? f1Eras[0];
+    const cleanYear = seasonTimelineYear(year);
+
+    return f1Eras.find(era => cleanYear >= era.start && cleanYear <= era.end) ?? f1Eras[0];
 }
 
 function countBlankRegions() {
@@ -118,43 +133,40 @@ function cleanRaceCalendar(races, circuits) {
                 year: race.year,
                 era: era.id,
                 raceName: race.name,
+                circuitId: race.circuitId,
                 circuitName: circuit.name,
                 country: circuit.country,
                 region: countryRegion.get(circuit.country) ?? "Other"
             };
         })
-        .filter(Boolean);
+        .filter(row => row && row.year >= 1950 && row.year <= 2024);
 }
 
-function summarizeByEra(calendarRows) {
-    return new Map(f1Eras.map(era => {
-        const eraRows = calendarRows.filter(row => row.era === era.id);
+function summarizeByYear(calendarRows) {
+    return new Map(d3.range(1950, 2025).map(year => {
+        const seasonRows = calendarRows.filter(row => row.year === year);
+        const earlierRows = calendarRows.filter(row => row.year <= year);
         const regionCounts = countBlankRegions();
 
-        for (const row of eraRows) {
+        for (const row of seasonRows) {
             if (regionCounts[row.region] !== undefined) {
                 regionCounts[row.region] += 1;
             }
         }
 
-        return [era.id, {
-            ...era,
-            total: eraRows.length,
-            regions: regionCounts
+        return [year, {
+            year,
+            era: eraForYear(year),
+            total: seasonRows.length,
+            regions: regionCounts,
+            cumulativeCircuits: new Set(earlierRows.map(row => row.circuitId)).size,
+            activeRegions: regionNames.filter(region => regionCounts[region] > 0).length
         }];
     }));
 }
 
-function chooseEra(sceneInfo) {
-    if (sceneInfo?.activeEra) {
-        return sceneInfo.activeEra;
-    }
-
-    if (sceneInfo?.mapYear) {
-        return eraForYear(sceneInfo.mapYear).id;
-    }
-
-    return timelineState.activeEra;
+function yearFromScene(sceneInfo) {
+    return clampTimelineYear(sceneInfo?.mapYear ?? sceneInfo?.startYear ?? sceneInfo?.endYear ?? timelineState.year);
 }
 
 function drawTimelineShell() {
@@ -164,10 +176,16 @@ function drawTimelineShell() {
 
     holder.selectAll("*").remove();
 
-    // Build the timeline panel inside the placeholder from index.html.
-    holder.append("p")
+    const topRow = holder.append("div")
+        .attr("class", "timeline-top-row");
+
+    topRow.append("p")
         .attr("class", "era-kicker")
         .text("Calendar timeline");
+
+    topRow.append("div")
+        .attr("class", "timeline-year-pill")
+        .text("1950 season");
 
     holder.append("svg")
         .attr("class", "era-timeline-svg")
@@ -178,17 +196,42 @@ function drawTimelineShell() {
         .attr("class", "era-summary");
 }
 
+function dispatchYear(year, animate = true) {
+    const cleanYear = clampTimelineYear(year);
+    const era = eraForYear(cleanYear);
+
+    window.dispatchEvent(new CustomEvent("f1-year-change", {
+        detail: {
+            activeEra: era.id,
+            mapYear: cleanYear,
+            animate
+        }
+    }));
+}
+
 function drawTimelineMarks() {
     const svg = d3.select(".era-timeline-svg");
     const innerLeft = timelineBox.margin.left;
     const innerRight = timelineBox.width - timelineBox.margin.right;
-    const yTrack = 40;
-    const xEra = d3.scalePoint()
-        .domain(f1Eras.map(era => era.id))
+    const yTrack = 104;
+    const xYear = d3.scaleLinear()
+        .domain([1950, 2024])
         .range([innerLeft, innerRight])
-        .padding(0.45);
+        .clamp(true);
+    const decadeTicks = [1950, 1960, 1970, 1980, 1990, 2000, 2010, 2020, 2024];
 
-    // Draw the baseline that makes the four eras read as one continuous time story.
+    svg.append("g")
+        .attr("class", "era-band-layer")
+        .selectAll("rect")
+        .data(f1Eras)
+        .join("rect")
+        .attr("class", "era-band")
+        .attr("x", era => xYear(era.start))
+        .attr("y", yTrack - 34)
+        .attr("width", era => Math.max(8, xYear(era.end) - xYear(era.start)))
+        .attr("height", 68)
+        .attr("rx", 34);
+
     svg.append("line")
         .attr("class", "era-track")
         .attr("x1", innerLeft)
@@ -196,39 +239,102 @@ function drawTimelineMarks() {
         .attr("y1", yTrack)
         .attr("y2", yTrack);
 
-    // Add one timeline node for each era so scroll steps can highlight the active period.
-    const eraGroup = svg.selectAll(".era-node")
+    svg.append("line")
+        .attr("class", "era-progress")
+        .attr("x1", innerLeft)
+        .attr("x2", innerLeft)
+        .attr("y1", yTrack)
+        .attr("y2", yTrack);
+
+    svg.append("g")
+        .attr("class", "timeline-tick-layer")
+        .selectAll("g")
+        .data(decadeTicks)
+        .join("g")
+        .attr("class", "timeline-tick")
+        .attr("transform", year => `translate(${xYear(year)},${yTrack})`)
+        .call(group => {
+            group.append("line")
+                .attr("y1", 28)
+                .attr("y2", 42);
+
+            group.append("text")
+                .attr("y", 70)
+                .attr("text-anchor", "middle")
+                .text(year => year);
+        });
+
+    const eraGroup = svg.append("g")
+        .attr("class", "era-checkpoint-layer")
+        .selectAll(".era-node")
         .data(f1Eras)
         .join("g")
         .attr("class", "era-node")
-        .attr("transform", era => `translate(${xEra(era.id)},${yTrack})`)
-        .on("click", (event, era) => {
-            window.dispatchEvent(new CustomEvent("f1-era-change", {
-                detail: {
-                    activeEra: era.id,
-                    mapYear: era.end
-                }
-            }));
-        });
+        .attr("transform", era => `translate(${xYear(era.start)},${yTrack})`)
+        .on("click", (event, era) => dispatchYear(era.start, true));
 
     eraGroup.append("circle")
-        .attr("r", 8)
+        .attr("r", 11)
         .attr("fill", "#ffffff");
 
     eraGroup.append("text")
+        .attr("class", "era-name-label")
+        .attr("y", -48)
+        .attr("text-anchor", "middle")
+        .text(era => era.label);
+
+    eraGroup.append("text")
         .attr("class", "era-year-label")
-        .attr("y", 28)
+        .attr("y", -24)
         .attr("text-anchor", "middle")
         .text(era => era.shortLabel);
 
-    eraGroup.append("text")
-        .attr("class", "era-name-label")
-        .attr("y", -20)
+    const handle = svg.append("g")
+        .attr("class", "current-year-handle")
+        .attr("transform", `translate(${innerLeft},${yTrack})`);
+
+    handle.append("line")
+        .attr("class", "current-year-rule")
+        .attr("y1", -66)
+        .attr("y2", 52);
+
+    handle.append("circle")
+        .attr("r", 19);
+
+    handle.append("rect")
+        .attr("x", -48)
+        .attr("y", -98)
+        .attr("width", 96)
+        .attr("height", 36)
+        .attr("rx", 18);
+
+    handle.append("text")
+        .attr("class", "current-year-label")
+        .attr("y", -73)
         .attr("text-anchor", "middle")
-        .text(era => era.label);
+        .text("1950");
+
+    const moveToPointerYear = (event, animate) => {
+        const [pointerX] = d3.pointer(event, svg.node());
+        dispatchYear(xYear.invert(pointerX), animate);
+    };
+
+    svg.append("rect")
+        .attr("class", "timeline-hitbox")
+        .attr("x", innerLeft)
+        .attr("y", yTrack - 58)
+        .attr("width", innerRight - innerLeft)
+        .attr("height", 116)
+        .on("click", event => moveToPointerYear(event, true))
+        .call(d3.drag()
+            .on("start", event => moveToPointerYear(event, false))
+            .on("drag", event => moveToPointerYear(event, false)));
+
+    timelineState.xYear = xYear;
+    timelineState.yTrack = yTrack;
 }
 
-function updateSummary(summary) {
+function updateSummary(summary, animate = false) {
     const rows = regionNames.map(region => ({
         region,
         races: summary.regions[region],
@@ -237,21 +343,20 @@ function updateSummary(summary) {
 
     const summaryBox = d3.select(".era-summary");
 
-    // Update the short text summary for the era currently connected to the map.
     summaryBox.selectAll(".era-summary-heading")
         .data([summary])
         .join("div")
         .attr("class", "era-summary-heading")
         .html(d => `
-            <strong>${d.label}</strong>
-            <span>${d.start}-${d.end} | ${d.total} races</span>
+            <strong>${d.year} ${d.era.label}</strong>
+            <span>${d.total} season races | ${d.cumulativeCircuits} circuits introduced</span>
         `);
 
     summaryBox.selectAll(".era-summary-note")
         .data([summary])
         .join("p")
         .attr("class", "era-summary-note")
-        .text(d => d.note);
+        .text(d => d.era.note);
 
     const rowJoin = summaryBox.selectAll(".region-row")
         .data(rows, d => d.region)
@@ -259,7 +364,6 @@ function updateSummary(summary) {
             enter => {
                 const row = enter.append("div").attr("class", "region-row");
 
-                // Each region row gets a dot, label, bar, and number so the summary stays compact.
                 row.append("span")
                     .attr("class", "region-dot")
                     .style("background-color", d => regionPaint.get(d.region));
@@ -283,14 +387,22 @@ function updateSummary(summary) {
             update => update
         );
 
-    rowJoin.select(".region-bar")
-        .transition()
-        .duration(450)
-        .ease(d3.easeCubicOut)
-        .style("width", d => `${Math.max(2, d.share * 100)}%`);
+    rowJoin.classed("is-empty", d => d.races === 0);
+
+    const bars = rowJoin.select(".region-bar")
+        .interrupt();
+
+    if (animate) {
+        bars.transition()
+            .duration(280)
+            .ease(d3.easeCubicOut)
+            .style("width", d => `${d.share * 100}%`);
+    } else {
+        bars.style("width", d => `${d.share * 100}%`);
+    }
 
     rowJoin.select(".region-count")
-        .text(d => `${d.races}`);
+        .text(d => d.races);
 }
 
 export async function drawContinentTimeline() {
@@ -303,10 +415,10 @@ export async function drawContinentTimeline() {
     ]);
 
     const calendarRows = cleanRaceCalendar(races, circuits);
-    timelineState.summaries = summarizeByEra(calendarRows);
+    timelineState.summaries = summarizeByYear(calendarRows);
     timelineState.ready = true;
 
-    updateContinentTimeline(timelineState.pendingScene ?? { activeEra: timelineState.activeEra });
+    updateContinentTimeline(timelineState.pendingScene ?? { mapYear: timelineState.year });
 }
 
 export function updateContinentTimeline(sceneInfo = {}) {
@@ -314,18 +426,70 @@ export function updateContinentTimeline(sceneInfo = {}) {
 
     if (!timelineState.ready) return;
 
-    const activeEra = chooseEra(sceneInfo);
-    const summary = timelineState.summaries.get(activeEra) ?? timelineState.summaries.get("european-origins");
-    timelineState.activeEra = summary.id;
+    const activeYear = yearFromScene(sceneInfo);
+    const activeSeason = seasonTimelineYear(activeYear);
+    const activeEra = eraForYear(activeSeason);
+    const summary = timelineState.summaries.get(activeSeason) ?? timelineState.summaries.get(1950);
+    const xYear = timelineState.xYear;
+    const handleX = xYear(activeYear);
+    const shouldAnimate = sceneInfo.animate === true;
 
-    d3.selectAll(".era-node")
-        .classed("is-active", era => era.id === summary.id)
-        .classed("is-muted", era => era.id !== summary.id)
-        .select("circle")
-        .transition()
-        .duration(300)
-        .ease(d3.easeCubicOut)
-        .attr("r", era => era.id === summary.id ? 11 : 8);
+    timelineState.year = activeYear;
 
-    updateSummary(summary);
+    if (timelineState.labelYear !== activeSeason) {
+        timelineState.labelYear = activeSeason;
+
+        d3.select(".timeline-year-pill")
+            .text(`${activeSeason} season`);
+
+        d3.select(".current-year-label")
+            .text(activeSeason);
+    }
+
+    const progressLine = d3.select(".era-progress").interrupt();
+    const yearHandle = d3.select(".current-year-handle").interrupt();
+
+    if (shouldAnimate) {
+        progressLine.transition()
+            .duration(420)
+            .ease(d3.easeCubicOut)
+            .attr("x2", handleX);
+
+        yearHandle.transition()
+            .duration(420)
+            .ease(d3.easeCubicOut)
+            .attr("transform", `translate(${handleX},${timelineState.yTrack})`);
+    } else {
+        progressLine.attr("x2", handleX);
+        yearHandle.attr("transform", `translate(${handleX},${timelineState.yTrack})`);
+    }
+
+    const eraChanged = timelineState.activeEraId !== activeEra.id;
+
+    if (eraChanged || shouldAnimate) {
+        timelineState.activeEraId = activeEra.id;
+
+        const eraCircles = d3.selectAll(".era-node")
+            .classed("is-active", era => era.id === activeEra.id)
+            .classed("is-muted", era => era.id !== activeEra.id)
+            .select("circle")
+            .interrupt();
+
+        if (shouldAnimate || eraChanged) {
+            eraCircles.transition()
+                .duration(220)
+                .ease(d3.easeCubicOut)
+                .attr("r", era => era.id === activeEra.id ? 16 : 11);
+        } else {
+            eraCircles.attr("r", era => era.id === activeEra.id ? 16 : 11);
+        }
+
+        d3.selectAll(".era-band")
+            .classed("is-active", era => era.id === activeEra.id);
+    }
+
+    if (timelineState.summaryYear !== activeSeason || shouldAnimate) {
+        timelineState.summaryYear = activeSeason;
+        updateSummary(summary, shouldAnimate);
+    }
 }
