@@ -37,10 +37,10 @@
             <!--
                 Story structure:
                 Each step should move the audience through one concrete scene.
-                data-map-year is only for the current starter map, so later scenes can be added
-                without forcing every step to update the map.
+                data-start-year and data-end-year let each scroll step animate through a whole era,
+                instead of jumping to only one fixed map year.
             -->
-            <div class="step" data-scene="opening" data-map-year="1950">
+            <div class="step" data-scene="opening" data-start-year="1950" data-end-year="1950">
                 <div class="step-card">
                     <h3>1. The question</h3>
                     <p>
@@ -50,7 +50,7 @@
                 </div>
             </div>
 
-            <div class="step" data-scene="europe-baseline" data-map-year="1950">
+            <div class="step" data-scene="europe-baseline" data-start-year="1950" data-end-year="1969">
                 <div class="step-card">
                     <h3>2. European origins</h3>
                     <p>
@@ -60,7 +60,7 @@
                 </div>
             </div>
 
-            <div class="step" data-scene="global-expansion" data-map-year="1975">
+            <div class="step" data-scene="global-expansion" data-start-year="1970" data-end-year="1989">
                 <div class="step-card">
                     <h3>3. Expansion beyond Europe</h3>
                     <p>
@@ -70,7 +70,7 @@
                 </div>
             </div>
 
-            <div class="step" data-scene="continent-summary" data-map-year="2005">
+            <div class="step" data-scene="continent-summary" data-start-year="1990" data-end-year="2009">
                 <div class="step-card">
                     <h3>4. The calendar becomes global</h3>
                     <p>
@@ -80,7 +80,7 @@
                 </div>
             </div>
 
-            <div class="step" data-scene="constructor-dominance" data-map-year="2024">
+            <div class="step" data-scene="constructor-dominance" data-start-year="2010" data-end-year="2024">
                 <div class="step-card">
                     <h3>5. The modern calendar</h3>
                     <p>
@@ -89,6 +89,8 @@
                     </p>
                 </div>
             </div>
+
+            <div class="step step-map-complete" data-scene="calendar-complete" data-start-year="2024" data-end-year="2024"></div>
         </section>
     </main>
 

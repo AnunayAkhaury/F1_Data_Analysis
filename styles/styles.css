@@ -64,7 +64,9 @@ body {
 }
 
 .map-wrapper {
-    background: #dceff8;
+    background:
+        radial-gradient(circle at 50% 38%, rgba(255, 255, 255, 0.72), rgba(255, 255, 255, 0.06) 38%, transparent 58%),
+        linear-gradient(180deg, #dff4fb 0%, #d5edf5 52%, #cfe8f1 100%);
     border: 0;
     border-radius: 0;
     box-sizing: border-box;
@@ -429,6 +431,21 @@ body {
     width: 100%;
 }
 
+.context-circuit {
+    fill: #49677c;
+    pointer-events: none;
+}
+
+.current-race {
+    fill: #e63946;
+    stroke: #ffffff;
+    stroke-width: 1.35;
+}
+
+.current-race.is-new-circuit {
+    fill: #ff7a1a;
+}
+
 .planned-panel {
     background: #ffffff;
     border: 1px solid #c5d9e8;
@@ -444,21 +461,25 @@ body {
 
 #continent-panel {
     backdrop-filter: blur(14px);
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.93);
+    border-radius: 16px;
     bottom: 18px;
     box-sizing: border-box;
-    box-shadow: 0 18px 48px rgba(31, 41, 51, 0.16);
-    left: 24px;
+    display: flex;
+    flex-direction: column;
+    height: 330px;
+    box-shadow: 0 18px 48px rgba(31, 41, 51, 0.12);
+    left: 28px;
     margin: 0;
-    padding: 10px 14px 12px;
+    padding: 14px 22px 16px;
     position: absolute;
-    right: 24px;
+    right: 28px;
     z-index: 4;
 }
 
 #continent-panel h2 {
-    font-size: 15px;
-    margin-bottom: 6px;
+    font-size: 18px;
+    margin-bottom: 8px;
 }
 
 .planned-chart {
@@ -474,65 +495,147 @@ body {
 .era-timeline-card {
     border: 0;
     border-radius: 10px;
+    flex: 1;
+    min-height: 0;
     padding: 0;
+}
+
+.timeline-top-row {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    margin-bottom: 2px;
 }
 
 .era-kicker {
     color: #687789;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 700;
     letter-spacing: 0.06em;
-    margin: 0 0 6px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.timeline-year-pill {
+    background: #e9f7f5;
+    border: 1px solid #bde4dd;
+    border-radius: 999px;
+    color: #14746f;
+    font-size: 13px;
+    font-weight: 800;
+    padding: 6px 11px;
     text-transform: uppercase;
 }
 
 .era-timeline-svg {
     display: block;
-    height: auto;
+    height: 172px;
     width: 100%;
+}
+
+.era-band {
+    fill: #2a9d8f;
+    opacity: 0.08;
+    transition: opacity 0.25s ease;
+}
+
+.era-band.is-active {
+    opacity: 0.2;
 }
 
 .era-track {
     stroke: #bfd0df;
     stroke-linecap: round;
-    stroke-width: 4;
+    stroke-width: 8;
+}
+
+.era-progress {
+    stroke: #2a9d8f;
+    stroke-linecap: round;
+    stroke-width: 8;
 }
 
 .era-node circle {
     cursor: pointer;
     stroke: #8fa8bb;
-    stroke-width: 2;
+    stroke-width: 3;
     transition: fill 0.25s ease, r 0.25s ease, stroke 0.25s ease;
 }
 
 .era-node.is-active circle {
-    fill: #e63946;
+    fill: #f24b5d;
     stroke: #8f1d2c;
 }
 
 .era-node.is-muted {
-    opacity: 0.55;
+    opacity: 0.7;
 }
 
 .era-year-label {
     fill: #52616f;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 700;
 }
 
 .era-name-label {
     fill: #394b59;
-    font-size: 11px;
+    font-size: 14px;
     font-weight: 700;
+}
+
+.timeline-tick line {
+    stroke: #c9d8e3;
+    stroke-width: 1.4;
+}
+
+.timeline-tick text {
+    fill: #7b8794;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.current-year-handle {
+    pointer-events: none;
+}
+
+.current-year-handle circle {
+    fill: #f24b5d;
+    stroke: #8f1d2c;
+    stroke-width: 4;
+}
+
+.current-year-handle rect {
+    fill: #1f2933;
+    opacity: 0.95;
+}
+
+.current-year-rule {
+    stroke: rgba(31, 41, 51, 0.32);
+    stroke-dasharray: 3 4;
+    stroke-width: 1.5;
+}
+
+.current-year-label {
+    fill: #ffffff;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.timeline-hitbox {
+    cursor: pointer;
+    fill: transparent;
 }
 
 .era-summary {
     border-top: 1px solid #e3edf5;
     display: grid;
-    grid-template-columns: 240px repeat(3, minmax(170px, 1fr));
-    gap: 6px 14px;
+    grid-template-columns: minmax(310px, 360px) repeat(3, minmax(220px, 1fr));
+    gap: 6px 18px;
+    height: 72px;
     margin-top: 4px;
-    padding-top: 8px;
+    overflow: hidden;
+    padding-top: 10px;
 }
 
 .era-summary-heading {
@@ -542,17 +645,18 @@ body {
     gap: 8px;
     grid-column: 1;
     grid-row: 1 / span 2;
+    min-height: 38px;
     margin-bottom: 4px;
 }
 
 .era-summary-heading strong {
     color: #1f2933;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .era-summary-heading span {
     color: #687789;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .era-summary-note {
@@ -561,33 +665,39 @@ body {
     grid-column: 1;
     grid-row: 2 / span 2;
     line-height: 1.35;
-    margin: 22px 0 0;
+    margin: 20px 0 0;
+    max-width: 340px;
 }
 
 .region-row {
     align-items: center;
     display: grid;
-    grid-template-columns: 12px minmax(72px, 104px) 1fr 28px;
-    gap: 7px;
+    grid-template-columns: 16px minmax(100px, 130px) 1fr 36px;
+    gap: 10px;
     margin: 0;
+    opacity: 1;
+}
+
+.region-row.is-empty {
+    opacity: 0.45;
 }
 
 .region-dot {
     border-radius: 999px;
-    height: 9px;
-    width: 9px;
+    height: 11px;
+    width: 11px;
 }
 
 .region-label {
     color: #394b59;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 700;
 }
 
 .region-bar-wrap {
     background: #edf3f8;
     border-radius: 999px;
-    height: 8px;
+    height: 10px;
     overflow: hidden;
 }
 
@@ -599,7 +709,7 @@ body {
 
 .region-count {
     color: #52616f;
-    font-size: 12px;
+    font-size: 13px;
     font-variant-numeric: tabular-nums;
     text-align: right;
 }
@@ -612,8 +722,12 @@ body {
 }
 
 .step {
-    min-height: 100vh;
+    min-height: 175vh;
     pointer-events: none;
+}
+
+.step-map-complete {
+    min-height: 140vh;
 }
 
 .step-card {
@@ -683,7 +797,9 @@ body {
 
     #continent-panel {
         bottom: 10px;
+        height: auto;
         left: 10px;
+        padding: 12px;
         right: 10px;
     }
 
@@ -712,7 +828,13 @@ body {
         display: none;
     }
 
+    .era-timeline-svg {
+        height: 150px;
+    }
+
     .era-summary {
         display: block;
+        height: auto;
+        overflow: visible;
     }
 }
