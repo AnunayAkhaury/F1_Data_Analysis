@@ -1,35 +1,75 @@
 const f1Eras = [
     {
-        id: "european-origins",
-        label: "European Origins",
-        shortLabel: "1950-69",
+        id: "f1-origins",
+        label: "F1 Origins",
+        shortLabel: "1950",
         start: 1950,
-        end: 1969,
-        note: "The calendar is still built around European circuits."
+        end: 1950,
+        note: "begin f1"
     },
     {
-        id: "early-global-reach",
-        label: "Early Global Reach",
-        shortLabel: "1970-89",
+        id: "sponsorship-era",
+        label: "",
+        shortLabel: "1968–1971",
+        start: 1968,
+        end: 1971,
+        note: "commerical racing begins"
+    },
+    {
+        id: "broadcast-fisa-foca",
+        label: "",
+        shortLabel: "1970–1976",
         start: 1970,
-        end: 1989,
-        note: "More races outside Europe become part of the season rhythm."
+        end: 1976,
+        note: "more money for fisa"
     },
     {
-        id: "commercial-expansion",
-        label: "Commercial Expansion",
-        shortLabel: "1990-09",
+        id: "global-expansion",
+        label: "Global Expansion",
+        shortLabel: "1976–1987",
+        start: 1976,
+        end: 1987,
+        note: "more global circuits"
+    },
+    {
+        id: "commercial-boom",
+        label: "Commercial",
+        shortLabel: "1987–1990",
+        start: 1987,
+        end: 1990,
+        note: "Satellite TV"
+    },
+    {
+        id: "ecclestone-era",
+        label: "Media",
+        shortLabel: "1990–1999",
         start: 1990,
-        end: 2009,
-        note: "The calendar becomes more internationally distributed."
+        end: 1999,
+        note: "commerical control in centralized to foca"
     },
     {
-        id: "modern-global-calendar",
-        label: "Modern Global Calendar",
-        shortLabel: "2010-24",
-        start: 2010,
+        id: "new-markets-expansion",
+        label: "New Markets Expansion",
+        shortLabel: "1999–2008",
+        start: 1999,
+        end: 2008,
+        note: "China, Bahrain, Malaysia, Singapore"
+    },
+    {
+        id: "modern-race-design",
+        label: "Modern Race Design",
+        shortLabel: "2008–2017",
+        start: 2008,
+        end: 2017,
+        note: "Night race in singapore"
+    },
+    {
+        id: "digital-era",
+        label: "Digital Era",
+        shortLabel: "2017–2024",
+        start: 2017,
         end: 2024,
-        note: "Asia, the Middle East, and the Americas are regular parts of the schedule."
+        note: "Liberty Media takes over"
     }
 ];
 

@@ -5,10 +5,15 @@ import { drawConstructorDominance } from './charts/constructorDominance.js';
 
 const sceneById = new Map(storyScenes.map(scene => [scene.id, scene]));
 const sceneByEra = new Map([
-    ["european-origins", "europe-baseline"],
-    ["early-global-reach", "global-expansion"],
-    ["commercial-expansion", "continent-summary"],
-    ["modern-global-calendar", "constructor-dominance"]
+    ["f1-origins", "opening"],
+    ["sponsorship-era", "sponsorship-era"],
+    ["broadcast-fisa-foca", "broadcast-era"],
+    ["global-expansion", "japan-entry"],
+    ["commercial-boom", "commercial-growth"],
+    ["ecclestone-era", "ecclestone-era"],
+    ["new-markets-expansion", "new-markets-expansion"],
+    ["modern-race-design", "night-race-era"],
+    ["digital-era", "liberty-media-era"]
 ]);
 
 const storyState = {

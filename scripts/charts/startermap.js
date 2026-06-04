@@ -1,4 +1,4 @@
-import { show_circuit_detail } from "./driverDrilldown.js";
+//import { show_circuit_detail } from "./driverDrilldown.js";
 // scripts/charts/startermap.js
 const svg = d3.select("#f1-map");
 const width = +svg.attr("width");
