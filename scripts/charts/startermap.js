@@ -1,3 +1,4 @@
+import { show_circuit_detail } from "./driverDrilldown.js";
 // scripts/charts/startermap.js
 const svg = d3.select("#f1-map");
 const width = +svg.attr("width");
@@ -70,5 +71,15 @@ export function updateMap(selectedYear) {
         .attr("fill", "#e63946")
         //.attr("opacity", 0.85)
         //.attr("stroke", "#050404")
-        //.attr("stroke-width", 0.75);
+        //.attr("stroke-width", 0.75)
+        .style("cursor", "pointer")
+        .on("mouseover", function(event, d) {
+            d3.select(this).attr("r", 8);
+        })
+        .on("mouseout", function(event, d) {
+            d3.select(this).attr("r", 4.5);
+        })
+        .on("click", function(event, d) {
+            show_circuit_detail(d);
+        });
 }
