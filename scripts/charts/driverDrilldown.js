@@ -1,5 +1,5 @@
 
-export function show_circuit_detail(d) {
+function show_circuit_detail(d) {
   const detail = d3.select("#detailPanel");
   detail.selectAll("*").remove();
   detail.style("display", "block");
