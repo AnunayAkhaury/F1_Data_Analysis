@@ -1,6 +1,7 @@
 import { testMap, updateMap } from './charts/startermap.js';
 import { drawContinentTimeline, updateContinentTimeline } from './charts/continentTimeline.js';
 import { storyScenes } from './storyboard.js';
+import { drawConstructorDominance } from './charts/constructorDominance.js';
 
 const sceneById = new Map(storyScenes.map(scene => [scene.id, scene]));
 const sceneByEra = new Map([
@@ -139,6 +140,9 @@ function startStoryScaffold() {
     // Start the map and timeline once, then let scroll events update their current era.
     testMap();
     drawContinentTimeline().catch(error => console.error("Timeline setup failed:", error));
+    drawConstructorDominance().catch(error =>
+  console.error("Constructor dominance setup failed:", error)
+);
 
     const scroller = scrollama();
 
