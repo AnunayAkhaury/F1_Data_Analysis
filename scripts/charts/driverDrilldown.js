@@ -12,7 +12,7 @@ export function show_circuit_detail(d) {
     .text("Country: " + d.country);
 
   detail.append("p")
-    .html("Race Name: <strong>" + d.name_race + "</strong>");
+    .html("Race Name: " + d.name_race );
 
   detail.append("p")
     .text("Location: Lat " + d.lat + ", Lng " + d.lng);
