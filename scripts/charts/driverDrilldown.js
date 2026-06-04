@@ -85,8 +85,6 @@ function show_constructor_participation(d, year, constructorStandings, results) 
   detail.append("p")
     .html(`Races participated: ${races}`);
 
-  detail.append("p")
-    .html(`Meaning: This team appeared in ${races} races this season.`);
 
   detail.append("svg")
     .attr("id", "detailPieChart")
