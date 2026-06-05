@@ -870,3 +870,335 @@ body {
     opacity: 1;
     pointer-events: auto;
 }
+
+#constructor-stream.planned-chart {
+    align-items: stretch;
+    border: 0;
+    display: block;
+    justify-content: flex-start;
+    min-height: 0;
+}
+
+.constructor-lab {
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(241, 248, 251, 0.96)),
+        radial-gradient(circle at 16% 18%, rgba(42, 157, 143, 0.12), transparent 34%);
+    border: 1px solid #d6e4ef;
+    border-radius: 18px;
+    box-shadow: 0 18px 48px rgba(31, 41, 51, 0.08);
+    color: #1f2933;
+    padding: 22px;
+}
+
+.constructor-lab-heading {
+    align-items: flex-start;
+    display: flex;
+    gap: 18px;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.constructor-lab-heading h3,
+.constructor-card-title-row h4,
+.constructor-insight-rail h4 {
+    color: #1f2933;
+    margin: 0;
+}
+
+.constructor-lab-heading h3 {
+    font-size: clamp(22px, 2.6vw, 34px);
+    line-height: 1.05;
+}
+
+.constructor-lab-subtitle,
+.constructor-muted-note {
+    color: #52616f;
+    line-height: 1.45;
+    margin: 8px 0 0;
+}
+
+.constructor-lab-kicker {
+    color: #2a9d8f;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    margin: 0 0 6px;
+    text-transform: uppercase;
+}
+
+.constructor-season-badge {
+    background: #1f2933;
+    border-radius: 14px;
+    box-shadow: 0 12px 24px rgba(31, 41, 51, 0.12);
+    color: #ffffff;
+    min-width: 120px;
+    padding: 12px 16px;
+    text-align: right;
+}
+
+.constructor-season-badge-label {
+    color: #c9d8e3;
+    display: block;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+#constructor-season-readout {
+    display: block;
+    font-size: 32px;
+    line-height: 1;
+    margin-top: 5px;
+}
+
+.constructor-season-controls {
+    align-items: center;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: auto 1fr auto;
+    margin-bottom: 14px;
+}
+
+.constructor-season-button,
+.constructor-era-jump {
+    background: #ffffff;
+    border: 1px solid #c5d9e8;
+    border-radius: 999px;
+    color: #394b59;
+    cursor: pointer;
+    font-weight: 800;
+    padding: 8px 13px;
+}
+
+.constructor-season-button:hover,
+.constructor-era-jump:hover,
+.constructor-era-jump.is-active {
+    background: #e9f7f5;
+    border-color: #85d0c7;
+    color: #14746f;
+}
+
+#constructor-season-slider {
+    accent-color: #e63946;
+    cursor: pointer;
+    width: 100%;
+}
+
+.constructor-era-jumps {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 18px;
+}
+
+.constructor-lab-grid {
+    display: grid;
+    gap: 18px;
+    grid-template-columns: minmax(0, 1.65fr) minmax(300px, 0.85fr);
+}
+
+.constructor-win-card,
+.constructor-insight-rail {
+    background: rgba(255, 255, 255, 0.92);
+    border: 1px solid #dce7ef;
+    border-radius: 16px;
+    box-shadow: 0 10px 28px rgba(31, 41, 51, 0.06);
+}
+
+.constructor-win-card {
+    padding: 18px 18px 10px;
+}
+
+.constructor-card-title-row {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 8px;
+}
+
+.constructor-click-hint {
+    color: #687789;
+    font-size: 12px;
+    margin: 0;
+    text-align: right;
+}
+
+#constructor-win-chart {
+    display: block;
+    width: 100%;
+}
+
+.constructor-win-axis-x text,
+.constructor-win-axis-y text {
+    fill: #52616f;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.constructor-win-axis-x path,
+.constructor-win-axis-y path,
+.constructor-win-axis-x line,
+.constructor-win-axis-y line {
+    stroke: #b7c7d7;
+}
+
+.constructor-win-guide {
+    stroke: #e8f0f6;
+    stroke-width: 1;
+}
+
+.constructor-win-bar {
+    fill: #69b3a2;
+}
+
+.constructor-win-bar.is-champion {
+    fill: #d4af37;
+}
+
+.constructor-win-bar.is-selected {
+    filter: drop-shadow(0 6px 8px rgba(31, 41, 51, 0.18));
+    stroke: #1f2933;
+    stroke-width: 2;
+}
+
+.constructor-win-bar.is-dimmed {
+    opacity: 0.34;
+}
+
+.constructor-win-label {
+    fill: #1f2933;
+    font-size: 13px;
+    font-weight: 800;
+    dominant-baseline: middle;
+}
+
+.constructor-win-axis-title,
+.constructor-no-season-note {
+    fill: #52616f;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.constructor-insight-rail {
+    padding: 18px;
+}
+
+.constructor-champion-line {
+    color: #1f2933;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 1.05;
+    margin: 8px 0;
+}
+
+.constructor-rail-divider {
+    border-top: 1px solid #e3edf5;
+    margin: 18px 0;
+}
+
+.constructor-stats-grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-top: 12px;
+}
+
+.constructor-stats-grid div {
+    background: #f1f7fb;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.constructor-stats-grid strong,
+.constructor-stats-grid span {
+    display: block;
+}
+
+.constructor-stats-grid strong {
+    color: #1f2933;
+    font-size: 22px;
+}
+
+.constructor-stats-grid span {
+    color: #687789;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.constructor-entry-stack {
+    display: grid;
+    gap: 9px;
+    margin-top: 12px;
+}
+
+.constructor-entry-strip {
+    align-items: center;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: minmax(82px, 120px) 1fr 34px;
+}
+
+.constructor-entry-strip span,
+.constructor-entry-strip strong {
+    color: #394b59;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.constructor-entry-strip div {
+    background: #edf3f8;
+    border-radius: 999px;
+    height: 9px;
+    overflow: hidden;
+}
+
+.constructor-entry-strip i {
+    background: #8aa6c1;
+    border-radius: 999px;
+    display: block;
+    height: 100%;
+}
+
+@media (max-width: 1050px) {
+    .constructor-lab-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .constructor-insight-rail {
+        display: grid;
+        gap: 16px;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .constructor-rail-divider {
+        display: none;
+    }
+}
+
+@media (max-width: 760px) {
+    .constructor-lab-heading,
+    .constructor-card-title-row {
+        display: block;
+    }
+
+    .constructor-season-badge {
+        margin-top: 14px;
+        text-align: left;
+    }
+
+    .constructor-season-controls {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #constructor-season-slider {
+        grid-column: 1 / -1;
+        order: -1;
+    }
+
+    .constructor-insight-rail {
+        display: block;
+    }
+}
