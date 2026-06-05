@@ -846,11 +846,19 @@ body {
     min-height: 600vh; 
     position: relative;
 }
-
 #constructor-story .story-graphic {
     position: sticky;
     top: 0;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 80px;
+    padding-left: 80 px;
+    padding-right: 80px;
+    box-sizing: border-box;
+    background: #edf7fa;
+    border-right: 1px solid #d5e8f0;
 }
 
 #constructor-story .story-text {
@@ -859,14 +867,73 @@ body {
     flex-direction: column;
 }
 #constructor-story .constructor-step {
+    min-height: 100vh;
+    position: relative;    
+    pointer-events: none;
+    opacity: 1; 
+}
+
+#constructor-story .constructor-step .step-card {
     position: sticky;
-    top: 10vh;
-    height: 60vh;
+    top: 15vh;
     opacity: 0;
     pointer-events: none;
+    /*transform: translateX(12px);
+    transition: opacity 0.3s ease, transform 0.3s ease; */
+    right: auto;
+    width: auto;
+    max-width: 420px;
+    margin: 0 auto;
+    z-index: 2;
 }
 
 #constructor-story .constructor-step.is-active {
+    pointer-events: auto;
+}
+
+#constructor-narrative-stream {
+    max-height: 90vh; 
+    overflow-y: auto;
+    margin-top: -20px;
+}
+
+#constructor-story .constructor-step.is-active .step-card {
     opacity: 1;
     pointer-events: auto;
+    /*transform: translateX(0); */
+    border-color: #e63946;
+}
+ 
+#constructor-story .step-card h2 {
+    font-size: 17px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #1f2933;
+}
+
+/*Era names (Fangio Era, Stewart Era)*/
+#constructor-narrative-stream h3 {
+    font-size: 28px;       
+    text-align: left;  
+    padding-left: 30px;  
+    margin-top: 0;        
+    margin-bottom: 20px;   
+    color: #1f2933;     
+    line-height: 1;  
+}
+ 
+#constructor-story .step-card ul {
+    padding-left: 18px;
+    color: #52616f;
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.cn-panel {
+    width: 100%;
+}
+ 
+.cn-stat-box {
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(31, 41, 51, 0.08);
 }

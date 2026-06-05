@@ -2,6 +2,7 @@ import { testMap, updateMap } from './charts/startermap.js';
 import { drawContinentTimeline, updateContinentTimeline } from './charts/continentTimeline.js';
 import { storyScenes } from './storyboard.js';
 import { drawConstructorDominance } from './charts/constructorDominance.js';
+import { drawConstructorNarrative, updateConstructorNarrative } from './charts/narrativeConstructor.js';
 
 const sceneById = new Map(storyScenes.map(scene => [scene.id, scene]));
 const sceneByEra = new Map([
@@ -148,6 +149,7 @@ function startStoryScaffold() {
     drawConstructorDominance().catch(error =>
   console.error("Constructor dominance setup failed:", error)
 );
+    drawConstructorNarrative().catch(error => console.error("Constructor narrative setup failed:", error));
 
     const scroller = scrollama();
 
@@ -167,21 +169,24 @@ function startStoryScaffold() {
                 requestStorySync();
             }
             else if (element.closest("#constructor-story")) {
+                const panelIndex = +d3element.attr("data-panel");
+                updateConstructorNarrative(panelIndex);
                 d3.selectAll("#constructor-story .constructor-step")
-                    .classed("is-active", false);
-                d3element.classed("is-active", true);
+                   .classed("is-active", false);
+                d3element.classed("is-active", true)
             }
         })
         .onStepExit(response => {
             const { element, direction } = response;
+
             if (element.closest("#constructor-story")) {
-    
                 if (direction === "up") {
                     const prev = element.previousElementSibling;
                     if (prev && prev.classList.contains("constructor-step")) {
                         d3.selectAll("#constructor-story .constructor-step")
                             .classed("is-active", false);
-                        d3.select(prev).classed("is-active", true);
+                        d3.select(prev)
+                            .classed("is-active", true);
                     }
                 } else if (direction === "down" && !element.nextElementSibling) {
                 d3.select(element).classed("is-active", false);

@@ -1,0 +1,4091 @@
+[
+  {
+    "label": "Fangio era",
+    "focusTeams": [
+      "Alfa Romeo",
+      "Maserati",
+      "Ferrari"
+    ],
+    "years": {
+      "1951": {
+        "standings": {
+          "Alfa Romeo": 75.0,
+          "Alta": 0.0,
+          "BRM": 2.0,
+          "Bromme": 0.0,
+          "Deidt": 0.0,
+          "ERA": 0.0,
+          "Ferrari": 86.0,
+          "HWM": 0.0,
+          "Hall": 0.0,
+          "Kurtis Kraft": 19.0,
+          "Kuzma": 0.0,
+          "Lesovsky": 0.0,
+          "Marchese": 0.0,
+          "Maserati": 0.0,
+          "Moore": 0.0,
+          "OSCA": 0.0,
+          "Pawl": 0.0,
+          "Schroeder": 2.0,
+          "Sherman": 3.0,
+          "Simca": 0.0,
+          "Talbot-Lago": 5.0,
+          "Trevis": 0.0,
+          "Veritas": 0.0,
+          "Watson": 0.0
+        },
+        "drivers": {
+          "Alfa Romeo": [
+            "Fangio",
+            "Farina",
+            "Sanesi",
+            "de Graffenried",
+            "Fagioli",
+            "Bonetto",
+            "Pietsch"
+          ],
+          "Alta": [
+            "Kelly"
+          ],
+          "BRM": [
+            "Parnell",
+            "Walker",
+            "Richardson"
+          ],
+          "Bromme": [
+            "Ward"
+          ],
+          "Deidt": [
+            "Carter",
+            "Bettenhausen",
+            "Rose",
+            "Hellings"
+          ],
+          "ERA": [
+            "Shawe Taylor",
+            "Gerard"
+          ],
+          "Ferrari": [
+            "Taruffi",
+            "Ascari",
+            "Fischer",
+            "Whitehead",
+            "Villoresi",
+            "Parnell",
+            "Gonz\u00e1lez",
+            "Landi"
+          ],
+          "HWM": [
+            "Moss",
+            "Abecassis"
+          ],
+          "Hall": [
+            "Mackey"
+          ],
+          "Kurtis Kraft": [
+            "Wallard",
+            "Nazaruk",
+            "McGrath",
+            "Forberg",
+            "Nalon",
+            "Force",
+            "Hanks",
+            "Schindler",
+            "Agabashian",
+            "Scarborough",
+            "Parsons",
+            "Green",
+            "Ruttman",
+            "Miller",
+            "Brown",
+            "Griffith",
+            "Ayulo"
+          ],
+          "Kuzma": [
+            "Faulkner"
+          ],
+          "Lesovsky": [
+            "Connor"
+          ],
+          "Marchese": [
+            "Stevenson"
+          ],
+          "Maserati": [
+            "Chiron",
+            "Schell",
+            "McDowell",
+            "Marim\u00f3n",
+            "de Graffenried",
+            "Fotheringham-Parker",
+            "Murray",
+            "James",
+            "Branca",
+            "Godia",
+            "Bira",
+            "Jover"
+          ],
+          "Moore": [
+            "Banks"
+          ],
+          "OSCA": [
+            "Rol"
+          ],
+          "Pawl": [
+            "Davies"
+          ],
+          "Schroeder": [
+            "Ball",
+            "Dinsmore"
+          ],
+          "Sherman": [
+            "Linden"
+          ],
+          "Simca": [
+            "Gordini",
+            "Trintignant",
+            "Simon",
+            "Manzon"
+          ],
+          "Talbot-Lago": [
+            "Rosier",
+            "\u00c9tancelin",
+            "Claes",
+            "Mairesse",
+            "Louveau",
+            "Cabantous",
+            "Gonz\u00e1lez",
+            "Pilette",
+            "Levegh",
+            "Chiron",
+            "Chaboud",
+            "Hamilton",
+            "Swaters",
+            "Grignard"
+          ],
+          "Trevis": [
+            "Vukovich"
+          ],
+          "Veritas": [
+            "Hirt"
+          ],
+          "Watson": [
+            "James"
+          ]
+        }
+      },
+      "1952": {
+        "standings": {
+          "AFM": 0.0,
+          "Alta": 0.0,
+          "Aston Butterworth": 0.0,
+          "BMW": 0.0,
+          "Bromme": 0.0,
+          "Cisitalia": 0.0,
+          "Connaught": 5.0,
+          "Cooper": 12.0,
+          "Deidt": 0.0,
+          "ERA": 0.0,
+          "Ferrari": 120.5,
+          "Frazer Nash": 3.0,
+          "Gordini": 15.0,
+          "HWM": 2.0,
+          "Kurtis Kraft": 13.0,
+          "Kuzma": 8.0,
+          "Lesovsky": 3.0,
+          "Maserati": 8.5,
+          "OSCA": 0.0,
+          "Sherman": 0.0,
+          "Simca": 2.0,
+          "Stevens": 0.0,
+          "Trevis": 0.0,
+          "Veritas": 0.0,
+          "Watson": 0.0
+        },
+        "drivers": {
+          "AFM": [
+            "von Stuck",
+            "Niedermayr",
+            "Heeks"
+          ],
+          "Alta": [
+            "Whitehead"
+          ],
+          "Aston Butterworth": [
+            "Montgomerie-Charrington",
+            "Aston"
+          ],
+          "BMW": [
+            "Klodwig",
+            "Balsa",
+            "Bechem",
+            "Krause"
+          ],
+          "Bromme": [
+            "Webb"
+          ],
+          "Cisitalia": [
+            "Dusio"
+          ],
+          "Connaught": [
+            "Poore",
+            "Thompson",
+            "Downing",
+            "McAlpine",
+            "Moss"
+          ],
+          "Cooper": [
+            "Brown",
+            "Brandon",
+            "Hawthorn",
+            "Parnell",
+            "Murray",
+            "Wharton"
+          ],
+          "Deidt": [
+            "Bettenhausen"
+          ],
+          "ERA": [
+            "Moss"
+          ],
+          "Ferrari": [
+            "Taruffi",
+            "Fischer",
+            "Hirt",
+            "Simon",
+            "Farina",
+            "Rosier",
+            "Ascari",
+            "de Tornaco",
+            "Comotti",
+            "Carini",
+            "Salvadori",
+            "Whitehead",
+            "Laurent",
+            "Schoeller",
+            "Villoresi",
+            "von Stuck"
+          ],
+          "Frazer Nash": [
+            "Wharton",
+            "Crook"
+          ],
+          "Gordini": [
+            "Behra",
+            "Manzon",
+            "Claes",
+            "Bira",
+            "Trintignant"
+          ],
+          "HWM": [
+            "Moss",
+            "Macklin",
+            "Collins",
+            "Abecassis",
+            "Fr\u00e8re",
+            "Laurent",
+            "Gaze",
+            "Cabantous",
+            "Hamilton",
+            "Claes",
+            "van der Lof"
+          ],
+          "Kurtis Kraft": [
+            "Rathmann",
+            "Hanks",
+            "Cross",
+            "Bryan",
+            "Reece",
+            "Connor",
+            "Griffith",
+            "Parsons",
+            "McGrath",
+            "James",
+            "Vukovich",
+            "Stevenson",
+            "McDowell",
+            "Ward",
+            "Nalon",
+            "Sweikert",
+            "Agabashian",
+            "Hartley",
+            "Scott",
+            "Miller",
+            "Linden"
+          ],
+          "Kuzma": [
+            "Ruttman"
+          ],
+          "Lesovsky": [
+            "Carter",
+            "Banks",
+            "Ayulo"
+          ],
+          "Maserati": [
+            "de Graffenried",
+            "Schell",
+            "\u00c9tancelin",
+            "Bianco",
+            "Cantoni",
+            "Bonetto",
+            "Landi",
+            "Flinterman",
+            "Gonz\u00e1lez",
+            "Rol",
+            "Crespo"
+          ],
+          "OSCA": [
+            "Bayol"
+          ],
+          "Sherman": [
+            "Fonder"
+          ],
+          "Simca": [
+            "Bira",
+            "de Terra",
+            "O'Brien",
+            "Trintignant",
+            "Claes",
+            "Fr\u00e8re"
+          ],
+          "Stevens": [
+            "Schindler",
+            "Ball"
+          ],
+          "Trevis": [
+            "Johnson"
+          ],
+          "Veritas": [
+            "Ulmen",
+            "Legat",
+            "Riess",
+            "Klenk",
+            "Brudes",
+            "Pietsch",
+            "Helfrich",
+            "Peters"
+          ],
+          "Watson": [
+            "Rigsby"
+          ]
+        }
+      },
+      "1953": {
+        "standings": {
+          "AFM": 0.0,
+          "BMW": 0.0,
+          "Bromme": 0.0,
+          "Connaught": 0.0,
+          "Cooper": 0.0,
+          "Del Roy": 0.0,
+          "EMW": 0.0,
+          "Ferrari": 122.5,
+          "Gordini": 4.0,
+          "HWM": 0.0,
+          "Kurtis Kraft": 24.0,
+          "Kuzma": 0.0,
+          "Lesovsky": 0.0,
+          "Maserati": 65.5,
+          "OSCA": 0.0,
+          "Schroeder": 0.0,
+          "Simca": 0.0,
+          "Stevens": 0.0,
+          "Turner": 0.0,
+          "Veritas": 0.0,
+          "Watson": 0.0
+        },
+        "drivers": {
+          "AFM": [
+            "Fitzau",
+            "Bechem",
+            "von Stuck"
+          ],
+          "BMW": [
+            "Krause",
+            "Klodwig"
+          ],
+          "Bromme": [
+            "Scott"
+          ],
+          "Connaught": [
+            "Moss",
+            "McAlpine",
+            "Claes",
+            "Salvadori",
+            "Pilette",
+            "Bira",
+            "Rolt",
+            "Stewart",
+            "Fairman"
+          ],
+          "Cooper": [
+            "Barber",
+            "Brown",
+            "Cruz",
+            "Wharton",
+            "Gerard",
+            "Moss",
+            "Whitehead",
+            "Stewart",
+            "Crook",
+            "Nuckey"
+          ],
+          "Del Roy": [
+            "Thomson"
+          ],
+          "EMW": [
+            "Barth"
+          ],
+          "Ferrari": [
+            "Ascari",
+            "Villoresi",
+            "Hawthorn",
+            "Farina",
+            "Rosier",
+            "Swaters",
+            "Adolff",
+            "de Terra",
+            "Hirt",
+            "Maglioli",
+            "Carini"
+          ],
+          "Gordini": [
+            "Behra",
+            "Trintignant",
+            "Manzon",
+            "Menditeguy",
+            "Schell",
+            "Mieres",
+            "Wacker"
+          ],
+          "HWM": [
+            "Collins",
+            "Macklin",
+            "Fr\u00e8re",
+            "Cabantous",
+            "Fairman",
+            "Hamilton",
+            "Scherrer",
+            "Fitch"
+          ],
+          "Kurtis Kraft": [
+            "Vukovich",
+            "Cross",
+            "Hanks",
+            "Agabashian",
+            "McGrath",
+            "Daywalt",
+            "Rathmann",
+            "Davies",
+            "Nalon",
+            "Scarborough",
+            "Holland",
+            "Ward",
+            "Faulkner",
+            "Teague",
+            "Webb",
+            "Hoyt",
+            "Russo",
+            "Parsons",
+            "Hartley",
+            "Niday",
+            "Carter",
+            "Johnson",
+            "Scott",
+            "Linden",
+            "Dinsmore",
+            "Mantz",
+            "Thomson",
+            "Holmes",
+            "Stevenson"
+          ],
+          "Kuzma": [
+            "Bettenhausen",
+            "Ayulo",
+            "Sweikert",
+            "Flaherty",
+            "Stevenson",
+            "Hartley"
+          ],
+          "Lesovsky": [
+            "Carter"
+          ],
+          "Maserati": [
+            "Gonz\u00e1lez",
+            "G\u00e1lvez",
+            "Fangio",
+            "Bonetto",
+            "de Graffenried",
+            "Marim\u00f3n",
+            "Claes",
+            "Lang",
+            "Landi",
+            "Mantovani",
+            "Bira",
+            "Musso"
+          ],
+          "OSCA": [
+            "Chiron",
+            "Bayol"
+          ],
+          "Schroeder": [
+            "Bryan"
+          ],
+          "Simca": [
+            "Birger",
+            "Berger"
+          ],
+          "Stevens": [
+            "McCoy",
+            "Linden"
+          ],
+          "Turner": [
+            "Nazaruk"
+          ],
+          "Veritas": [
+            "Legat",
+            "Herrmann",
+            "Helfrich",
+            "Seidel",
+            "Karch",
+            "Heeks",
+            "Bauer",
+            "Loof"
+          ],
+          "Watson": [
+            "Freeland"
+          ]
+        }
+      },
+      "1954": {
+        "standings": {
+          "Bromme": 0.0,
+          "Connaught": 0.0,
+          "Cooper": 0.0,
+          "Ferrari": 80.28,
+          "Gordini": 4.0,
+          "HWM": 0.0,
+          "Klenk": 0.0,
+          "Kurtis Kraft": 18.0,
+          "Kuzma": 6.0,
+          "Lancia": 1.0,
+          "Maserati": 46.14,
+          "Mercedes": 60.14,
+          "Nichels": 0.0,
+          "Pankratz": 0.0,
+          "Pawl": 0.0,
+          "Phillips": 0.0,
+          "Schroeder": 0.0,
+          "Stevens": 0.0,
+          "Vanwall": 0.0
+        },
+        "drivers": {
+          "Bromme": [
+            "Webb",
+            "Kladis"
+          ],
+          "Connaught": [
+            "Beauman",
+            "Marr",
+            "Thorne",
+            "Whitehouse",
+            "Riseley-Prichard"
+          ],
+          "Cooper": [
+            "Gerard",
+            "Gould",
+            "Whitehead",
+            "Brandon",
+            "Brown",
+            "Nuckey"
+          ],
+          "Ferrari": [
+            "Farina",
+            "Gonz\u00e1lez",
+            "Trintignant",
+            "Maglioli",
+            "Hawthorn",
+            "Rosier",
+            "Swaters",
+            "Manzon",
+            "Parnell",
+            "Taruffi",
+            "Ascari"
+          ],
+          "Gordini": [
+            "Bayol",
+            "Behra",
+            "Loyer",
+            "Pilette",
+            "Fr\u00e8re",
+            "Berger",
+            "Pollet",
+            "Bucci",
+            "Wacker"
+          ],
+          "HWM": [
+            "Macklin"
+          ],
+          "Klenk": [
+            "Helfrich"
+          ],
+          "Kurtis Kraft": [
+            "Vukovich",
+            "McGrath",
+            "Ruttman",
+            "Nazaruk",
+            "Agabashian",
+            "Russo",
+            "Crockett",
+            "Cross",
+            "Sweikert",
+            "Carter",
+            "McCoy",
+            "Armi",
+            "Hanks",
+            "O'Connor",
+            "Hartley",
+            "Hoyt",
+            "Daywalt",
+            "Rathmann",
+            "Bettenhausen",
+            "Parsons",
+            "Homeier",
+            "Linden",
+            "Davies",
+            "Teague",
+            "Jackson",
+            "Fonder",
+            "Flaherty"
+          ],
+          "Kuzma": [
+            "Bryan",
+            "Stevenson",
+            "Ayulo",
+            "Faulkner"
+          ],
+          "Lancia": [
+            "Ascari",
+            "Villoresi"
+          ],
+          "Maserati": [
+            "Fangio",
+            "Schell",
+            "Bira",
+            "de Graffenried",
+            "Marim\u00f3n",
+            "Mieres",
+            "Daponte",
+            "Musso",
+            "Menditeguy",
+            "Moss",
+            "Mantovani",
+            "Villoresi",
+            "Wharton",
+            "Salvadori",
+            "Ascari",
+            "Rosier",
+            "de Riu",
+            "Godia",
+            "Flockhart",
+            "Volonterio"
+          ],
+          "Mercedes": [
+            "Fangio",
+            "Kling",
+            "Herrmann",
+            "Lang"
+          ],
+          "Nichels": [
+            "Thomson",
+            "Linden",
+            "Daywalt"
+          ],
+          "Pankratz": [
+            "Reece"
+          ],
+          "Pawl": [
+            "Ward",
+            "Johnson"
+          ],
+          "Phillips": [
+            "Freeland"
+          ],
+          "Schroeder": [
+            "Linden",
+            "Duncan",
+            "Scott",
+            "Fonder"
+          ],
+          "Stevens": [
+            "Niday",
+            "Elisian",
+            "Scott"
+          ],
+          "Vanwall": [
+            "Collins"
+          ]
+        }
+      },
+      "1955": {
+        "standings": {
+          "Arzani-Volpini": 0.0,
+          "Connaught": 0.0,
+          "Cooper": 0.0,
+          "Epperly": 0.0,
+          "Ferrari": 33.99,
+          "Gordini": 0.0,
+          "HWM": 0.0,
+          "Kurtis Kraft": 21.0,
+          "Kuzma": 3.0,
+          "Lancia": 8.0,
+          "Maserati": 23.0,
+          "Mercedes": 79.0,
+          "Pankratz": 0.0,
+          "Pawl": 0.0,
+          "Phillips": 0.0,
+          "Schroeder": 0.0,
+          "Stevens": 0.0,
+          "Trevis": 0.0,
+          "Vanwall": 0.0
+        },
+        "drivers": {
+          "Arzani-Volpini": [
+            "Piotti"
+          ],
+          "Connaught": [
+            "McAlpine",
+            "Rolt",
+            "Marr",
+            "Fairman",
+            "Walker"
+          ],
+          "Cooper": [
+            "Brabham"
+          ],
+          "Epperly": [
+            "Rathmann"
+          ],
+          "Ferrari": [
+            "Gonz\u00e1lez",
+            "Farina",
+            "Trintignant",
+            "Taruffi",
+            "Schell",
+            "Fr\u00e8re",
+            "Castellotti",
+            "Hawthorn",
+            "Claes",
+            "Maglioli",
+            "Villoresi"
+          ],
+          "Gordini": [
+            "Iglesias",
+            "Bayol",
+            "Birger",
+            "Pollet",
+            "Manzon",
+            "da Silva Ramos",
+            "Sparken",
+            "Lucas"
+          ],
+          "HWM": [
+            "Whiteaway"
+          ],
+          "Kurtis Kraft": [
+            "Sweikert",
+            "Bettenhausen",
+            "Davies",
+            "Faulkner",
+            "Linden",
+            "Herman",
+            "O'Connor",
+            "Daywalt",
+            "Flaherty",
+            "Weyant",
+            "Niday",
+            "Cross",
+            "Hanks",
+            "Parsons",
+            "Crawford",
+            "Vukovich",
+            "McGrath",
+            "Keller",
+            "Boyd",
+            "Elisian",
+            "Agabashian",
+            "Russo",
+            "Homeier"
+          ],
+          "Kuzma": [
+            "Thomson",
+            "Carter",
+            "Bryan",
+            "Ward"
+          ],
+          "Lancia": [
+            "Castellotti",
+            "Ascari",
+            "Villoresi",
+            "Chiron"
+          ],
+          "Maserati": [
+            "Mieres",
+            "Schell",
+            "Musso",
+            "Mantovani",
+            "Bucci",
+            "Uria",
+            "Behra",
+            "Menditeguy",
+            "Perdisa",
+            "Rosier",
+            "Macklin",
+            "Claes",
+            "Gould",
+            "Walker",
+            "Collins",
+            "Salvadori",
+            "Simon",
+            "Fitch"
+          ],
+          "Mercedes": [
+            "Fangio",
+            "Herrmann",
+            "Moss",
+            "Kling",
+            "Simon",
+            "Taruffi"
+          ],
+          "Pankratz": [
+            "Reece"
+          ],
+          "Pawl": [
+            "Russo"
+          ],
+          "Phillips": [
+            "Freeland"
+          ],
+          "Schroeder": [
+            "Andrews"
+          ],
+          "Stevens": [
+            "Hoyt"
+          ],
+          "Trevis": [
+            "Johnson",
+            "Templeman"
+          ],
+          "Vanwall": [
+            "Hawthorn",
+            "Wharton",
+            "Schell"
+          ]
+        }
+      },
+      "1956": {
+        "standings": {
+          "BRM": 0.0,
+          "Bugatti": 0.0,
+          "Connaught": 9.0,
+          "Cooper": 0.0,
+          "Emeryson": 0.0,
+          "Ferrari": 82.0,
+          "Gordini": 2.0,
+          "Kurtis Kraft": 12.0,
+          "Kuzma": 0.0,
+          "Lesovsky": 0.0,
+          "Maserati": 72.0,
+          "Phillips": 4.0,
+          "Stevens": 0.0,
+          "Vanwall": 3.0,
+          "Watson": 8.0
+        },
+        "drivers": {
+          "BRM": [
+            "Hawthorn",
+            "Brooks",
+            "Flockhart"
+          ],
+          "Bugatti": [
+            "Trintignant"
+          ],
+          "Connaught": [
+            "Scotti",
+            "Fairman",
+            "Titterington",
+            "Scott Brown",
+            "Flockhart",
+            "Leston"
+          ],
+          "Cooper": [
+            "Gerard"
+          ],
+          "Emeryson": [
+            "Emery"
+          ],
+          "Ferrari": [
+            "Musso",
+            "Gendebien",
+            "Collins",
+            "Castellotti",
+            "Fangio",
+            "Scarlatti",
+            "Fr\u00e8re",
+            "Pilette",
+            "de Portago",
+            "von Trips"
+          ],
+          "Gordini": [
+            "da Silva Ramos",
+            "Bayol",
+            "Manzon",
+            "Pilette",
+            "Milhoux",
+            "Simon"
+          ],
+          "Kurtis Kraft": [
+            "Hanks",
+            "Parsons",
+            "Rathmann",
+            "Veith",
+            "Ward",
+            "Agabashian",
+            "Christie",
+            "Keller",
+            "Dinsmore",
+            "O'Connor",
+            "Tolan",
+            "Bettenhausen",
+            "Elisian",
+            "Daywalt",
+            "Turner",
+            "Andrews",
+            "Linden",
+            "Herman",
+            "Crawford",
+            "Boyd",
+            "Ruttman",
+            "Russo"
+          ],
+          "Kuzma": [
+            "Sweikert",
+            "Hartley",
+            "Johnson",
+            "Garrett",
+            "Bryan",
+            "Thomson"
+          ],
+          "Lesovsky": [
+            "Reece"
+          ],
+          "Maserati": [
+            "Behra",
+            "Hawthorn",
+            "Landi",
+            "Uria",
+            "Moss",
+            "Piotti",
+            "Menditeguy",
+            "Gonz\u00e1lez",
+            "Perdisa",
+            "Gould",
+            "Rosier",
+            "Chiron",
+            "Villoresi",
+            "Godia",
+            "Simon",
+            "da Silva Ramos",
+            "Salvadori",
+            "Halford",
+            "Maglioli",
+            "Brabham",
+            "Volonterio",
+            "Schell",
+            "de Graffenried",
+            "Gerini",
+            "Bonnier"
+          ],
+          "Phillips": [
+            "Freeland"
+          ],
+          "Stevens": [
+            "Griffith"
+          ],
+          "Vanwall": [
+            "Trintignant",
+            "Schell",
+            "Hawthorn",
+            "Chapman",
+            "Gonz\u00e1lez",
+            "Taruffi"
+          ],
+          "Watson": [
+            "Flaherty"
+          ]
+        }
+      },
+      "1957": {
+        "standings": {
+          "BRM": 0.0,
+          "Connaught": 3.0,
+          "Cooper": 2.0,
+          "Dunn": 0.0,
+          "Epperly": 15.0,
+          "Ferrari": 48.0,
+          "Kurtis Kraft": 5.0,
+          "Kuzma": 4.0,
+          "Lesovsky": 0.0,
+          "Maserati": 78.0,
+          "Phillips": 0.0,
+          "Porsche": 0.0,
+          "Vanwall": 37.0,
+          "Watson": 0.0
+        },
+        "drivers": {
+          "BRM": [
+            "Flockhart",
+            "Salvadori",
+            "MacKay-Fraser",
+            "Fairman",
+            "Leston"
+          ],
+          "Connaught": [
+            "Lewis-Evans",
+            "Bueb"
+          ],
+          "Cooper": [
+            "Brabham",
+            "Leston",
+            "MacDowel",
+            "Salvadori",
+            "Gerard",
+            "Naylor",
+            "Marsh",
+            "England",
+            "Gibson"
+          ],
+          "Dunn": [
+            "Herman"
+          ],
+          "Epperly": [
+            "Hanks",
+            "Rathmann"
+          ],
+          "Ferrari": [
+            "de Portago",
+            "Perdisa",
+            "de Tomaso",
+            "Castellotti",
+            "Hawthorn",
+            "Musso",
+            "Collins",
+            "Trintignant",
+            "von Trips",
+            "Gonz\u00e1lez"
+          ],
+          "Kurtis Kraft": [
+            "Russo",
+            "Linden",
+            "Boyd",
+            "Teague",
+            "O'Connor",
+            "Turner",
+            "Christie",
+            "Bettenhausen",
+            "Parsons",
+            "Freeland",
+            "Reece",
+            "Edmunds",
+            "Tolan",
+            "Agabashian",
+            "Magill",
+            "Johnson",
+            "Cheesbourg",
+            "Keller",
+            "Daywalt",
+            "Elisian",
+            "George"
+          ],
+          "Kuzma": [
+            "Bryan",
+            "Thomson",
+            "Weyant",
+            "Sachs"
+          ],
+          "Lesovsky": [
+            "Hartley",
+            "Ward"
+          ],
+          "Maserati": [
+            "Fangio",
+            "Behra",
+            "Menditeguy",
+            "Schell",
+            "Bonnier",
+            "Moss",
+            "Piotti",
+            "Gregory",
+            "Scarlatti",
+            "Gould",
+            "Herrmann",
+            "Simon",
+            "Bueb",
+            "Halford",
+            "Godia",
+            "Volonterio"
+          ],
+          "Phillips": [
+            "Veith"
+          ],
+          "Porsche": [
+            "Barth",
+            "de Beaufort",
+            "Maglioli"
+          ],
+          "Vanwall": [
+            "Brooks",
+            "Moss",
+            "Lewis-Evans",
+            "Salvadori"
+          ],
+          "Watson": [
+            "Ruttman"
+          ]
+        }
+      },
+      "1958": {
+        "standings": {
+          "BRM": 24.0,
+          "Connaught": 0.0,
+          "Cooper": 38.0,
+          "Dunn": 0.0,
+          "Epperly": 20.0,
+          "Ferrari": 93.0,
+          "Kurtis Kraft": 4.0,
+          "Kuzma": 0.0,
+          "Lesovsky": 0.0,
+          "Maserati": 9.0,
+          "OSCA": 0.0,
+          "Phillips": 0.0,
+          "Porsche": 0.0,
+          "Team Lotus": 3.0,
+          "Vanwall": 68.0,
+          "Watson": 0.0
+        },
+        "drivers": {
+          "BRM": [
+            "Schell",
+            "Behra",
+            "Flockhart",
+            "Trintignant",
+            "Bonnier"
+          ],
+          "Connaught": [
+            "Kessler",
+            "Emery",
+            "Ecclestone",
+            "Bueb",
+            "Fairman"
+          ],
+          "Cooper": [
+            "Moss",
+            "Trintignant",
+            "Brabham",
+            "Salvadori",
+            "Flockhart",
+            "Burgess",
+            "McLaren",
+            "Marsh",
+            "Seidel",
+            "Goethals",
+            "Gibson",
+            "Naylor",
+            "Fairman",
+            "La Caze",
+            "Guelfi",
+            "Picard",
+            "Bridger"
+          ],
+          "Dunn": [
+            "Weyant"
+          ],
+          "Epperly": [
+            "Bryan",
+            "Amick",
+            "Bettenhausen",
+            "Rathmann"
+          ],
+          "Ferrari": [
+            "Musso",
+            "Hawthorn",
+            "Collins",
+            "von Trips",
+            "Gendebien",
+            "Hill"
+          ],
+          "Kurtis Kraft": [
+            "Boyd",
+            "Johnson",
+            "Cheesbourg",
+            "Keller",
+            "Parsons",
+            "Christie",
+            "Magill",
+            "Russo",
+            "Templeman",
+            "Garrett",
+            "Thomson",
+            "Veith",
+            "O'Connor",
+            "Goldsmith",
+            "Unser",
+            "Sutton"
+          ],
+          "Kuzma": [
+            "Tolan",
+            "Wilson",
+            "Foyt",
+            "Sachs",
+            "Bisch"
+          ],
+          "Lesovsky": [
+            "Ward",
+            "Turner"
+          ],
+          "Maserati": [
+            "Fangio",
+            "Behra",
+            "Schell",
+            "Menditeguy",
+            "Godia",
+            "Gould",
+            "Bonnier",
+            "Scarlatti",
+            "Kavanagh",
+            "Gerini",
+            "de Filippis",
+            "Testut",
+            "Taramazzo",
+            "Chiron",
+            "Gregory",
+            "Trintignant",
+            "Seidel",
+            "Hill",
+            "Ruttman",
+            "Shelby",
+            "Herrmann",
+            "Allison",
+            "Cabianca"
+          ],
+          "OSCA": [
+            "Cabianca",
+            "Piotti"
+          ],
+          "Phillips": [
+            "Freeland"
+          ],
+          "Porsche": [
+            "de Beaufort",
+            "Barth"
+          ],
+          "Team Lotus": [
+            "Allison",
+            "Hill",
+            "Stacey",
+            "Bueb"
+          ],
+          "Vanwall": [
+            "Moss",
+            "Brooks",
+            "Lewis-Evans"
+          ],
+          "Watson": [
+            "Reece",
+            "Larson",
+            "Rathmann",
+            "Elisian"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "label": "Stewart era",
+    "focusTeams": [
+      "Tyrrell",
+      "Matra"
+    ],
+    "years": {
+      "1969": {
+        "standings": {
+          "BRM": 7.0,
+          "BRM-Ford": 0.0,
+          "Brabham-Climax": 0.0,
+          "Brabham-Ford": 68.0,
+          "Brabham-Repco": 0.0,
+          "Cooper-Maserati": 0.0,
+          "Eagle-Climax": 0.0,
+          "Ferrari": 7.0,
+          "Lotus-Ford": 59.0,
+          "Matra-Ford": 85.0,
+          "McLaren-Ford": 49.0
+        },
+        "drivers": {
+          "BRM": [
+            "Oliver",
+            "Surtees",
+            "Rodr\u00edguez",
+            "Brack",
+            "Eaton"
+          ],
+          "BRM-Ford": [
+            "Oliver"
+          ],
+          "Brabham-Climax": [
+            "Cordts"
+          ],
+          "Brabham-Ford": [
+            "Brabham",
+            "Ickx",
+            "Courage",
+            "Moser"
+          ],
+          "Brabham-Repco": [
+            "Tingle",
+            "de Klerk"
+          ],
+          "Cooper-Maserati": [
+            "Elford"
+          ],
+          "Eagle-Climax": [
+            "Pease"
+          ],
+          "Ferrari": [
+            "Amon",
+            "Rodr\u00edguez"
+          ],
+          "Lotus-Ford": [
+            "Hill",
+            "Siffert",
+            "Rindt",
+            "Andretti",
+            "Love",
+            "Attwood",
+            "Miles",
+            "Bonnier",
+            "Lovely"
+          ],
+          "Matra-Ford": [
+            "Stewart",
+            "Beltoise",
+            "Servoz-Gavin"
+          ],
+          "McLaren-Ford": [
+            "Hulme",
+            "McLaren",
+            "van Rooyen",
+            "Beltoise",
+            "Elford",
+            "Bell"
+          ]
+        }
+      },
+      "1970": {
+        "standings": {
+          "BRM": 25.0,
+          "Bellasi": 0.0,
+          "Brabham": 35.0,
+          "De Tomaso": 0.0,
+          "Ferrari": 76.0,
+          "March": 55.0,
+          "Matra": 24.0,
+          "McLaren-Alfa Romeo": 0.0,
+          "McLaren-Ford": 36.0,
+          "Surtees": 3.0,
+          "Team Lotus": 70.0,
+          "Tyrrell": 0.0
+        },
+        "drivers": {
+          "BRM": [
+            "Rodr\u00edguez",
+            "Eaton",
+            "Oliver",
+            "Westbury"
+          ],
+          "Bellasi": [
+            "Moser"
+          ],
+          "Brabham": [
+            "Brabham",
+            "de Klerk",
+            "Stommelen",
+            "Bell",
+            "Hutchison"
+          ],
+          "De Tomaso": [
+            "Courage",
+            "Redman",
+            "Schenken"
+          ],
+          "Ferrari": [
+            "Ickx",
+            "Giunti",
+            "Regazzoni"
+          ],
+          "March": [
+            "Stewart",
+            "Siffert",
+            "Servoz-Gavin",
+            "Andretti",
+            "Amon",
+            "Peterson",
+            "Cevert",
+            "Hahne"
+          ],
+          "Matra": [
+            "Beltoise",
+            "Pescarolo"
+          ],
+          "McLaren-Alfa Romeo": [
+            "de Adamich",
+            "Galli"
+          ],
+          "McLaren-Ford": [
+            "Hulme",
+            "Surtees",
+            "McLaren",
+            "Gethin",
+            "Gurney",
+            "Bonnier"
+          ],
+          "Surtees": [
+            "Surtees",
+            "Bell"
+          ],
+          "Team Lotus": [
+            "Miles",
+            "Hill",
+            "Love",
+            "Charlton",
+            "Rindt",
+            "Soler-Roig",
+            "Lovely",
+            "Fittipaldi",
+            "Wisell"
+          ],
+          "Tyrrell": [
+            "Stewart"
+          ]
+        }
+      },
+      "1971": {
+        "standings": {
+          "BRM": 42.0,
+          "Bellasi": 0.0,
+          "Brabham": 7.0,
+          "Ferrari": 44.0,
+          "Lotus-Ford": 25.0,
+          "Lotus-Pratt &amp; Whitney": 0.0,
+          "March-Alfa Romeo": 0.0,
+          "March-Ford": 37.0,
+          "Matra": 10.0,
+          "McLaren": 13.0,
+          "Surtees": 9.0,
+          "Tyrrell": 88.0
+        },
+        "drivers": {
+          "BRM": [
+            "Ganley",
+            "Rodr\u00edguez",
+            "Siffert",
+            "Elford",
+            "Gethin",
+            "Marko",
+            "Eaton",
+            "Cannon"
+          ],
+          "Bellasi": [
+            "Moser"
+          ],
+          "Brabham": [
+            "Hill",
+            "Charlton",
+            "Pretorius",
+            "Schenken",
+            "Craft"
+          ],
+          "Ferrari": [
+            "Andretti",
+            "Regazzoni",
+            "Ickx"
+          ],
+          "Lotus-Ford": [
+            "Wisell",
+            "Fittipaldi",
+            "Charlton",
+            "Lovely"
+          ],
+          "Lotus-Pratt &amp; Whitney": [
+            "Walker",
+            "Wisell",
+            "Fittipaldi"
+          ],
+          "March-Alfa Romeo": [
+            "de Adamich",
+            "Peterson",
+            "Galli"
+          ],
+          "March-Ford": [
+            "Peterson",
+            "Pescarolo",
+            "Love",
+            "Soler-Roig",
+            "Barber",
+            "Mazet",
+            "Jean",
+            "Galli",
+            "Beuttler",
+            "Lauda",
+            "Jarier"
+          ],
+          "Matra": [
+            "Amon",
+            "Beltoise"
+          ],
+          "McLaren": [
+            "Hulme",
+            "Gethin",
+            "Bonnier",
+            "Oliver",
+            "Donohue",
+            "Hobbs"
+          ],
+          "Surtees": [
+            "Redman",
+            "Stommelen",
+            "Surtees",
+            "van Lennep",
+            "Bell",
+            "Hailwood",
+            "Posey"
+          ],
+          "Tyrrell": [
+            "Stewart",
+            "Cevert",
+            "Revson"
+          ]
+        }
+      },
+      "1972": {
+        "standings": {
+          "BRM": 14.0,
+          "Brabham": 7.0,
+          "Connew": 0.0,
+          "Ferrari": 47.0,
+          "March": 15.0,
+          "Matra": 12.0,
+          "McLaren": 66.0,
+          "Politoys": 0.0,
+          "Surtees": 18.0,
+          "Team Lotus": 61.0,
+          "Tecno": 0.0,
+          "Tyrrell": 60.0
+        },
+        "drivers": {
+          "BRM": [
+            "Ganley",
+            "Marko",
+            "Wisell",
+            "Gethin",
+            "Soler-Roig",
+            "Beltoise",
+            "Oliver",
+            "Brack",
+            "Redman"
+          ],
+          "Brabham": [
+            "Reutemann",
+            "Hill",
+            "Fittipaldi"
+          ],
+          "Connew": [
+            "Migault"
+          ],
+          "Ferrari": [
+            "Ickx",
+            "Regazzoni",
+            "Andretti",
+            "Galli",
+            "Merzario"
+          ],
+          "March": [
+            "Peterson",
+            "Pescarolo",
+            "Lauda",
+            "Stommelen",
+            "Pace",
+            "Beuttler",
+            "Barber"
+          ],
+          "Matra": [
+            "Amon"
+          ],
+          "McLaren": [
+            "Hulme",
+            "Revson",
+            "Redman",
+            "Scheckter"
+          ],
+          "Politoys": [
+            "Pescarolo"
+          ],
+          "Surtees": [
+            "Schenken",
+            "de Adamich",
+            "Love",
+            "Hailwood",
+            "Surtees",
+            "Posey"
+          ],
+          "Team Lotus": [
+            "Fittipaldi",
+            "Walker",
+            "Charlton",
+            "Wisell"
+          ],
+          "Tecno": [
+            "Galli",
+            "Bell"
+          ],
+          "Tyrrell": [
+            "Stewart",
+            "Cevert",
+            "Depailler"
+          ]
+        }
+      },
+      "1973": {
+        "standings": {
+          "BRM": 13.0,
+          "Brabham": 22.0,
+          "Ensign": 0.0,
+          "Ferrari": 14.0,
+          "Iso Marlboro": 2.0,
+          "March": 14.0,
+          "McLaren": 68.0,
+          "Shadow": 9.0,
+          "Surtees": 7.0,
+          "Team Lotus": 107.0,
+          "Tecno": 1.0,
+          "Tyrrell": 118.0
+        },
+        "drivers": {
+          "BRM": [
+            "Regazzoni",
+            "Beltoise",
+            "Lauda",
+            "Gethin"
+          ],
+          "Brabham": [
+            "Fittipaldi",
+            "Reutemann",
+            "de Adamich",
+            "Watson",
+            "Stommelen"
+          ],
+          "Ensign": [
+            "von Opel"
+          ],
+          "Ferrari": [
+            "Ickx",
+            "Merzario"
+          ],
+          "Iso Marlboro": [
+            "Ganley",
+            "Galli",
+            "Pretorius",
+            "Pescarolo",
+            "McRae",
+            "van Lennep",
+            "Schenken",
+            "Ickx"
+          ],
+          "March": [
+            "Beuttler",
+            "Jarier",
+            "Pescarolo",
+            "Hunt",
+            "Purley",
+            "Wisell",
+            "Williamson"
+          ],
+          "McLaren": [
+            "Hulme",
+            "Revson",
+            "Scheckter",
+            "Ickx"
+          ],
+          "Shadow": [
+            "Follmer",
+            "Oliver",
+            "Hill",
+            "Redman"
+          ],
+          "Surtees": [
+            "Hailwood",
+            "Pace",
+            "Bueno",
+            "de Adamich",
+            "Mass"
+          ],
+          "Team Lotus": [
+            "Fittipaldi",
+            "Peterson",
+            "Charlton"
+          ],
+          "Tecno": [
+            "Amon"
+          ],
+          "Tyrrell": [
+            "Cevert",
+            "Stewart",
+            "Keizan",
+            "Amon"
+          ]
+        }
+      },
+      "1974": {
+        "standings": {
+          "Amon": 0.0,
+          "BRM": 10.0,
+          "Brabham": 46.0,
+          "Ensign": 0.0,
+          "Ferrari": 90.0,
+          "Hesketh": 15.0,
+          "Iso Marlboro": 4.0,
+          "Lola": 1.0,
+          "Lyncar": 0.0,
+          "Maki": 0.0,
+          "March": 6.0,
+          "McLaren": 87.0,
+          "Parnelli": 0.0,
+          "Penske": 0.0,
+          "Shadow": 7.0,
+          "Surtees": 3.0,
+          "Team Lotus": 47.0,
+          "Token": 0.0,
+          "Trojan": 0.0,
+          "Tyrrell": 59.0
+        },
+        "drivers": {
+          "Amon": [
+            "Amon",
+            "Perkins"
+          ],
+          "BRM": [
+            "Beltoise",
+            "Pescarolo",
+            "Migault",
+            "Amon"
+          ],
+          "Brabham": [
+            "Reutemann",
+            "Watson",
+            "Robarts",
+            "von Opel",
+            "Pilette",
+            "Larrousse",
+            "Pace",
+            "Lombardi",
+            "Koinigg",
+            "Facetti",
+            "Wietzes",
+            "Ashley"
+          ],
+          "Ensign": [
+            "Schuppan",
+            "Wilds"
+          ],
+          "Ferrari": [
+            "Lauda",
+            "Regazzoni"
+          ],
+          "Hesketh": [
+            "Hunt",
+            "Scheckter"
+          ],
+          "Iso Marlboro": [
+            "Merzario",
+            "Bels\u00f8",
+            "van Lennep",
+            "Robarts",
+            "Jabouille",
+            "Laffite"
+          ],
+          "Lola": [
+            "Edwards",
+            "Hill",
+            "Gethin",
+            "Stommelen"
+          ],
+          "Lyncar": [
+            "Nicholson"
+          ],
+          "Maki": [
+            "Ganley"
+          ],
+          "March": [
+            "Ganley",
+            "Stuck",
+            "Hunt",
+            "Brambilla",
+            "Wisell",
+            "Wilds"
+          ],
+          "McLaren": [
+            "Hulme",
+            "Hailwood",
+            "Fittipaldi",
+            "Charlton",
+            "Hobbs",
+            "Mass"
+          ],
+          "Parnelli": [
+            "Andretti"
+          ],
+          "Penske": [
+            "Donohue"
+          ],
+          "Shadow": [
+            "Revson",
+            "Jarier",
+            "Redman",
+            "Roos",
+            "Pryce"
+          ],
+          "Surtees": [
+            "Pace",
+            "Mass",
+            "Kinnunen",
+            "Dolhem",
+            "Bell",
+            "Quester",
+            "Jabouille",
+            "Koinigg"
+          ],
+          "Team Lotus": [
+            "Peterson",
+            "Ickx",
+            "Scheckter",
+            "Driver",
+            "Schenken"
+          ],
+          "Token": [
+            "Pryce",
+            "Purley",
+            "Ashley"
+          ],
+          "Trojan": [
+            "Schenken"
+          ],
+          "Tyrrell": [
+            "Depailler",
+            "Scheckter",
+            "Keizan"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "label": "Williams 1992\u20131997",
+    "focusTeams": [
+      "Williams"
+    ],
+    "years": {
+      "1991": {
+        "standings": {
+          "AGS": 0.0,
+          "Benetton": 38.5,
+          "Brabham": 3.0,
+          "Coloni": 0.0,
+          "Dallara": 5.0,
+          "Ferrari": 55.5,
+          "Fondmetal": 0.0,
+          "Footwork": 0.0,
+          "Jordan": 13.0,
+          "Lambo": 0.0,
+          "Larrousse": 1.0,
+          "Leyton House": 1.0,
+          "Ligier": 0.0,
+          "Lola": 1.0,
+          "McLaren": 139.0,
+          "Minardi": 6.0,
+          "Team Lotus": 3.0,
+          "Tyrrell": 12.0,
+          "Williams": 125.0
+        },
+        "drivers": {
+          "AGS": [
+            "Tarquini",
+            "Johansson",
+            "Barbazza",
+            "Grouillard"
+          ],
+          "Benetton": [
+            "Piquet",
+            "Moreno",
+            "Schumacher"
+          ],
+          "Brabham": [
+            "Brundle",
+            "Blundell"
+          ],
+          "Coloni": [
+            "Chaves",
+            "Hattori"
+          ],
+          "Dallara": [
+            "Pirro",
+            "J\u00e4rvilehto"
+          ],
+          "Ferrari": [
+            "Prost",
+            "Alesi",
+            "Morbidelli"
+          ],
+          "Fondmetal": [
+            "Grouillard",
+            "Tarquini"
+          ],
+          "Footwork": [
+            "Alboreto",
+            "Caffi",
+            "Johansson"
+          ],
+          "Jordan": [
+            "Gachot",
+            "de Cesaris",
+            "Schumacher",
+            "Moreno",
+            "Zanardi"
+          ],
+          "Lambo": [
+            "Larini",
+            "van de Poele"
+          ],
+          "Larrousse": [
+            "Suzuki",
+            "Bernard",
+            "Gachot"
+          ],
+          "Leyton House": [
+            "Capelli",
+            "Gugelmin",
+            "Wendlinger"
+          ],
+          "Ligier": [
+            "Boutsen",
+            "Comas"
+          ],
+          "Lola": [
+            "Bernard",
+            "Suzuki"
+          ],
+          "McLaren": [
+            "Senna",
+            "Berger"
+          ],
+          "Minardi": [
+            "Martini",
+            "Morbidelli",
+            "Moreno"
+          ],
+          "Team Lotus": [
+            "H\u00e4kkinen",
+            "Bailey",
+            "Herbert",
+            "Bartels"
+          ],
+          "Tyrrell": [
+            "Modena",
+            "Nakajima"
+          ],
+          "Williams": [
+            "Patrese",
+            "Mansell"
+          ]
+        }
+      },
+      "1992": {
+        "standings": {
+          "Andrea Moda": 0.0,
+          "Benetton": 91.0,
+          "Brabham": 0.0,
+          "Dallara": 2.0,
+          "Ferrari": 21.0,
+          "Fondmetal": 0.0,
+          "Footwork": 6.0,
+          "Jordan": 1.0,
+          "Larrousse": 1.0,
+          "Ligier": 6.0,
+          "March": 3.0,
+          "McLaren": 99.0,
+          "Minardi": 1.0,
+          "Team Lotus": 13.0,
+          "Tyrrell": 8.0,
+          "Williams": 164.0
+        },
+        "drivers": {
+          "Andrea Moda": [
+            "Moreno",
+            "McCarthy"
+          ],
+          "Benetton": [
+            "Schumacher",
+            "Brundle"
+          ],
+          "Brabham": [
+            "van de Poele",
+            "Amati",
+            "Hill"
+          ],
+          "Dallara": [
+            "Martini",
+            "J\u00e4rvilehto"
+          ],
+          "Ferrari": [
+            "Alesi",
+            "Capelli",
+            "Larini"
+          ],
+          "Fondmetal": [
+            "Tarquini",
+            "Chiesa",
+            "van de Poele"
+          ],
+          "Footwork": [
+            "Suzuki",
+            "Alboreto"
+          ],
+          "Jordan": [
+            "Gugelmin",
+            "Modena"
+          ],
+          "Larrousse": [
+            "Katayama",
+            "Gachot"
+          ],
+          "Ligier": [
+            "Comas",
+            "Boutsen"
+          ],
+          "March": [
+            "Wendlinger",
+            "Belmondo",
+            "Naspetti",
+            "Lammers"
+          ],
+          "McLaren": [
+            "Senna",
+            "Berger"
+          ],
+          "Minardi": [
+            "Morbidelli",
+            "Fittipaldi",
+            "Zanardi"
+          ],
+          "Team Lotus": [
+            "Herbert",
+            "H\u00e4kkinen"
+          ],
+          "Tyrrell": [
+            "Grouillard",
+            "de Cesaris"
+          ],
+          "Williams": [
+            "Mansell",
+            "Patrese"
+          ]
+        }
+      },
+      "1993": {
+        "standings": {
+          "Benetton": 72.0,
+          "Ferrari": 28.0,
+          "Footwork": 4.0,
+          "Jordan": 3.0,
+          "Larrousse": 3.0,
+          "Ligier": 23.0,
+          "Lola": 0.0,
+          "McLaren": 84.0,
+          "Minardi": 7.0,
+          "Sauber": 12.0,
+          "Team Lotus": 12.0,
+          "Tyrrell": 0.0,
+          "Williams": 168.0
+        },
+        "drivers": {
+          "Benetton": [
+            "Patrese",
+            "Schumacher"
+          ],
+          "Ferrari": [
+            "Berger",
+            "Alesi"
+          ],
+          "Footwork": [
+            "Warwick",
+            "Suzuki"
+          ],
+          "Jordan": [
+            "Barrichello",
+            "Capelli",
+            "Boutsen",
+            "Apicella",
+            "Naspetti",
+            "Irvine"
+          ],
+          "Larrousse": [
+            "Comas",
+            "Alliot",
+            "Suzuki"
+          ],
+          "Ligier": [
+            "Blundell",
+            "Brundle"
+          ],
+          "Lola": [
+            "Alboreto",
+            "Badoer"
+          ],
+          "McLaren": [
+            "Senna",
+            "Andretti",
+            "H\u00e4kkinen"
+          ],
+          "Minardi": [
+            "Fittipaldi",
+            "Barbazza",
+            "Martini",
+            "Gounon"
+          ],
+          "Sauber": [
+            "J\u00e4rvilehto",
+            "Wendlinger"
+          ],
+          "Team Lotus": [
+            "Herbert",
+            "Zanardi",
+            "Lamy"
+          ],
+          "Tyrrell": [
+            "Katayama",
+            "de Cesaris"
+          ],
+          "Williams": [
+            "Prost",
+            "Hill"
+          ]
+        }
+      },
+      "1994": {
+        "standings": {
+          "Benetton": 103.0,
+          "Ferrari": 71.0,
+          "Footwork": 9.0,
+          "Jordan": 28.0,
+          "Larrousse": 2.0,
+          "Ligier": 13.0,
+          "McLaren": 42.0,
+          "Minardi": 5.0,
+          "Pacific": 0.0,
+          "Sauber": 12.0,
+          "Simtek": 0.0,
+          "Team Lotus": 0.0,
+          "Tyrrell": 13.0,
+          "Williams": 118.0
+        },
+        "drivers": {
+          "Benetton": [
+            "Schumacher",
+            "Verstappen",
+            "J\u00e4rvilehto",
+            "Herbert"
+          ],
+          "Ferrari": [
+            "Alesi",
+            "Berger",
+            "Larini"
+          ],
+          "Footwork": [
+            "Fittipaldi",
+            "Morbidelli"
+          ],
+          "Jordan": [
+            "Barrichello",
+            "Irvine",
+            "Suzuki",
+            "de Cesaris"
+          ],
+          "Larrousse": [
+            "Comas",
+            "Beretta",
+            "Alliot",
+            "Dalmas",
+            "Noda",
+            "D\u00e9l\u00e9traz"
+          ],
+          "Ligier": [
+            "Panis",
+            "Bernard",
+            "Herbert",
+            "Lagorce"
+          ],
+          "McLaren": [
+            "Brundle",
+            "H\u00e4kkinen",
+            "Alliot"
+          ],
+          "Minardi": [
+            "Martini",
+            "Alboreto"
+          ],
+          "Pacific": [
+            "Gachot",
+            "Belmondo"
+          ],
+          "Sauber": [
+            "Wendlinger",
+            "Frentzen",
+            "de Cesaris",
+            "J\u00e4rvilehto"
+          ],
+          "Simtek": [
+            "Brabham",
+            "Ratzenberger",
+            "Montermini",
+            "Gounon",
+            "Schiattarella",
+            "Inoue"
+          ],
+          "Team Lotus": [
+            "Herbert",
+            "Lamy",
+            "Zanardi",
+            "Adams",
+            "Bernard",
+            "Salo"
+          ],
+          "Tyrrell": [
+            "Katayama",
+            "Blundell"
+          ],
+          "Williams": [
+            "Hill",
+            "Senna",
+            "Coulthard",
+            "Mansell"
+          ]
+        }
+      },
+      "1995": {
+        "standings": {
+          "Benetton": 147.0,
+          "Ferrari": 73.0,
+          "Footwork": 5.0,
+          "Forti": 0.0,
+          "Jordan": 21.0,
+          "Ligier": 24.0,
+          "McLaren": 30.0,
+          "Minardi": 1.0,
+          "Pacific": 0.0,
+          "Sauber": 18.0,
+          "Simtek": 0.0,
+          "Tyrrell": 5.0,
+          "Williams": 118.0
+        },
+        "drivers": {
+          "Benetton": [
+            "Schumacher",
+            "Herbert"
+          ],
+          "Ferrari": [
+            "Berger",
+            "Alesi"
+          ],
+          "Footwork": [
+            "Morbidelli",
+            "Inoue",
+            "Papis"
+          ],
+          "Forti": [
+            "Diniz",
+            "Moreno"
+          ],
+          "Jordan": [
+            "Barrichello",
+            "Irvine"
+          ],
+          "Ligier": [
+            "Suzuki",
+            "Panis",
+            "Brundle"
+          ],
+          "McLaren": [
+            "H\u00e4kkinen",
+            "Blundell",
+            "Mansell",
+            "Magnussen"
+          ],
+          "Minardi": [
+            "Badoer",
+            "Martini",
+            "Lamy"
+          ],
+          "Pacific": [
+            "Montermini",
+            "Gachot",
+            "Lavaggi",
+            "D\u00e9l\u00e9traz"
+          ],
+          "Sauber": [
+            "Wendlinger",
+            "Frentzen",
+            "Boullion"
+          ],
+          "Simtek": [
+            "Verstappen",
+            "Schiattarella"
+          ],
+          "Tyrrell": [
+            "Salo",
+            "Katayama",
+            "Tarquini"
+          ],
+          "Williams": [
+            "Coulthard",
+            "Hill"
+          ]
+        }
+      },
+      "1996": {
+        "standings": {
+          "Benetton": 68.0,
+          "Ferrari": 70.0,
+          "Footwork": 1.0,
+          "Forti": 0.0,
+          "Jordan": 22.0,
+          "Ligier": 15.0,
+          "McLaren": 49.0,
+          "Minardi": 0.0,
+          "Sauber": 11.0,
+          "Tyrrell": 5.0,
+          "Williams": 175.0
+        },
+        "drivers": {
+          "Benetton": [
+            "Berger",
+            "Alesi"
+          ],
+          "Ferrari": [
+            "Irvine",
+            "Schumacher"
+          ],
+          "Footwork": [
+            "Rosset",
+            "Verstappen"
+          ],
+          "Forti": [
+            "Badoer",
+            "Montermini"
+          ],
+          "Jordan": [
+            "Barrichello",
+            "Brundle"
+          ],
+          "Ligier": [
+            "Panis",
+            "Diniz"
+          ],
+          "McLaren": [
+            "H\u00e4kkinen",
+            "Coulthard"
+          ],
+          "Minardi": [
+            "Lamy",
+            "Fisichella",
+            "Marques",
+            "Lavaggi"
+          ],
+          "Sauber": [
+            "Frentzen",
+            "Herbert"
+          ],
+          "Tyrrell": [
+            "Salo",
+            "Katayama"
+          ],
+          "Williams": [
+            "Hill",
+            "Villeneuve"
+          ]
+        }
+      },
+      "1997": {
+        "standings": {
+          "Arrows": 9.0,
+          "Benetton": 67.0,
+          "Ferrari": 102.0,
+          "Jordan": 33.0,
+          "Lola": 0.0,
+          "McLaren": 63.0,
+          "Minardi": 0.0,
+          "Prost": 21.0,
+          "Sauber": 16.0,
+          "Stewart": 6.0,
+          "Tyrrell": 2.0,
+          "Williams": 123.0
+        },
+        "drivers": {
+          "Arrows": [
+            "Diniz",
+            "Hill"
+          ],
+          "Benetton": [
+            "Berger",
+            "Alesi",
+            "Wurz"
+          ],
+          "Ferrari": [
+            "Schumacher",
+            "Irvine"
+          ],
+          "Jordan": [
+            "Fisichella",
+            "Schumacher"
+          ],
+          "Lola": [
+            "Sospiri",
+            "Rosset"
+          ],
+          "McLaren": [
+            "Coulthard",
+            "H\u00e4kkinen"
+          ],
+          "Minardi": [
+            "Trulli",
+            "Katayama",
+            "Marques"
+          ],
+          "Prost": [
+            "Panis",
+            "Nakano",
+            "Trulli"
+          ],
+          "Sauber": [
+            "Larini",
+            "Herbert",
+            "Morbidelli",
+            "Fontana"
+          ],
+          "Stewart": [
+            "Barrichello",
+            "Magnussen"
+          ],
+          "Tyrrell": [
+            "Salo",
+            "Verstappen"
+          ],
+          "Williams": [
+            "Frentzen",
+            "Villeneuve"
+          ]
+        }
+      },
+      "1998": {
+        "standings": {
+          "Arrows": 6.0,
+          "Benetton": 33.0,
+          "Ferrari": 133.0,
+          "Jordan": 34.0,
+          "McLaren": 156.0,
+          "Minardi": 0.0,
+          "Prost": 1.0,
+          "Sauber": 10.0,
+          "Stewart": 5.0,
+          "Tyrrell": 0.0,
+          "Williams": 38.0
+        },
+        "drivers": {
+          "Arrows": [
+            "Salo",
+            "Diniz"
+          ],
+          "Benetton": [
+            "Wurz",
+            "Fisichella"
+          ],
+          "Ferrari": [
+            "Irvine",
+            "Schumacher"
+          ],
+          "Jordan": [
+            "Hill",
+            "Schumacher"
+          ],
+          "McLaren": [
+            "H\u00e4kkinen",
+            "Coulthard"
+          ],
+          "Minardi": [
+            "Tuero",
+            "Nakano"
+          ],
+          "Prost": [
+            "Panis",
+            "Trulli"
+          ],
+          "Sauber": [
+            "Herbert",
+            "Alesi"
+          ],
+          "Stewart": [
+            "Magnussen",
+            "Barrichello",
+            "Verstappen"
+          ],
+          "Tyrrell": [
+            "Rosset",
+            "Takagi"
+          ],
+          "Williams": [
+            "Frentzen",
+            "Villeneuve"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "label": "Ferrari 1999\u20132004",
+    "focusTeams": [
+      "Ferrari"
+    ],
+    "years": {
+      "1998": {
+        "standings": {
+          "Arrows": 6.0,
+          "Benetton": 33.0,
+          "Ferrari": 133.0,
+          "Jordan": 34.0,
+          "McLaren": 156.0,
+          "Minardi": 0.0,
+          "Prost": 1.0,
+          "Sauber": 10.0,
+          "Stewart": 5.0,
+          "Tyrrell": 0.0,
+          "Williams": 38.0
+        },
+        "drivers": {
+          "Arrows": [
+            "Salo",
+            "Diniz"
+          ],
+          "Benetton": [
+            "Wurz",
+            "Fisichella"
+          ],
+          "Ferrari": [
+            "Irvine",
+            "Schumacher"
+          ],
+          "Jordan": [
+            "Hill",
+            "Schumacher"
+          ],
+          "McLaren": [
+            "H\u00e4kkinen",
+            "Coulthard"
+          ],
+          "Minardi": [
+            "Tuero",
+            "Nakano"
+          ],
+          "Prost": [
+            "Panis",
+            "Trulli"
+          ],
+          "Sauber": [
+            "Herbert",
+            "Alesi"
+          ],
+          "Stewart": [
+            "Magnussen",
+            "Barrichello",
+            "Verstappen"
+          ],
+          "Tyrrell": [
+            "Rosset",
+            "Takagi"
+          ],
+          "Williams": [
+            "Frentzen",
+            "Villeneuve"
+          ]
+        }
+      },
+      "1999": {
+        "standings": {
+          "Arrows": 1.0,
+          "BAR": 0.0,
+          "Benetton": 16.0,
+          "Ferrari": 128.0,
+          "Jordan": 61.0,
+          "McLaren": 124.0,
+          "Minardi": 1.0,
+          "Prost": 9.0,
+          "Sauber": 5.0,
+          "Stewart": 36.0,
+          "Williams": 35.0
+        },
+        "drivers": {
+          "Arrows": [
+            "de la Rosa",
+            "Takagi"
+          ],
+          "BAR": [
+            "Zonta",
+            "Villeneuve",
+            "Salo"
+          ],
+          "Benetton": [
+            "Fisichella",
+            "Wurz"
+          ],
+          "Ferrari": [
+            "Irvine",
+            "Schumacher",
+            "Salo"
+          ],
+          "Jordan": [
+            "Frentzen",
+            "Hill"
+          ],
+          "McLaren": [
+            "H\u00e4kkinen",
+            "Coulthard"
+          ],
+          "Minardi": [
+            "Badoer",
+            "Gen\u00e9",
+            "Sarrazin"
+          ],
+          "Prost": [
+            "Trulli",
+            "Panis"
+          ],
+          "Sauber": [
+            "Diniz",
+            "Alesi"
+          ],
+          "Stewart": [
+            "Barrichello",
+            "Herbert"
+          ],
+          "Williams": [
+            "Schumacher",
+            "Zanardi"
+          ]
+        }
+      },
+      "2000": {
+        "standings": {
+          "Arrows": 7.0,
+          "BAR": 20.0,
+          "Benetton": 20.0,
+          "Ferrari": 170.0,
+          "Jaguar": 4.0,
+          "Jordan": 17.0,
+          "McLaren": 162.0,
+          "Minardi": 0.0,
+          "Prost": 0.0,
+          "Sauber": 6.0,
+          "Williams": 36.0
+        },
+        "drivers": {
+          "Arrows": [
+            "Verstappen",
+            "de la Rosa"
+          ],
+          "BAR": [
+            "Villeneuve",
+            "Zonta"
+          ],
+          "Benetton": [
+            "Fisichella",
+            "Wurz"
+          ],
+          "Ferrari": [
+            "Schumacher",
+            "Barrichello"
+          ],
+          "Jaguar": [
+            "Irvine",
+            "Herbert",
+            "Burti"
+          ],
+          "Jordan": [
+            "Frentzen",
+            "Trulli"
+          ],
+          "McLaren": [
+            "H\u00e4kkinen",
+            "Coulthard"
+          ],
+          "Minardi": [
+            "Gen\u00e9",
+            "Mazzacane"
+          ],
+          "Prost": [
+            "Heidfeld",
+            "Alesi"
+          ],
+          "Sauber": [
+            "Salo",
+            "Diniz"
+          ],
+          "Williams": [
+            "Schumacher",
+            "Button"
+          ]
+        }
+      },
+      "2001": {
+        "standings": {
+          "Arrows": 1.0,
+          "BAR": 17.0,
+          "Benetton": 10.0,
+          "Ferrari": 179.0,
+          "Jaguar": 9.0,
+          "Jordan": 19.0,
+          "McLaren": 102.0,
+          "Minardi": 0.0,
+          "Prost": 4.0,
+          "Sauber": 21.0,
+          "Williams": 80.0
+        },
+        "drivers": {
+          "Arrows": [
+            "Verstappen",
+            "Bernoldi"
+          ],
+          "BAR": [
+            "Panis",
+            "Villeneuve"
+          ],
+          "Benetton": [
+            "Fisichella",
+            "Button"
+          ],
+          "Ferrari": [
+            "Schumacher",
+            "Barrichello"
+          ],
+          "Jaguar": [
+            "Burti",
+            "Irvine",
+            "de la Rosa"
+          ],
+          "Jordan": [
+            "Frentzen",
+            "Trulli",
+            "Zonta",
+            "Alesi"
+          ],
+          "McLaren": [
+            "Coulthard",
+            "H\u00e4kkinen"
+          ],
+          "Minardi": [
+            "Alonso",
+            "Marques",
+            "Yoong"
+          ],
+          "Prost": [
+            "Alesi",
+            "Mazzacane",
+            "Burti",
+            "Frentzen",
+            "Enge"
+          ],
+          "Sauber": [
+            "Heidfeld",
+            "R\u00e4ikk\u00f6nen"
+          ],
+          "Williams": [
+            "Pablo Montoya",
+            "Schumacher"
+          ]
+        }
+      },
+      "2002": {
+        "standings": {
+          "Arrows": 2.0,
+          "BAR": 7.0,
+          "Ferrari": 221.0,
+          "Jaguar": 8.0,
+          "Jordan": 9.0,
+          "McLaren": 65.0,
+          "Minardi": 2.0,
+          "Renault": 23.0,
+          "Sauber": 11.0,
+          "Toyota": 2.0,
+          "Williams": 92.0
+        },
+        "drivers": {
+          "Arrows": [
+            "Frentzen",
+            "Bernoldi"
+          ],
+          "BAR": [
+            "Villeneuve",
+            "Panis"
+          ],
+          "Ferrari": [
+            "Schumacher",
+            "Barrichello"
+          ],
+          "Jaguar": [
+            "Irvine",
+            "de la Rosa"
+          ],
+          "Jordan": [
+            "Sato",
+            "Fisichella"
+          ],
+          "McLaren": [
+            "R\u00e4ikk\u00f6nen",
+            "Coulthard"
+          ],
+          "Minardi": [
+            "Webber",
+            "Yoong",
+            "Davidson"
+          ],
+          "Renault": [
+            "Trulli",
+            "Button"
+          ],
+          "Sauber": [
+            "Massa",
+            "Heidfeld",
+            "Frentzen"
+          ],
+          "Toyota": [
+            "Salo",
+            "McNish"
+          ],
+          "Williams": [
+            "Pablo Montoya",
+            "Schumacher"
+          ]
+        }
+      },
+      "2003": {
+        "standings": {
+          "BAR": 26.0,
+          "Ferrari": 158.0,
+          "Jaguar": 18.0,
+          "Jordan": 13.0,
+          "McLaren": 142.0,
+          "Minardi": 0.0,
+          "Renault": 88.0,
+          "Sauber": 19.0,
+          "Toyota": 16.0,
+          "Williams": 144.0
+        },
+        "drivers": {
+          "BAR": [
+            "Villeneuve",
+            "Button",
+            "Sato"
+          ],
+          "Ferrari": [
+            "Schumacher",
+            "Barrichello"
+          ],
+          "Jaguar": [
+            "Pizzonia",
+            "Webber",
+            "Wilson"
+          ],
+          "Jordan": [
+            "Fisichella",
+            "Firman",
+            "Baumgartner"
+          ],
+          "McLaren": [
+            "Coulthard",
+            "R\u00e4ikk\u00f6nen"
+          ],
+          "Minardi": [
+            "Verstappen",
+            "Wilson",
+            "Kiesa"
+          ],
+          "Renault": [
+            "Trulli",
+            "Alonso"
+          ],
+          "Sauber": [
+            "Frentzen",
+            "Heidfeld"
+          ],
+          "Toyota": [
+            "Panis",
+            "da Matta"
+          ],
+          "Williams": [
+            "Pablo Montoya",
+            "Schumacher",
+            "Gen\u00e9"
+          ]
+        }
+      },
+      "2004": {
+        "standings": {
+          "BAR": 119.0,
+          "Ferrari": 262.0,
+          "Jaguar": 10.0,
+          "Jordan": 5.0,
+          "McLaren": 69.0,
+          "Minardi": 1.0,
+          "Renault": 105.0,
+          "Sauber": 34.0,
+          "Toyota": 9.0,
+          "Williams": 88.0
+        },
+        "drivers": {
+          "BAR": [
+            "Button",
+            "Sato"
+          ],
+          "Ferrari": [
+            "Schumacher",
+            "Barrichello"
+          ],
+          "Jaguar": [
+            "Klien",
+            "Webber"
+          ],
+          "Jordan": [
+            "Pantano",
+            "Heidfeld",
+            "Glock"
+          ],
+          "McLaren": [
+            "Coulthard",
+            "R\u00e4ikk\u00f6nen"
+          ],
+          "Minardi": [
+            "Bruni",
+            "Baumgartner"
+          ],
+          "Renault": [
+            "Alonso",
+            "Trulli",
+            "Villeneuve"
+          ],
+          "Sauber": [
+            "Fisichella",
+            "Massa"
+          ],
+          "Toyota": [
+            "da Matta",
+            "Panis",
+            "Zonta",
+            "Trulli"
+          ],
+          "Williams": [
+            "Schumacher",
+            "Pablo Montoya",
+            "Gen\u00e9",
+            "Pizzonia"
+          ]
+        }
+      },
+      "2005": {
+        "standings": {
+          "BAR": 38.0,
+          "Ferrari": 100.0,
+          "Jordan": 12.0,
+          "McLaren": 182.0,
+          "Minardi": 7.0,
+          "Red Bull": 34.0,
+          "Renault": 191.0,
+          "Sauber": 20.0,
+          "Toyota": 88.0,
+          "Williams": 66.0
+        },
+        "drivers": {
+          "BAR": [
+            "Button",
+            "Sato",
+            "Davidson"
+          ],
+          "Ferrari": [
+            "Barrichello",
+            "Schumacher"
+          ],
+          "Jordan": [
+            "Karthikeyan",
+            "Monteiro"
+          ],
+          "McLaren": [
+            "Pablo Montoya",
+            "R\u00e4ikk\u00f6nen",
+            "de la Rosa",
+            "Wurz"
+          ],
+          "Minardi": [
+            "Friesacher",
+            "Albers",
+            "Doornbos"
+          ],
+          "Red Bull": [
+            "Coulthard",
+            "Klien",
+            "Liuzzi"
+          ],
+          "Renault": [
+            "Fisichella",
+            "Alonso"
+          ],
+          "Sauber": [
+            "Massa",
+            "Villeneuve"
+          ],
+          "Toyota": [
+            "Trulli",
+            "Schumacher",
+            "Zonta"
+          ],
+          "Williams": [
+            "Webber",
+            "Heidfeld",
+            "Pizzonia"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "label": "Red Bull 2010\u20132013",
+    "focusTeams": [
+      "Red Bull"
+    ],
+    "years": {
+      "2009": {
+        "standings": {
+          "BMW Sauber": 36.0,
+          "Brawn": 172.0,
+          "Ferrari": 70.0,
+          "Force India": 13.0,
+          "McLaren": 71.0,
+          "Red Bull": 153.5,
+          "Renault": 26.0,
+          "Toro Rosso": 8.0,
+          "Toyota": 59.5,
+          "Williams": 34.5
+        },
+        "drivers": {
+          "BMW Sauber": [
+            "Heidfeld",
+            "Kubica"
+          ],
+          "Brawn": [
+            "Button",
+            "Barrichello"
+          ],
+          "Ferrari": [
+            "R\u00e4ikk\u00f6nen",
+            "Massa",
+            "Badoer",
+            "Fisichella"
+          ],
+          "Force India": [
+            "Sutil",
+            "Fisichella",
+            "Liuzzi"
+          ],
+          "McLaren": [
+            "Kovalainen",
+            "Hamilton"
+          ],
+          "Red Bull": [
+            "Webber",
+            "Vettel"
+          ],
+          "Renault": [
+            "Alonso",
+            "Piquet Jr.",
+            "Grosjean"
+          ],
+          "Toro Rosso": [
+            "Buemi",
+            "Bourdais",
+            "Alguersuari"
+          ],
+          "Toyota": [
+            "Trulli",
+            "Glock",
+            "Kobayashi"
+          ],
+          "Williams": [
+            "Rosberg",
+            "Nakajima"
+          ]
+        }
+      },
+      "2010": {
+        "standings": {
+          "Ferrari": 396.0,
+          "Force India": 68.0,
+          "HRT": 0.0,
+          "Lotus": 0.0,
+          "McLaren": 454.0,
+          "Mercedes": 214.0,
+          "Red Bull": 498.0,
+          "Renault": 163.0,
+          "Sauber": 44.0,
+          "Toro Rosso": 13.0,
+          "Virgin": 0.0,
+          "Williams": 69.0
+        },
+        "drivers": {
+          "Ferrari": [
+            "Alonso",
+            "Massa"
+          ],
+          "Force India": [
+            "Liuzzi",
+            "Sutil"
+          ],
+          "HRT": [
+            "Senna",
+            "Chandhok",
+            "Yamamoto",
+            "Klien"
+          ],
+          "Lotus": [
+            "Kovalainen",
+            "Trulli"
+          ],
+          "McLaren": [
+            "Hamilton",
+            "Button"
+          ],
+          "Mercedes": [
+            "Rosberg",
+            "Schumacher"
+          ],
+          "Red Bull": [
+            "Vettel",
+            "Webber"
+          ],
+          "Renault": [
+            "Kubica",
+            "Petrov"
+          ],
+          "Sauber": [
+            "de la Rosa",
+            "Kobayashi",
+            "Heidfeld"
+          ],
+          "Toro Rosso": [
+            "Alguersuari",
+            "Buemi"
+          ],
+          "Virgin": [
+            "Glock",
+            "di Grassi"
+          ],
+          "Williams": [
+            "Barrichello",
+            "H\u00fclkenberg"
+          ]
+        }
+      },
+      "2011": {
+        "standings": {
+          "Ferrari": 375.0,
+          "Force India": 69.0,
+          "HRT": 0.0,
+          "Lotus": 0.0,
+          "McLaren": 497.0,
+          "Mercedes": 165.0,
+          "Red Bull": 650.0,
+          "Renault": 73.0,
+          "Sauber": 44.0,
+          "Toro Rosso": 41.0,
+          "Virgin": 0.0,
+          "Williams": 5.0
+        },
+        "drivers": {
+          "Ferrari": [
+            "Alonso",
+            "Massa"
+          ],
+          "Force India": [
+            "Sutil",
+            "di Resta"
+          ],
+          "HRT": [
+            "Liuzzi",
+            "Karthikeyan",
+            "Ricciardo"
+          ],
+          "Lotus": [
+            "Trulli",
+            "Kovalainen",
+            "Chandhok"
+          ],
+          "McLaren": [
+            "Hamilton",
+            "Button"
+          ],
+          "Mercedes": [
+            "Rosberg",
+            "Schumacher"
+          ],
+          "Red Bull": [
+            "Vettel",
+            "Webber"
+          ],
+          "Renault": [
+            "Petrov",
+            "Heidfeld",
+            "Senna"
+          ],
+          "Sauber": [
+            "Kobayashi",
+            "P\u00e9rez",
+            "de la Rosa"
+          ],
+          "Toro Rosso": [
+            "Buemi",
+            "Alguersuari"
+          ],
+          "Virgin": [
+            "d'Ambrosio",
+            "Glock"
+          ],
+          "Williams": [
+            "Barrichello",
+            "Maldonado"
+          ]
+        }
+      },
+      "2012": {
+        "standings": {
+          "Caterham": 0.0,
+          "Ferrari": 400.0,
+          "Force India": 109.0,
+          "HRT": 0.0,
+          "Lotus F1": 303.0,
+          "Marussia": 0.0,
+          "McLaren": 378.0,
+          "Mercedes": 142.0,
+          "Red Bull": 460.0,
+          "Sauber": 126.0,
+          "Toro Rosso": 26.0,
+          "Williams": 76.0
+        },
+        "drivers": {
+          "Caterham": [
+            "Kovalainen",
+            "Petrov"
+          ],
+          "Ferrari": [
+            "Alonso",
+            "Massa"
+          ],
+          "Force India": [
+            "di Resta",
+            "H\u00fclkenberg"
+          ],
+          "HRT": [
+            "de la Rosa",
+            "Karthikeyan"
+          ],
+          "Lotus F1": [
+            "R\u00e4ikk\u00f6nen",
+            "Grosjean",
+            "d'Ambrosio"
+          ],
+          "Marussia": [
+            "Glock",
+            "Pic"
+          ],
+          "McLaren": [
+            "Button",
+            "Hamilton"
+          ],
+          "Mercedes": [
+            "Rosberg",
+            "Schumacher"
+          ],
+          "Red Bull": [
+            "Vettel",
+            "Webber"
+          ],
+          "Sauber": [
+            "Kobayashi",
+            "P\u00e9rez"
+          ],
+          "Toro Rosso": [
+            "Ricciardo",
+            "Vergne"
+          ],
+          "Williams": [
+            "Maldonado",
+            "Senna"
+          ]
+        }
+      },
+      "2013": {
+        "standings": {
+          "Caterham": 0.0,
+          "Ferrari": 354.0,
+          "Force India": 77.0,
+          "Lotus F1": 315.0,
+          "Marussia": 0.0,
+          "McLaren": 122.0,
+          "Mercedes": 360.0,
+          "Red Bull": 596.0,
+          "Sauber": 57.0,
+          "Toro Rosso": 33.0,
+          "Williams": 5.0
+        },
+        "drivers": {
+          "Caterham": [
+            "Pic",
+            "van der Garde"
+          ],
+          "Ferrari": [
+            "Alonso",
+            "Massa"
+          ],
+          "Force India": [
+            "Sutil",
+            "di Resta"
+          ],
+          "Lotus F1": [
+            "R\u00e4ikk\u00f6nen",
+            "Grosjean",
+            "Kovalainen"
+          ],
+          "Marussia": [
+            "Bianchi",
+            "Chilton"
+          ],
+          "McLaren": [
+            "Button",
+            "P\u00e9rez"
+          ],
+          "Mercedes": [
+            "Hamilton",
+            "Rosberg"
+          ],
+          "Red Bull": [
+            "Vettel",
+            "Webber"
+          ],
+          "Sauber": [
+            "Guti\u00e9rrez",
+            "H\u00fclkenberg"
+          ],
+          "Toro Rosso": [
+            "Vergne",
+            "Ricciardo"
+          ],
+          "Williams": [
+            "Bottas",
+            "Maldonado"
+          ]
+        }
+      },
+      "2014": {
+        "standings": {
+          "Caterham": 0.0,
+          "Ferrari": 216.0,
+          "Force India": 155.0,
+          "Lotus F1": 10.0,
+          "Marussia": 2.0,
+          "McLaren": 181.0,
+          "Mercedes": 701.0,
+          "Red Bull": 405.0,
+          "Sauber": 0.0,
+          "Toro Rosso": 30.0,
+          "Williams": 320.0
+        },
+        "drivers": {
+          "Caterham": [
+            "Ericsson",
+            "Kobayashi",
+            "Lotterer",
+            "Stevens"
+          ],
+          "Ferrari": [
+            "Alonso",
+            "R\u00e4ikk\u00f6nen"
+          ],
+          "Force India": [
+            "H\u00fclkenberg",
+            "P\u00e9rez"
+          ],
+          "Lotus F1": [
+            "Grosjean",
+            "Maldonado"
+          ],
+          "Marussia": [
+            "Chilton",
+            "Bianchi"
+          ],
+          "McLaren": [
+            "Magnussen",
+            "Button"
+          ],
+          "Mercedes": [
+            "Rosberg",
+            "Hamilton"
+          ],
+          "Red Bull": [
+            "Vettel",
+            "Ricciardo"
+          ],
+          "Sauber": [
+            "Sutil",
+            "Guti\u00e9rrez"
+          ],
+          "Toro Rosso": [
+            "Vergne",
+            "Kvyat"
+          ],
+          "Williams": [
+            "Bottas",
+            "Massa"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "label": "Mercedes 2014\u20132021",
+    "focusTeams": [
+      "Mercedes"
+    ],
+    "years": {
+      "2013": {
+        "standings": {
+          "Caterham": 0.0,
+          "Ferrari": 354.0,
+          "Force India": 77.0,
+          "Lotus F1": 315.0,
+          "Marussia": 0.0,
+          "McLaren": 122.0,
+          "Mercedes": 360.0,
+          "Red Bull": 596.0,
+          "Sauber": 57.0,
+          "Toro Rosso": 33.0,
+          "Williams": 5.0
+        },
+        "drivers": {
+          "Caterham": [
+            "Pic",
+            "van der Garde"
+          ],
+          "Ferrari": [
+            "Alonso",
+            "Massa"
+          ],
+          "Force India": [
+            "Sutil",
+            "di Resta"
+          ],
+          "Lotus F1": [
+            "R\u00e4ikk\u00f6nen",
+            "Grosjean",
+            "Kovalainen"
+          ],
+          "Marussia": [
+            "Bianchi",
+            "Chilton"
+          ],
+          "McLaren": [
+            "Button",
+            "P\u00e9rez"
+          ],
+          "Mercedes": [
+            "Hamilton",
+            "Rosberg"
+          ],
+          "Red Bull": [
+            "Vettel",
+            "Webber"
+          ],
+          "Sauber": [
+            "Guti\u00e9rrez",
+            "H\u00fclkenberg"
+          ],
+          "Toro Rosso": [
+            "Vergne",
+            "Ricciardo"
+          ],
+          "Williams": [
+            "Bottas",
+            "Maldonado"
+          ]
+        }
+      },
+      "2014": {
+        "standings": {
+          "Caterham": 0.0,
+          "Ferrari": 216.0,
+          "Force India": 155.0,
+          "Lotus F1": 10.0,
+          "Marussia": 2.0,
+          "McLaren": 181.0,
+          "Mercedes": 701.0,
+          "Red Bull": 405.0,
+          "Sauber": 0.0,
+          "Toro Rosso": 30.0,
+          "Williams": 320.0
+        },
+        "drivers": {
+          "Caterham": [
+            "Ericsson",
+            "Kobayashi",
+            "Lotterer",
+            "Stevens"
+          ],
+          "Ferrari": [
+            "Alonso",
+            "R\u00e4ikk\u00f6nen"
+          ],
+          "Force India": [
+            "H\u00fclkenberg",
+            "P\u00e9rez"
+          ],
+          "Lotus F1": [
+            "Grosjean",
+            "Maldonado"
+          ],
+          "Marussia": [
+            "Chilton",
+            "Bianchi"
+          ],
+          "McLaren": [
+            "Magnussen",
+            "Button"
+          ],
+          "Mercedes": [
+            "Rosberg",
+            "Hamilton"
+          ],
+          "Red Bull": [
+            "Vettel",
+            "Ricciardo"
+          ],
+          "Sauber": [
+            "Sutil",
+            "Guti\u00e9rrez"
+          ],
+          "Toro Rosso": [
+            "Vergne",
+            "Kvyat"
+          ],
+          "Williams": [
+            "Bottas",
+            "Massa"
+          ]
+        }
+      },
+      "2015": {
+        "standings": {
+          "Ferrari": 428.0,
+          "Force India": 136.0,
+          "Lotus F1": 78.0,
+          "Manor Marussia": 0.0,
+          "McLaren": 27.0,
+          "Mercedes": 703.0,
+          "Red Bull": 187.0,
+          "Sauber": 36.0,
+          "Toro Rosso": 67.0,
+          "Williams": 257.0
+        },
+        "drivers": {
+          "Ferrari": [
+            "Vettel",
+            "R\u00e4ikk\u00f6nen"
+          ],
+          "Force India": [
+            "H\u00fclkenberg",
+            "P\u00e9rez"
+          ],
+          "Lotus F1": [
+            "Grosjean",
+            "Maldonado"
+          ],
+          "Manor Marussia": [
+            "Merhi",
+            "Stevens",
+            "Rossi"
+          ],
+          "McLaren": [
+            "Button",
+            "Magnussen",
+            "Alonso"
+          ],
+          "Mercedes": [
+            "Hamilton",
+            "Rosberg"
+          ],
+          "Red Bull": [
+            "Ricciardo",
+            "Kvyat"
+          ],
+          "Sauber": [
+            "Nasr",
+            "Ericsson"
+          ],
+          "Toro Rosso": [
+            "Sainz",
+            "Verstappen"
+          ],
+          "Williams": [
+            "Massa",
+            "Bottas"
+          ]
+        }
+      },
+      "2016": {
+        "standings": {
+          "Ferrari": 398.0,
+          "Force India": 173.0,
+          "Haas F1 Team": 29.0,
+          "Manor Marussia": 1.0,
+          "McLaren": 76.0,
+          "Mercedes": 765.0,
+          "Red Bull": 468.0,
+          "Renault": 8.0,
+          "Sauber": 2.0,
+          "Toro Rosso": 63.0,
+          "Williams": 138.0
+        },
+        "drivers": {
+          "Ferrari": [
+            "Vettel",
+            "R\u00e4ikk\u00f6nen"
+          ],
+          "Force India": [
+            "H\u00fclkenberg",
+            "P\u00e9rez"
+          ],
+          "Haas F1 Team": [
+            "Grosjean",
+            "Guti\u00e9rrez"
+          ],
+          "Manor Marussia": [
+            "Wehrlein",
+            "Haryanto",
+            "Ocon"
+          ],
+          "McLaren": [
+            "Button",
+            "Alonso",
+            "Vandoorne"
+          ],
+          "Mercedes": [
+            "Rosberg",
+            "Hamilton"
+          ],
+          "Red Bull": [
+            "Ricciardo",
+            "Kvyat",
+            "Verstappen"
+          ],
+          "Renault": [
+            "Palmer",
+            "Magnussen"
+          ],
+          "Sauber": [
+            "Nasr",
+            "Ericsson"
+          ],
+          "Toro Rosso": [
+            "Sainz",
+            "Verstappen",
+            "Kvyat"
+          ],
+          "Williams": [
+            "Massa",
+            "Bottas"
+          ]
+        }
+      },
+      "2017": {
+        "standings": {
+          "Ferrari": 522.0,
+          "Force India": 187.0,
+          "Haas F1 Team": 47.0,
+          "McLaren": 30.0,
+          "Mercedes": 668.0,
+          "Red Bull": 368.0,
+          "Renault": 57.0,
+          "Sauber": 5.0,
+          "Toro Rosso": 53.0,
+          "Williams": 83.0
+        },
+        "drivers": {
+          "Ferrari": [
+            "Vettel",
+            "R\u00e4ikk\u00f6nen"
+          ],
+          "Force India": [
+            "P\u00e9rez",
+            "Ocon"
+          ],
+          "Haas F1 Team": [
+            "Magnussen",
+            "Grosjean"
+          ],
+          "McLaren": [
+            "Vandoorne",
+            "Alonso",
+            "Button"
+          ],
+          "Mercedes": [
+            "Hamilton",
+            "Bottas"
+          ],
+          "Red Bull": [
+            "Verstappen",
+            "Ricciardo"
+          ],
+          "Renault": [
+            "H\u00fclkenberg",
+            "Palmer",
+            "Sainz"
+          ],
+          "Sauber": [
+            "Giovinazzi",
+            "Ericsson",
+            "Wehrlein"
+          ],
+          "Toro Rosso": [
+            "Sainz",
+            "Kvyat",
+            "Gasly",
+            "Hartley"
+          ],
+          "Williams": [
+            "Massa",
+            "Stroll",
+            "di Resta"
+          ]
+        }
+      },
+      "2018": {
+        "standings": {
+          "Ferrari": 571.0,
+          "Force India": 111.0,
+          "Haas F1 Team": 93.0,
+          "McLaren": 62.0,
+          "Mercedes": 655.0,
+          "Red Bull": 419.0,
+          "Renault": 122.0,
+          "Sauber": 48.0,
+          "Toro Rosso": 33.0,
+          "Williams": 7.0
+        },
+        "drivers": {
+          "Ferrari": [
+            "Vettel",
+            "R\u00e4ikk\u00f6nen"
+          ],
+          "Force India": [
+            "P\u00e9rez",
+            "Ocon"
+          ],
+          "Haas F1 Team": [
+            "Grosjean",
+            "Magnussen"
+          ],
+          "McLaren": [
+            "Alonso",
+            "Vandoorne"
+          ],
+          "Mercedes": [
+            "Hamilton",
+            "Bottas"
+          ],
+          "Red Bull": [
+            "Ricciardo",
+            "Verstappen"
+          ],
+          "Renault": [
+            "H\u00fclkenberg",
+            "Sainz"
+          ],
+          "Sauber": [
+            "Leclerc",
+            "Ericsson"
+          ],
+          "Toro Rosso": [
+            "Hartley",
+            "Gasly"
+          ],
+          "Williams": [
+            "Stroll",
+            "Sirotkin"
+          ]
+        }
+      },
+      "2019": {
+        "standings": {
+          "Alfa Romeo": 57.0,
+          "Ferrari": 504.0,
+          "Haas F1 Team": 28.0,
+          "McLaren": 145.0,
+          "Mercedes": 739.0,
+          "Racing Point": 73.0,
+          "Red Bull": 417.0,
+          "Renault": 91.0,
+          "Toro Rosso": 85.0,
+          "Williams": 1.0
+        },
+        "drivers": {
+          "Alfa Romeo": [
+            "R\u00e4ikk\u00f6nen",
+            "Giovinazzi"
+          ],
+          "Ferrari": [
+            "Vettel",
+            "Leclerc"
+          ],
+          "Haas F1 Team": [
+            "Magnussen",
+            "Grosjean"
+          ],
+          "McLaren": [
+            "Norris",
+            "Sainz"
+          ],
+          "Mercedes": [
+            "Bottas",
+            "Hamilton"
+          ],
+          "Racing Point": [
+            "Stroll",
+            "P\u00e9rez"
+          ],
+          "Red Bull": [
+            "Verstappen",
+            "Gasly",
+            "Albon"
+          ],
+          "Renault": [
+            "H\u00fclkenberg",
+            "Ricciardo"
+          ],
+          "Toro Rosso": [
+            "Kvyat",
+            "Albon",
+            "Gasly"
+          ],
+          "Williams": [
+            "Russell",
+            "Kubica"
+          ]
+        }
+      },
+      "2020": {
+        "standings": {
+          "Alfa Romeo": 8.0,
+          "AlphaTauri": 107.0,
+          "Ferrari": 131.0,
+          "Haas F1 Team": 3.0,
+          "McLaren": 202.0,
+          "Mercedes": 573.0,
+          "Racing Point": 210.0,
+          "Red Bull": 319.0,
+          "Renault": 181.0,
+          "Williams": 0.0
+        },
+        "drivers": {
+          "Alfa Romeo": [
+            "Giovinazzi",
+            "R\u00e4ikk\u00f6nen"
+          ],
+          "AlphaTauri": [
+            "Gasly",
+            "Kvyat"
+          ],
+          "Ferrari": [
+            "Leclerc",
+            "Vettel"
+          ],
+          "Haas F1 Team": [
+            "Grosjean",
+            "Magnussen",
+            "Fittipaldi"
+          ],
+          "McLaren": [
+            "Norris",
+            "Sainz"
+          ],
+          "Mercedes": [
+            "Bottas",
+            "Hamilton",
+            "Russell"
+          ],
+          "Racing Point": [
+            "P\u00e9rez",
+            "Stroll",
+            "H\u00fclkenberg"
+          ],
+          "Red Bull": [
+            "Albon",
+            "Verstappen"
+          ],
+          "Renault": [
+            "Ocon",
+            "Ricciardo"
+          ],
+          "Williams": [
+            "Latifi",
+            "Russell",
+            "Aitken"
+          ]
+        }
+      },
+      "2021": {
+        "standings": {
+          "Alfa Romeo": 13.0,
+          "AlphaTauri": 142.0,
+          "Alpine F1 Team": 155.0,
+          "Aston Martin": 77.0,
+          "Ferrari": 322.5,
+          "Haas F1 Team": 0.0,
+          "McLaren": 274.0,
+          "Mercedes": 604.5,
+          "Red Bull": 578.5,
+          "Williams": 23.0
+        },
+        "drivers": {
+          "Alfa Romeo": [
+            "R\u00e4ikk\u00f6nen",
+            "Giovinazzi",
+            "Kubica"
+          ],
+          "AlphaTauri": [
+            "Tsunoda",
+            "Gasly"
+          ],
+          "Alpine F1 Team": [
+            "Ocon",
+            "Alonso"
+          ],
+          "Aston Martin": [
+            "Stroll",
+            "Vettel"
+          ],
+          "Ferrari": [
+            "Leclerc",
+            "Sainz"
+          ],
+          "Haas F1 Team": [
+            "Schumacher",
+            "Mazepin"
+          ],
+          "McLaren": [
+            "Norris",
+            "Ricciardo"
+          ],
+          "Mercedes": [
+            "Hamilton",
+            "Bottas"
+          ],
+          "Red Bull": [
+            "Verstappen",
+            "P\u00e9rez"
+          ],
+          "Williams": [
+            "Russell",
+            "Latifi"
+          ]
+        }
+      },
+      "2022": {
+        "standings": {
+          "Alfa Romeo": 53.0,
+          "AlphaTauri": 35.0,
+          "Alpine F1 Team": 170.0,
+          "Aston Martin": 55.0,
+          "Ferrari": 519.0,
+          "Haas F1 Team": 33.0,
+          "McLaren": 150.0,
+          "Mercedes": 495.0,
+          "Red Bull": 724.0,
+          "Williams": 8.0
+        },
+        "drivers": {
+          "Alfa Romeo": [
+            "Bottas",
+            "Zhou"
+          ],
+          "AlphaTauri": [
+            "Tsunoda",
+            "Gasly"
+          ],
+          "Alpine F1 Team": [
+            "Ocon",
+            "Alonso"
+          ],
+          "Aston Martin": [
+            "Stroll",
+            "H\u00fclkenberg",
+            "Vettel"
+          ],
+          "Ferrari": [
+            "Leclerc",
+            "Sainz"
+          ],
+          "Haas F1 Team": [
+            "Magnussen",
+            "Schumacher"
+          ],
+          "McLaren": [
+            "Ricciardo",
+            "Norris"
+          ],
+          "Mercedes": [
+            "Hamilton",
+            "Russell"
+          ],
+          "Red Bull": [
+            "P\u00e9rez",
+            "Verstappen"
+          ],
+          "Williams": [
+            "Albon",
+            "Latifi",
+            "de Vries"
+          ]
+        }
+      }
+    }
+  }
+]
