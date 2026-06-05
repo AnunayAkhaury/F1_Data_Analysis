@@ -838,3 +838,35 @@ body {
         overflow: visible;
     }
 }
+
+/*constructor narrative stuff*/
+#constructor-story {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 600vh; 
+    position: relative;
+}
+
+#constructor-story .story-graphic {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+#constructor-story .story-text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+#constructor-story .constructor-step {
+    position: sticky;
+    top: 10vh;
+    height: 60vh;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#constructor-story .constructor-step.is-active {
+    opacity: 1;
+    pointer-events: auto;
+}

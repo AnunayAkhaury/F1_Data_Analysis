@@ -153,32 +153,41 @@ function startStoryScaffold() {
 
     scroller
         .setup({
-            step: ".scroll__text .step",
+            step: ".scroll__text .step, #constructor-story .constructor-step",
             offset: 0.5,
             progress: true
         })
-         .onStepEnter(response => {
-            const sceneInfo = sceneFromStep(response.element);
-
-            document.body.classList.remove("hide-map-story-card");
-            setActiveStep(sceneInfo.id);
-            requestStorySync();
+        .onStepEnter(response => {
+            const element = response.element;
+            const d3element = d3.select(element);
+            if (element.closest("#scrolly-container")) {
+                const sceneInfo = sceneFromStep(element);
+                document.body.classList.remove("hide-map-story-card");
+                setActiveStep(sceneInfo.id);
+                requestStorySync();
+            }
+            else if (element.closest("#constructor-story")) {
+                d3.selectAll("#constructor-story .constructor-step")
+                    .classed("is-active", false);
+                d3element.classed("is-active", true);
+            }
         })
         .onStepExit(response => {
-            if (response.direction === "up") {
-                const previousStep = response.element.previousElementSibling;
-
-                if (previousStep) {
-                    const previousScene = sceneFromStep(previousStep);
-                    setActiveStep(previousScene.id);
-                    requestStorySync();
+            const { element, direction } = response;
+            if (element.closest("#constructor-story")) {
+    
+                if (direction === "up") {
+                    const prev = element.previousElementSibling;
+                    if (prev && prev.classList.contains("constructor-step")) {
+                        d3.selectAll("#constructor-story .constructor-step")
+                            .classed("is-active", false);
+                        d3.select(prev).classed("is-active", true);
+                    }
+                } else if (direction === "down" && !element.nextElementSibling) {
+                d3.select(element).classed("is-active", false);
                 }
-            } else if (!response.element.nextElementSibling) {
-                setActiveStep(null);
-                document.body.classList.add("hide-map-story-card");
             }
         });
-
     scroller.resize();
     window.addEventListener("scroll", requestStorySync, { passive: true });
     window.addEventListener("resize", () => {
