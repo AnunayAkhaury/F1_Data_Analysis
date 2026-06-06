@@ -957,8 +957,14 @@ body {
     z-index: 2;
     margin-top: -90vh;
     padding-bottom: 45vh; 
+    pointer-events: none;
 }
 
+.chart-box {
+    position: relative;
+    z-index: 3; 
+    pointer-events: auto; 
+}
 .step-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1016,6 +1022,30 @@ body {
     font-size: 16px;
     color: #1f2933;
     box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+/*Button interactions :D */
+@keyframes fadeIn {
+    from { 
+        opacity: 0; 
+        transform: translateY(8px); 
+    }
+    to { 
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+
+/* Make the injected back button feel interactive */
+.back-btn {
+    transition: all 0.2s ease;
+}
+
+.back-btn:hover {
+    background: #f8fafc !important;
+    border-color: #c1121f !important;
+    color: #c1121f !important;
+    transform: translateX(-2px);
 }
 
 

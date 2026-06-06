@@ -15,9 +15,46 @@ const MARKER_COLOR = "#1f2933";
 const MARKER_WIDTH = 1.5;
 const MARKER_DASH = "3 2";
 
+const ERA_MILESTONES = [
+    // 0: Fangio
+    [{ year: 1951, text: "Alfa Romeo's 159 Alfetta was a prewar design, but dominated the inaugural championship years." }, 
+    { year: 1952, text: "With Ferrari dominant, F1 temporarily switched to Formula 2 rules to save the series, showcasing the fragility of constructor stability." }, 
+    { year: 1954, text: "Fangio’s mid-season switch to Mercedes proved that driver adaptability was more important, as he won with two different teams in one year." }, 
+    { year: 1957, text: "Fangio’s Nurburgring drive remains the ultimate example of a driver overcoming a car deficit to secure a title." }],
+    // 1: Stewart
+    [{ year: 1969, text: "Matra's win with the MS80 was the first time a nonBritish team dominated, signaling the beginning of international competition." }, 
+    { year: 1970, text: "The Lotus 72 introduced the sidepod radiator concept, which is still the fundamental design for every F1 car today." }, 
+    { year: 1971, text: "Tyrrell’s '003' car combined simple mechanics with Stewart's precision, showing that driver skill could shine much more." }, 
+    { year: 1972, text: "Fittipaldi became the youngest champion at the time, showing that the driver/car relationship was shifting toward younger talent." }, 
+    { year: 1973, text: "Stewart’s final championship was defined by his commitment to driver safety, which led to the first standardized medical protocols in F1." }],
+    // 2: Williams
+    [{ year: 1992, text: "Williams' active suspension was so advanced that rivals were reportedly two seconds slower per lap purely on electronics." }, 
+    { year: 1993, text: "The peak of the electronic era, where computer controlled hydraulics solved the porpoising effect that still effect modern F1." }, 
+    { year: 1994, text: "The FIA banned all driver aids, forcing a massive design reset for Williams." }, 
+    { year: 1995, text: "One example where not having thier main racer meant losing. With Senna's absense William's Damon Hill unfortunately could win though they got second." }, 
+    { year: 1997, text: "Renault's withdrawal signaled the end of the factory-engine era for Williams, proving that constructor success is tethered to engine supply." }],
+    // 3: Ferrari
+    [{ year: 1999, text: "The start of the 'Schumacher Ferrari' project, which focused as much on pitcrew precision and data analysis as the car itself." }, 
+    { year: 2002, text: "Ferrari was so dominant they began to test for next year's car mid season. We can also see in the stream chart that it is the highest distribution of points they had in single season." }, 
+    { year: 2003, text: "A rule change forced cars to use the same tires for qualifying and racing, attempting to stop Ferrari's dominance." }, 
+    { year: 2004, text: "Schumacher won 13 of 18 races; this was the era that convinced the FIA that unlimited testing and budgets were destroying competition." }, 
+    { year: 2005, text: "Schumacher still raced in this year, but did not win. It can be seen that he fell to third with first place being Fernando Alonso who drove for Renault." }],
+    // 4: Red Bull
+    [{ year: 2010, text: "The Red Bull RB6 utilized the Blown Diffuser, which used engine exhaust to create massive downforce. Sebastian Vettel and Mark Webber were the two representatives of this team and would be for the next 4 years." }, 
+    { year: 2011, text: "Red Bull dominated so completely that the FIA changed the points system to prevent the championship from being decided too early." }, 
+    { year: 2012, text: "The closest race of the era, where the design philosophy shifted from pure aero to engine map optimization. We can also see the effects of the new FIA points sytem change, unlike the last dominance era Red Bull never has that much more percentage of points." }, 
+    { year: 2013, text: "Vettel's dominance sparked the 'Jeep effect' where Red Bull was accused of traction control cheating due to engine mapping." }, 
+    { year: 2014, text: "After the hybrid regulation shift, Red Bull's inability to recover power parity exposed how dependent the competition is on a factory engine. Though they were still second Mercedes with their new engine absolutely outclassed the competition with 701 points compared to Red Bull Racing's 405. Sebastian Vettel was still the main racer but his second was Daniel Ricciardo." }],
+    // 5: Mercedes
+    [{ year: 2014, text: "Mercedes’ unlike Red Bull was able to perfect the split-turbo engine design, giving them a cooling and power advantage that no rival caught for 8 years." }, 
+    { year: 2016, text: "The Nico Rosberg versus Lewis Hamilton rivalry created a conflict within the team, making internal engineering a priority." }, 
+    { year: 2019, text: "Mercedes achieved 6 consecutive double titles, a level of constructor consistency that beat Ferrarri's." }, 
+    { year: 2021, text: "The final showdown between regulation stability and aggressive design, leading to the massive 2022 overhaul to kill the Mercedes advantage." },
+    { year: 2022, text: "The massive 2022 overhaul of regulations kills the Mercedes's advantage. In this year, the drivers were Lewis Hamilton and George Russel. Their combined total was 515 compared to Red Bull's 759 and Ferrari's 554." }]
+];
 
 // Single graph dimensions so both line + stream is the same
-const SW = 480, SH = 205, SMT = 50, SMR = 16, SMB = 28, SML = 44;
+const SW = 480, SH = 210, SMT = 50, SMR = 16, SMB = 55, SML = 44;
 
 const siW = SW - SML - SMR;
 const siH = SH - SMT - SMB;
@@ -120,7 +157,6 @@ export async function drawConstructorNarrative() {
             .style("border", "1px solid #d5e8f0")
             .style("border-radius", "10px")
             .style("padding", "10px 14px"); */
-
         const { xScale: sx, streamMarker: sm } = buildStreamChart(svg1, eraState);
         const { xScale: bx, lineMarker: bm } = buildLineChart(svg2, eraState);
         
@@ -373,6 +409,47 @@ function buildLineChart(svgSel, era) {
         .attr("stroke-width", MARKER_WIDTH)
         .attr("stroke-dasharray", MARKER_DASH)
         .attr("opacity", 0);
+
+   // button clicking, ensure to clear all between layouts
+    svgSel.selectAll(".button-layer").remove();
+
+    const milestones = ERA_MILESTONES[era.panelIndex] || [];
+
+    if (milestones.length > 0) {
+    const btnWidth = 70;
+    const btnSpacing = 10;
+    const totalButtonsWidth = (milestones.length * btnWidth) + ((milestones.length - 1) * btnSpacing);
+    let btnX = (siW - totalButtonsWidth) / 2;
+    const btnY = siH + (SMB / 2) + 4.5;
+    const btnContainer = g.append("g").attr("class", "button-layer");
+
+    milestones.forEach(m => {
+        const btnGroup = btnContainer.append("g")
+            .attr("transform", `translate(${btnX}, ${btnY})`)
+            .style("cursor", "pointer")
+            .style("pointer-events", "all")
+            .on("click", function(event) {
+                event.stopPropagation();
+                swapNarrativeText(era.panelIndex, m.year, m.text);
+            });
+
+        btnGroup.append("rect")
+            .attr("width", btnWidth).attr("height", 22)
+            .attr("rx", 6)
+            .attr("fill", "#ffffff")
+            .attr("stroke", era.focusColor)
+            .attr("stroke-width", 2);
+
+        btnGroup.append("text")
+            .attr("x", btnWidth / 2).attr("y", 11)
+            .attr("text-anchor", "middle").attr("dominant-baseline", "middle")
+            .style("font-size", "10px").style("font-weight", "bold")
+            .attr("fill", era.focusColor)
+            .text(`${m.year}`);
+
+        btnX += (btnWidth + btnSpacing);
+    });
+}
     return { xScale: x, lineMarker: marker };
 }
 
@@ -400,4 +477,40 @@ export function updatePanelYear(panelIndex, year) {
         /** 
     const note = yearData.note ?? `${champion} led the constructors' championship with ${championPts} points.`;
     */
+}
+
+function swapNarrativeText(panelIndex, year, specificText) {
+    // 1. Target the box specifically for this panelIndex
+    const activeBox = document.querySelector(`.constructor-step[data-panel="${panelIndex}"] .narrative-text-box`);
+    
+    if (!activeBox) {
+        console.error("Could not find text box for panel", panelIndex);
+        return;
+    }
+ 
+    if (!activeBox.dataset.originalContent) {
+        activeBox.dataset.originalContent = activeBox.innerHTML;
+    }
+
+    activeBox.innerHTML = `
+        <div class="detail-view" style="animation: fadeIn 0.3s ease;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                <h2 style="margin: 0; color: #000000; border-bottom: none; padding-bottom: 0;">${year} Insight</h2>
+                <button class="back-btn" style="
+                    background: #ffffff; border: 1px solid #cbd5e1;
+                    padding: 4px 10px; border-radius: 6px; cursor: pointer;
+                    font-weight: bold; color: #1f2933;
+                    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+                ">← Back</button>
+            </div>
+            <hr style="border: none; border-top: 1px solid #e2eaf0; margin: 0 0 16px 0;">
+            <p style="font-size: 16px; line-height: 1.6; color: #52616f;">
+                ${specificText}
+            </p>
+        </div>
+    `;
+ 
+    activeBox.querySelector(".back-btn").addEventListener("click", () => {
+        activeBox.innerHTML = activeBox.dataset.originalContent;
+    });
 }

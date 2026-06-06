@@ -32,6 +32,16 @@ function clampYearValue(year) {
     return Math.max(1950, Math.min(2024, cleanYear));
 }
 
+// for narrative constructor view 
+function resetConstructorDetailViews() {
+    document.querySelectorAll("#constructor-story .narrative-text-box").forEach(box => {
+        if (box.dataset.originalContent) {
+            box.innerHTML = box.dataset.originalContent;
+            delete box.dataset.originalContent; 
+        }
+    });
+}
+
 function seasonYear(year) {
     return Math.round(clampYearValue(year));
 }
@@ -172,6 +182,7 @@ function startStoryScaffold() {
                 const panelIndex = +d3element.attr("data-panel");
                 //const year = +d3element.attr("data-year");
                 updateConstructorNarrative(panelIndex);
+                resetConstructorDetailViews();
                 d3.selectAll("#constructor-story .constructor-step")
                    .classed("is-active", false);
                 d3element.classed("is-active", true)
@@ -188,6 +199,7 @@ function startStoryScaffold() {
                     const prev = element.previousElementSibling;
                     //const year = +prev.dataset.year;
                     if (prev && prev.classList.contains("constructor-step")) {
+                        resetConstructorDetailViews();
                         d3.selectAll("#constructor-story .constructor-step")
                             .classed("is-active", false);
                         d3.select(prev)
