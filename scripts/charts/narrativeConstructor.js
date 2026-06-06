@@ -136,7 +136,7 @@ export async function drawConstructorNarrative() {
         wrap.append("h3")
             .attr("class", "d3-era-title")
             .style("color", eraState.focusColor)
-            .style("border-color", 'black')
+            .style("border-color", eraState.focusColor)
             .style("font-size", "24px")
             .text(era.label);
 
