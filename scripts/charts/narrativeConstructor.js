@@ -53,8 +53,8 @@ const ERA_MILESTONES = [
     { year: 2022, text: "The massive 2022 overhaul of regulations kills the Mercedes's advantage. In this year, the drivers were Lewis Hamilton and George Russel. Their combined total was 515 compared to Red Bull's 759 and Ferrari's 554." }]
 ];
 
-// Single graph dimensions so both line + stream is the same
-const SW = 480, SH = 250, SMT = 50, SMR = 16, SMB = 55, SML = 44;
+// Single graph dimensions so both line + stream are the same
+const SW = 480, SH = 220, SMT = 50, SMR = 16, SMB = 55, SML = 44;
 
 const siW = SW - SML - SMR;
 const siH = SH - SMT - SMB;
@@ -480,7 +480,7 @@ export function updatePanelYear(panelIndex, year) {
 }
 
 function swapNarrativeText(panelIndex, year, specificText) {
-    // 1. Target the box specifically for this panelIndex
+    // specifically for panelIndex
     const activeBox = document.querySelector(`.constructor-step[data-panel="${panelIndex}"] .narrative-text-box`);
     
     if (!activeBox) {
