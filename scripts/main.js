@@ -2,7 +2,7 @@ import { testMap, updateMap } from './charts/startermap.js';
 import { drawContinentTimeline, updateContinentTimeline } from './charts/continentTimeline.js';
 import { storyScenes } from './storyboard.js';
 import { drawConstructorDominance } from './charts/constructorDominance.js';
-import { drawConstructorNarrative, updateConstructorNarrative } from './charts/narrativeConstructor.js';
+import { drawConstructorNarrative, updateConstructorNarrative} from './charts/narrativeConstructor.js';
 
 const sceneById = new Map(storyScenes.map(scene => [scene.id, scene]));
 const sceneByEra = new Map([
@@ -170,10 +170,14 @@ function startStoryScaffold() {
             }
             else if (element.closest("#constructor-story")) {
                 const panelIndex = +d3element.attr("data-panel");
+                //const year = +d3element.attr("data-year");
                 updateConstructorNarrative(panelIndex);
                 d3.selectAll("#constructor-story .constructor-step")
                    .classed("is-active", false);
                 d3element.classed("is-active", true)
+                //if (!isNaN(year) && year > 0){ 
+                //    updatePanelYear(panelIndex, year);
+                //}
             }
         })
         .onStepExit(response => {
@@ -182,11 +186,15 @@ function startStoryScaffold() {
             if (element.closest("#constructor-story")) {
                 if (direction === "up") {
                     const prev = element.previousElementSibling;
+                    //const year = +prev.dataset.year;
                     if (prev && prev.classList.contains("constructor-step")) {
                         d3.selectAll("#constructor-story .constructor-step")
                             .classed("is-active", false);
                         d3.select(prev)
                             .classed("is-active", true);
+                        //if (!isNaN(year) && year > 0){ 
+                        //   updatePanelYear(panelIndex, year);
+                        //}
                     }
                 } else if (direction === "down" && !element.nextElementSibling) {
                 d3.select(element).classed("is-active", false);

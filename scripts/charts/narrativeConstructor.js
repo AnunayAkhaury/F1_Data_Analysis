@@ -17,7 +17,7 @@ const MARKER_DASH = "3 2";
 
 
 // Single graph dimensions so both line + stream is the same
-const SW = 480, SH = 165, SMT = 50, SMR = 16, SMB = 28, SML = 44;
+const SW = 480, SH = 205, SMT = 50, SMR = 16, SMB = 28, SML = 44;
 
 const siW = SW - SML - SMR;
 const siH = SH - SMT - SMB;
@@ -90,12 +90,18 @@ export async function drawConstructorNarrative() {
             });
         });
 
+        // Controls cn-panel
         const wrap = root.append("div")
             .attr("class", "cn-panel")
             .attr("data-panel", index)
             .style("display", index === 0 ? "block" : "none");
         
-        wrap.append("h3").text(era.label);
+        wrap.append("h3")
+            .attr("class", "d3-era-title")
+            .style("color", eraState.focusColor)
+            .style("border-color", 'black')
+            .style("font-size", "24px")
+            .text(era.label);
 
         const svg1 = wrap.append("svg")
             .attr("viewBox", `0 0 ${SW} ${SH}`)
@@ -106,7 +112,7 @@ export async function drawConstructorNarrative() {
             .style("width", "100%")
             .style("margin-top", "30px");
 
-            /* Trying to implement this part has been too buggy for now
+        /** 
         const statBox = wrap.append("div")
             .attr("class", "cn-stat-box")
             .style("margin-top", "8px")
@@ -114,6 +120,7 @@ export async function drawConstructorNarrative() {
             .style("border", "1px solid #d5e8f0")
             .style("border-radius", "10px")
             .style("padding", "10px 14px"); */
+
         const { xScale: sx, streamMarker: sm } = buildStreamChart(svg1, eraState);
         const { xScale: bx, lineMarker: bm } = buildLineChart(svg2, eraState);
         
@@ -198,12 +205,13 @@ function buildStreamChart(svgSel, era) {
             .attr("font-size", "10px"));
 
     g.append("text")
-        .attr("x", 4)
-        .attr("y", 11)
-        .attr("fill", era.focusColor)
-        .attr("font-size", "10px")
+        .attr("x", -20)
+        .attr("y", -20)
+        .attr("fill", "#000000")
+        .attr("font-size", "18px")
         .attr("font-weight", "700")
-        .text(`Percentage of Points Earned Per Year`);
+        .text("Percentage of Points Per Season");
+
 
     const marker = g.append("line")
         .attr("y1", 0)
@@ -389,20 +397,7 @@ export function updatePanelYear(panelIndex, year) {
         .attr("x2", state.lineX(year))
         .attr("opacity", 1);
 
-    /** 
-    const yearData = state.era.yearStats?.[year];
-
-    if (yearData) {
-
-        const standings = Object.entries(yearData.standings)
-            .sort((a, b) => b[1] - a[1]);
-
-        state.statBox.html(`
-            <strong>${year}</strong><br>
-            1. ${standings[0]?.[0] || "-"} (${standings[0]?.[1] || 0})<br>
-            2. ${standings[1]?.[0] || "-"} (${standings[1]?.[1] || 0})<br>
-            3. ${standings[2]?.[0] || "-"} (${standings[2]?.[1] || 0})
-        `);
-    }
-        */
+        /** 
+    const note = yearData.note ?? `${champion} led the constructors' championship with ${championPts} points.`;
+    */
 }
