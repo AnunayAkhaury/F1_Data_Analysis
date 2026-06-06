@@ -54,7 +54,7 @@ const ERA_MILESTONES = [
 ];
 
 // Single graph dimensions so both line + stream is the same
-const SW = 480, SH = 210, SMT = 50, SMR = 16, SMB = 55, SML = 44;
+const SW = 480, SH = 250, SMT = 50, SMR = 16, SMB = 55, SML = 44;
 
 const siW = SW - SML - SMR;
 const siH = SH - SMT - SMB;
