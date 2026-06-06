@@ -1,5 +1,79 @@
 //import { show_circuit_detail } from "./driverDrilldown.js";
 // scripts/charts/startermap.js
+const countryColor = new Map([
+    ["Argentina", "#2a9d8f"],
+    ["Australia", "#6c63b8"],
+    ["Austria", "#3867a8"],
+    ["Azerbaijan", "#e9a227"],
+    ["Bahrain", "#c85c54"],
+    ["Belgium", "#3867a8"],
+    ["Brazil", "#2a9d8f"],
+    ["Canada", "#2a9d8f"],
+    ["China", "#e9a227"],
+    ["France", "#3867a8"],
+    ["Germany", "#3867a8"],
+    ["Hungary", "#3867a8"],
+    ["India", "#e9a227"],
+    ["Italy", "#3867a8"],
+    ["Japan", "#e9a227"],
+    ["Malaysia", "#e9a227"],
+    ["Mexico", "#2a9d8f"],
+    ["Monaco", "#3867a8"],
+    ["Morocco", "#6f7d4f"],
+    ["Netherlands", "#3867a8"],
+    ["Portugal", "#3867a8"],
+    ["Qatar", "#c85c54"],
+    ["Russia", "#3867a8"],
+    ["Saudi Arabia", "#c85c54"],
+    ["Singapore", "#e9a227"],
+    ["South Africa", "#6f7d4f"],
+    ["South Korea", "#e9a227"],
+    ["Spain", "#3867a8"],
+    ["Sweden", "#3867a8"],
+    ["Switzerland", "#3867a8"],
+    ["Turkey", "#3867a8"],
+    ["United Arab Emirates", "#c85c54"],
+    ["United Kingdom", "#3867a8"],
+    ["United States of America", "#2a9d8f"]
+]);
+
+const countryDebut = new Map([
+    ["Argentina", 1953],
+    ["Australia", 1985],
+    ["Austria", 1964],
+    ["Azerbaijan", 2016],
+    ["Bahrain", 2004],
+    ["Belgium", 1950],
+    ["Brazil", 1973],
+    ["Canada", 1967],
+    ["China", 2004],
+    ["France", 1950],
+    ["Germany", 1951],
+    ["Hungary", 1986],
+    ["India", 2011],
+    ["Italy", 1950],
+    ["Japan", 1976],
+    ["Malaysia", 1999],
+    ["Mexico", 1963],
+    ["Monaco", 1950],
+    ["Morocco", 1958],
+    ["Netherlands", 1952],
+    ["Portugal", 1958],
+    ["Qatar", 2021],
+    ["Russia", 2014],
+    ["Saudi Arabia", 2021],
+    ["Singapore", 2008],
+    ["South Africa", 1962],
+    ["South Korea", 2010],
+    ["Spain", 1951],
+    ["Sweden", 1973],
+    ["Switzerland", 1950],
+    ["Turkey", 2005],
+    ["United Arab Emirates", 2009],
+    ["United Kingdom", 1950],
+    ["United States of America", 1950]
+]);
+
 const svg = d3.select("#f1-map");
 const width = +svg.attr("width");
 const height = +svg.attr("height");
@@ -51,13 +125,14 @@ function projectedPoint(race) {
 }
 
 function drawCountries(countries) {
-    projection.fitExtent([[36, 56], [width - 36, height - 76]], { type: "Sphere" });
+    projection.fitExtent([[100, 20], [width - 100, height - 200]], { type: "Sphere" });
 
     svg.append("g")
         .attr("class", "countries-layer")
         .selectAll("path")
         .data(countries)
         .join("path")
+        .attr("class", "country")
         .attr("d", worldMap)
         .attr("fill", "#e7edf2")
         .attr("stroke", "#6f7d89")
@@ -65,6 +140,17 @@ function drawCountries(countries) {
 
     svg.append("g").attr("class", "context-circuit-layer");
     svg.append("g").attr("class", "current-race-layer");
+}
+
+function updateCountryColors() {
+    svg.selectAll(".country")
+        .transition()
+        .duration(400)
+        .attr("fill", d => {
+            const country = d.properties.name;
+            const debutYear = countryDebut.get(country);
+            return debutYear <= pendingYear ? countryColor.get(country) : "#e7edf2";
+        })
 }
 
 export function testMap() {
@@ -88,6 +174,7 @@ export function testMap() {
 
 export function updateMap(selectedYear, options = {}) {
     pendingYear = Math.max(1950, Math.min(2024, Math.round(selectedYear)));
+    updateCountryColors();
 
     if (!raceRows.length) return;
 

@@ -1,72 +1,76 @@
 const f1Eras = [
     {
         id: "f1-origins",
-        label: "F1 Origins",
+        label: "The Beginning",
         shortLabel: "1950",
         start: 1950,
         end: 1950,
-        note: "begin f1"
+        note: "F1 begins"
     },
     {
         id: "sponsorship-era",
-        label: "",
-        shortLabel: "1968–1971",
+        label: "Sponsorships",
+        shortLabel: "1968",
         start: 1968,
         end: 1971,
-        note: "commerical racing begins"
+        note: "Commercial racing begins"
     },
     {
         id: "broadcast-fisa-foca",
-        label: "",
-        shortLabel: "1970–1976",
+        label: "Broadcasting",
+        shortLabel: "1970",
         start: 1970,
         end: 1976,
-        note: "more money for fisa"
+        note: "Commercial broadcasting begins",
+        labelOffset: -72,
+        labelBar: "|"
     },
     {
         id: "global-expansion",
         label: "Global Expansion",
-        shortLabel: "1976–1987",
+        shortLabel: "1976",
         start: 1976,
         end: 1987,
-        note: "more global circuits"
+        note: "More circuits around the world"
     },
     {
         id: "commercial-boom",
-        label: "Commercial",
-        shortLabel: "1987–1990",
+        label: "Commercial Boom",
+        shortLabel: "1987",
         start: 1987,
         end: 1990,
-        note: "Satellite TV"
+        note: "Introduction of satellite TV"
     },
     {
         id: "ecclestone-era",
-        label: "Media",
-        shortLabel: "1990–1999",
+        label: "The Media Era",
+        shortLabel: "1990",
         start: 1990,
         end: 1999,
-        note: "commerical control in centralized to foca"
+        note: "Commercial control centralized to FOCA",
+        labelOffset: -72,
+        labelBar: "|"
     },
     {
         id: "new-markets-expansion",
         label: "New Markets Expansion",
-        shortLabel: "1999–2008",
+        shortLabel: "1999",
         start: 1999,
         end: 2008,
-        note: "China, Bahrain, Malaysia, Singapore"
+        note: "Races in China, Bahrain, Malaysia"
     },
     {
         id: "modern-race-design",
         label: "Modern Race Design",
-        shortLabel: "2008–2017",
+        shortLabel: "2008",
         start: 2008,
         end: 2017,
-        note: "Night race in singapore"
+        note: "First night race in Singapore"
     },
     {
         id: "digital-era",
-        label: "Digital Era",
-        shortLabel: "2017–2024",
+        label: "The Digital Era",
+        shortLabel: "2017",
         start: 2017,
         end: 2024,
         note: "Liberty Media takes over"
@@ -135,7 +139,9 @@ const timelineState = {
     year: 1950,
     summaryYear: null,
     labelYear: null,
-    activeEraId: null
+    activeEraId: null,
+    playing: false,
+    playTimer: null
 };
 
 const clampTimelineYear = year => {
@@ -222,10 +228,18 @@ function drawTimelineShell() {
     topRow.append("p")
         .attr("class", "era-kicker")
         .text("Calendar timeline");
+    
+    const controls = topRow.append("div")
+        .attr("class", "timeline-controls");
 
-    topRow.append("div")
+    controls.append("div")
         .attr("class", "timeline-year-pill")
         .text("1950 season");
+    
+    controls.append("button")
+        .attr("class", "timeline-play-button")
+        .text("▶ Play")
+        .on("click", toggleTimelinePlayback);
 
     holder.append("svg")
         .attr("class", "era-timeline-svg")
@@ -247,6 +261,37 @@ function dispatchYear(year, animate = true) {
             animate
         }
     }));
+}
+
+function toggleTimelinePlayback() {
+    if (timelineState.playing) {
+        stopTimelinePlayback();
+    } else {
+        startTimelinePlayback();
+    }
+}
+
+function startTimelinePlayback() {
+    timelineState.playing = true;
+    d3.select(".timeline-play-button")
+        .text("❚❚ Pause");
+    let currentYear = seasonTimelineYear(timelineState.year);
+    timelineState.playTimer = setInterval(() => {
+        currentYear += 1;
+        if (currentYear > 2024) {
+            stopTimelinePlayback();
+            return;
+        }
+        dispatchYear(currentYear, true);
+    }, 300);
+}
+
+function stopTimelinePlayback() {
+    timelineState.playing = false;
+    clearInterval(timelineState.playTimer);
+    timelineState.playTimer = null;
+    d3.select(".timeline-play-button")
+        .text("▶ Play");
 }
 
 function drawTimelineMarks() {
@@ -319,9 +364,15 @@ function drawTimelineMarks() {
 
     eraGroup.append("text")
         .attr("class", "era-name-label")
-        .attr("y", -48)
+        .attr("y", era => era.labelOffset ?? -48)
         .attr("text-anchor", "middle")
         .text(era => era.label);
+
+    eraGroup.append("text")
+        .attr("class", "era-bar")
+        .attr("y", -46)
+        .attr("text-anchor", "middle")
+        .text(era => era.labelBar ?? "")
 
     eraGroup.append("text")
         .attr("class", "era-year-label")
@@ -356,6 +407,7 @@ function drawTimelineMarks() {
 
     const moveToPointerYear = (event, animate) => {
         const [pointerX] = d3.pointer(event, svg.node());
+        stopTimelinePlayback();
         dispatchYear(xYear.invert(pointerX), animate);
     };
 
