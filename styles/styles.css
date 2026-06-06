@@ -1,7 +1,7 @@
 /* styles/styles.css */
 body {
     margin: 0;
-    background: #edf7fa;
+    background: #000000;
     color: #1f2933;
     font-family: Arial, sans-serif;
 }
@@ -20,11 +20,12 @@ body {
     margin: 0 0 8px;
     font-size: clamp(44px, 7vw, 84px);
     line-height: 0.95;
+    color:#ffffff;
 }
 
 .story-header p {
     margin: 0;
-    color: #52616f;
+    color: #ffffff;
     line-height: 1.45;
 }
 
@@ -872,6 +873,7 @@ body {
     position: relative;
     max-width: 1200px;
     margin: 60px auto;
+    background: #0a0a0a;
 }
 
 .dominance-master-lock {
@@ -883,18 +885,19 @@ body {
     padding: 0 20px; 
 }
 
-/* box around every box */
+/* box around every box, change border colors*/
 .dominance-master-box {
-    background: #f4f7f9; 
-    border: 2px solid #cbd5e1;
-    border-radius: 16px;
-    padding: 32px;
+    background: #111111;
+    border: 3px solid #333333;
+    border-top: 8px solid #e10600;
+    border-radius: 4px;
+    padding: 48px;
     height: 100%;
     box-sizing: border-box;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.06); 
+    box-shadow: 8px 8px 0px rgba(17, 17, 17, 0.1);
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 32px;
 }
 
 /* Titles */
@@ -906,30 +909,29 @@ body {
 
 .main-title-container {
     align-self: flex-start;
-    background: #ffffff;
-    border: 1px solid #e2eaf0;
-    border-radius: 8px;
-    padding: 8px 16px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    border-left: 6px solid #e10600; 
+    padding: 2px 0 2px 16px; 
+    box-shadow: none;
 }
 
+/*Dominance Analysis title controller */
 .dominance-main-title {
-    color: #440409; 
+    color: #ffffff; 
     font-size: 28px;
+    font-weight: 900;
     margin: 0;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.08em;
 }
 
 /* From Driver Skill to Constructor Centric Competition */
 .era-title {
-    color: #1f2933;
+    color: #888888;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 550;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
     margin: 0;
-    position: relative; 
-    top: 5px;  
-    left: 5px;  
 }
 
 /* split layout */
@@ -943,13 +945,18 @@ body {
 
 /* lock both text + charts */
 .chart-box, .text-canvas-box {
-    background: #ffffff;
-    border: 1px solid #e2eaf0;
-    border-radius: 12px;
-    padding: 24px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+    background: #1a1a1a;
+    border: 1px solid #333333;
+    border-radius: 2px;
+    padding: 32px;
     height: 100%;
     box-sizing: border-box;
+    color: #ffffff;
+}
+
+.text-canvas-box {
+    position: relative;
+    overflow: hidden;
 }
 
 .story-text-overlay {
@@ -980,26 +987,29 @@ body {
 
 /* lock text box */
 .narrative-text-box {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 25vh; 
-    padding: 0 32px; 
-    pointer-events: auto; 
+    position: absolute;
+    top: 24px; 
+    left: 24px;
+    right: 24px;
     opacity: 0;
     visibility: hidden;
-    transition: opacity 0.4s ease-in-out; 
+    transition: opacity 0.4s ease-in-out;
+    pointer-events: none;
 }
 
-.step.is-active .narrative-text-box {
+.narrative-text-box.is-active {
     opacity: 1;
     visibility: visible;
+    pointer-events: auto;
 }
 
+/*Right Texbox title controller */
 .narrative-text-box h2 {
     margin-top: 0;
-    font-size: 24px;
-    color: #1f2933;
-    border-bottom: 2px solid #e2eaf0;
+    font-size: 26px;
+    font-weight: 900;
+    color: #ffffff;
+    border-bottom: 3px solid #333333;
     padding-bottom: 12px;
     margin-bottom: 16px;
 }
@@ -1007,21 +1017,20 @@ body {
 .narrative-text-box p, .narrative-text-box ul {
     font-size: 16px;
     line-height: 1.6;
-    color: #52616f;
+    color: #eeeeee;
 }
 
-/* The era title in the charts box*/
+/* The era title in the charts box on the left*/
 .d3-era-title {
-    background: #ffffff;
-    border: 1px solid #cbd5e1;
-    border-radius: 6px;
-    padding: 6px 16px;
+    background: #111111;
+    border: 2px solid #333333 !important;
+    border-radius: 4px;
+    padding: 6px 14px;
     display: inline-block; 
-    margin-top: -10px;     
-    margin-bottom: 15px;  
-    font-size: 16px;
-    color: #1f2933;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    margin-top: -20px;     
+    margin-bottom: 16px;  
+    text-transform: uppercase;
+    box-shadow: none;
 }
 
 /*Button interactions :D */
@@ -1042,9 +1051,6 @@ body {
 }
 
 .back-btn:hover {
-    background: #f8fafc !important;
-    border-color: #c1121f !important;
-    color: #c1121f !important;
     transform: translateX(-2px);
 }
 

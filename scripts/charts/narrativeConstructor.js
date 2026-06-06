@@ -2,16 +2,16 @@ const COLORS = {
     "Ferrari": "#dc0000", 
     "Williams": "#005aff",
     "Mercedes": "#00d2be", 
-    "Red Bull": "#3671c6", 
-    "Tyrrell": "#2e8b57", 
+    "Red Bull": "#ff00ea", 
+    "Tyrrell": "#30dd05", 
     "Matra": "#1565c0", 
     "Maserati": "#8b5e9c", 
-    "Alfa Romeo": "#b22222",
+    "Alfa Romeo": "#c73ef5",
 };
-const GRID_COLOR = "#e2eaf0";
-const LABEL_COLOR = "#8a9baa";
+const GRID_COLOR = "#333333";
+const LABEL_COLOR = "#cccccc";
 const LABEL_SIZE = "10px";
-const MARKER_COLOR = "#1f2933";
+const MARKER_COLOR = "#e10600";
 const MARKER_WIDTH = 1.5;
 const MARKER_DASH = "3 2";
 
@@ -59,6 +59,7 @@ const SW = 480, SH = 220, SMT = 50, SMR = 16, SMB = 55, SML = 44;
 const siW = SW - SML - SMR;
 const siH = SH - SMT - SMB;
 
+//store the state of each era panel 
 const panelState = {};
 
 export async function drawConstructorNarrative() {
@@ -115,6 +116,7 @@ export async function drawConstructorNarrative() {
             rankData: {},
             yearStats: era.years
         };
+        //populate rank data
         years.forEach(y => {
             const sortedStandings = Object.entries(era.years[y].standings)
                 .sort((a, b) => b[1] - a[1]);
@@ -127,17 +129,15 @@ export async function drawConstructorNarrative() {
             });
         });
 
-        // Controls cn-panel
         const wrap = root.append("div")
             .attr("class", "cn-panel")
             .attr("data-panel", index)
             .style("display", index === 0 ? "block" : "none");
-        
+        //wrap the title element 
         wrap.append("h3")
             .attr("class", "d3-era-title")
             .style("color", eraState.focusColor)
-            .style("border-color", eraState.focusColor)
-            .style("font-size", "24px")
+            .style("font-size", "32px")
             .text(era.label);
 
         const svg1 = wrap.append("svg")
@@ -149,14 +149,6 @@ export async function drawConstructorNarrative() {
             .style("width", "100%")
             .style("margin-top", "30px");
 
-        /** 
-        const statBox = wrap.append("div")
-            .attr("class", "cn-stat-box")
-            .style("margin-top", "8px")
-            .style("background", "#ffffff")
-            .style("border", "1px solid #d5e8f0")
-            .style("border-radius", "10px")
-            .style("padding", "10px 14px"); */
         const { xScale: sx, streamMarker: sm } = buildStreamChart(svg1, eraState);
         const { xScale: bx, lineMarker: bm } = buildLineChart(svg2, eraState);
         
@@ -166,12 +158,12 @@ export async function drawConstructorNarrative() {
             streamMarker: sm,
             lineX: bx,
             lineMarker: bm,
-            //statBox
         };
     });
 }
 
 function buildStreamChart(svgSel, era) {
+    //linear scale for percentage vs year
     const x = d3.scaleLinear()
         .domain([era.windowStart, era.windowEnd])
         .range([0, siW]);
@@ -183,13 +175,14 @@ function buildStreamChart(svgSel, era) {
     const g = svgSel.append("g")
         .attr("transform", `translate(${SML},${SMT})`);
 
+    //change background for streamchart
     g.append("rect")
         .attr("x", 0)
         .attr("y", 0)
         .attr("width", siW)
         .attr("height", siH)
-        .attr("fill", "#edf3f8")
-        .attr("rx", 3);
+        .attr("fill", "#222222")
+        .attr("rx", 0);
 
     g.append("path")
         .datum(era.pct)
@@ -243,7 +236,7 @@ function buildStreamChart(svgSel, era) {
     g.append("text")
         .attr("x", -20)
         .attr("y", -20)
-        .attr("fill", "#000000")
+        .attr("fill", "#ffffff")
         .attr("font-size", "18px")
         .attr("font-weight", "700")
         .text("Percentage of Points Per Season");
@@ -282,6 +275,14 @@ function buildLineChart(svgSel, era) {
             drawGridLine(yPos);
             drawRankLabel(rank, yPos);
     });
+
+    g.append("rect")
+        .attr("x", 0)
+        .attr("y", 0)
+        .attr("width", siW)
+        .attr("height", siH)
+        .attr("fill", "#222222")
+        .attr("rx", 0);
 
     function drawGridLine(yPos) {
         g.append("line")
@@ -323,7 +324,7 @@ function buildLineChart(svgSel, era) {
     g.append("text")
         .attr("x", -20)
         .attr("y", -20)
-        .attr("fill", "#000000")
+        .attr("fill", "#ffffff")
         .attr("font-size", "18px")
         .attr("font-weight", "700")
         .text("Championship position");
@@ -410,6 +411,24 @@ function buildLineChart(svgSel, era) {
         .attr("stroke-dasharray", MARKER_DASH)
         .attr("opacity", 0);
 
+
+    // Dynamic Shadow Coloring
+    const defs = svgSel.append("defs");
+    const filter = defs.append("filter")
+        .attr("id", `glow-${era.panelIndex}`);
+    filter.append("feGaussianBlur")
+        .attr("stdDeviation", "2.5")
+        .attr("result", "coloredBlur");
+    const feMerge = filter.append("feMerge");
+    feMerge.append("feMergeNode").attr("in", "coloredBlur");
+    feMerge.append("feMergeNode").attr("in", "SourceGraphic");
+    g.append("path")
+
+        .attr("stroke", era.focusColor)
+        .style("filter", `url(#glow-${era.panelIndex})`); 
+    g.append("circle")
+        .style("filter", `url(#glow-${era.panelIndex})`);
+
    // button clicking, ensure to clear all between layouts
     svgSel.selectAll(".button-layer").remove();
 
@@ -433,10 +452,11 @@ function buildLineChart(svgSel, era) {
                 swapNarrativeText(era.panelIndex, m.year, m.text);
             });
 
+        // create the buttons
         btnGroup.append("rect")
             .attr("width", btnWidth).attr("height", 22)
             .attr("rx", 6)
-            .attr("fill", "#ffffff")
+            .attr("fill", "#1a1a1a")
             .attr("stroke", era.focusColor)
             .attr("stroke-width", 2);
 
@@ -444,7 +464,7 @@ function buildLineChart(svgSel, era) {
             .attr("x", btnWidth / 2).attr("y", 11)
             .attr("text-anchor", "middle").attr("dominant-baseline", "middle")
             .style("font-size", "10px").style("font-weight", "bold")
-            .attr("fill", era.focusColor)
+            .attr("fill", "#ffffff")
             .text(`${m.year}`);
 
         btnX += (btnWidth + btnSpacing);
@@ -481,7 +501,7 @@ export function updatePanelYear(panelIndex, year) {
 
 function swapNarrativeText(panelIndex, year, specificText) {
     // specifically for panelIndex
-    const activeBox = document.querySelector(`.constructor-step[data-panel="${panelIndex}"] .narrative-text-box`);
+    const activeBox = document.querySelector(`.narrative-text-box[data-panel="${panelIndex}"]`);
     
     if (!activeBox) {
         console.error("Could not find text box for panel", panelIndex);
@@ -495,16 +515,16 @@ function swapNarrativeText(panelIndex, year, specificText) {
     activeBox.innerHTML = `
         <div class="detail-view" style="animation: fadeIn 0.3s ease;">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-                <h2 style="margin: 0; color: #000000; border-bottom: none; padding-bottom: 0;">${year} Insight</h2>
+                <h2 style="margin: 0; color: #ffffff; border-bottom: none; padding-bottom: 0;">${year} Insight</h2>
                 <button class="back-btn" style="
                     background: #ffffff; border: 1px solid #cbd5e1;
                     padding: 4px 10px; border-radius: 6px; cursor: pointer;
-                    font-weight: bold; color: #1f2933;
+                    font-weight: bold; color: #000000;
                     box-shadow: 0 1px 3px rgba(0,0,0,0.05);
                 ">← Back</button>
             </div>
             <hr style="border: none; border-top: 1px solid #e2eaf0; margin: 0 0 16px 0;">
-            <p style="font-size: 16px; line-height: 1.6; color: #52616f;">
+            <p style="font-size: 16px; line-height: 1.6; color: #ffffff;">
                 ${specificText}
             </p>
         </div>

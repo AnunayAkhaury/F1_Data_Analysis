@@ -169,26 +169,30 @@ function startStoryScaffold() {
             offset: 0.5,
             progress: true
         })
+        // When user enters a new section
         .onStepEnter(response => {
             const element = response.element;
             const d3element = d3.select(element);
+
+            //contains the timeline map
             if (element.closest("#scrolly-container")) {
                 const sceneInfo = sceneFromStep(element);
                 document.body.classList.remove("hide-map-story-card");
                 setActiveStep(sceneInfo.id);
                 requestStorySync();
             }
+            //contains our controlled narrative 2
             else if (element.closest("#constructor-story")) {
                 const panelIndex = +d3element.attr("data-panel");
-                //const year = +d3element.attr("data-year");
                 updateConstructorNarrative(panelIndex);
                 resetConstructorDetailViews();
+
                 d3.selectAll("#constructor-story .constructor-step")
                    .classed("is-active", false);
+                d3.selectAll(".narrative-text-box").classed("is-active", false);
                 d3element.classed("is-active", true)
-                //if (!isNaN(year) && year > 0){ 
-                //    updatePanelYear(panelIndex, year);
-                //}
+                d3.select(`.narrative-text-box[data-panel="${panelIndex}"]`)
+                    .classed("is-active", true);
             }
         })
         .onStepExit(response => {
@@ -204,9 +208,6 @@ function startStoryScaffold() {
                             .classed("is-active", false);
                         d3.select(prev)
                             .classed("is-active", true);
-                        //if (!isNaN(year) && year > 0){ 
-                        //   updatePanelYear(panelIndex, year);
-                        //}
                     }
                 } else if (direction === "down" && !element.nextElementSibling) {
                 d3.select(element).classed("is-active", false);
