@@ -18,41 +18,44 @@ const MARKER_DASH = "4 3";
 // for button text panels
 const ERA_MILESTONES = [
     // 0: Fangio
-    [{ year: 1951, text: "Alfa Romeo's 159 Alfetta was a prewar design, but dominated the inaugural championship years." }, 
-    { year: 1952, text: "With Ferrari dominant, F1 temporarily switched to Formula 2 rules to save the series, showcasing the fragility of constructor stability." }, 
-    { year: 1954, text: "Fangio’s mid-season switch to Mercedes proved that driver adaptability was more important, as he won with two different teams in one year." }, 
-    { year: 1957, text: "Fangio’s Nurburgring drive remains the ultimate example of a driver overcoming a car deficit to secure a title." }],
+    [{ year: 1951, text: "<strong>Drivers & Points:</strong><ul><li>Juan Manuel Fangio (31 Points)</li><li>Giuseppe Farina (19 Points)</li></ul>Alfa Romeo's 159 Alfetta was a prewar design, but dominated the inaugural championship years." }, 
+    { year: 1952, text: "<strong>Drivers & Points:</strong><ul><li>Alberto Ascari (36 Points)</li><li>Nino Farina (24 Points)</li></ul>With Ferrari dominant, F1 temporarily switched to Formula 2 rules to save the series, showcasing the fragility of constructor stability." }, 
+    { year: 1954, text: "<strong>Drivers & Points:</strong><ul><li>Juan Manuel Fangio (42 Points)</li><li>Karl Kling (12 Points)</li></ul>Fangio’s mid-season switch to Mercedes proved that driver adaptability was more important, as he won with two different teams in one year." }, 
+    { year: 1957, text: "<strong>Drivers & Points:</strong><ul><li>Juan Manuel Fangio (40 Points)</li><li>Stirling Moss (25 Points)</li></ul>Fangio’s Nurburgring drive remains the ultimate example of a driver overcoming a car deficit to secure a title." }],
     // 1: Stewart
-    [{ year: 1969, text: "Matra's win with the MS80 was the first time a nonBritish team dominated, signaling the beginning of international competition." }, 
-    { year: 1970, text: "The Lotus 72 introduced the sidepod radiator concept, which is still the fundamental design for every F1 car today." }, 
-    { year: 1971, text: "Tyrrell’s '003' car combined simple mechanics with Stewart's precision, showing that driver skill could shine much more." }, 
-    { year: 1972, text: "Fittipaldi became the youngest champion at the time, showing that the driver/car relationship was shifting toward younger talent." }, 
-    { year: 1973, text: "Stewart’s final championship was defined by his commitment to driver safety, which led to the first standardized medical protocols in F1." }],
+    [{ year: 1969, text: "<strong>Drivers & Points:</strong><ul><li>Jackie Stewart (63 Points)</li><li>Jean-Pierre Beltoise (21 Points)</li></ul>Matra's win with the MS80 was the first time a nonBritish team dominated, signaling the beginning of international competition." }, 
+    { year: 1970, text: "<strong>Drivers & Points:</strong><ul><li>Jochen Rindt (45 Points)</li><li>Emerson Fittipaldi (12 Points)</li></ul>The Lotus 72 introduced the sidepod radiator concept, which is still the fundamental design for every F1 car today." }, 
+    { year: 1971, text: "<strong>Drivers & Points:</strong><ul><li>Jackie Stewart (62 Points)</li><li>François Cevert (26 Points)</li></ul>Tyrrell’s '003' car combined simple mechanics with Stewart's precision, showing that driver skill could shine much more." }, 
+    { year: 1972, text: "<strong>Drivers & Points:</strong><ul><li>Emerson Fittipaldi (61 Points)</li><li>Dave Walker (0 Points)</li></ul>Fittipaldi became the youngest champion at the time, showing that the driver/car relationship was shifting toward younger talent." }, 
+    { year: 1973, text: "<strong>Drivers & Points:</strong><ul><li>Jackie Stewart (71 Points)</li><li>Francois Cevert (47 Points)</li></ul>Stewart’s final championship was defined by his commitment to driver safety, which led to the first standardized medical protocols in F1." }],
     // 2: Williams
-    [{ year: 1992, text: "Williams' active suspension was so advanced that rivals were reportedly two seconds slower per lap purely on electronics." }, 
-    { year: 1993, text: "The peak of the electronic era, where computer controlled hydraulics solved the porpoising effect that still effect modern F1." }, 
-    { year: 1994, text: "The FIA banned all driver aids, forcing a massive design reset for Williams." }, 
-    { year: 1995, text: "One example where not having thier main racer meant losing. With Senna's absense William's Damon Hill unfortunately could win though they got second." }, 
-    { year: 1997, text: "Renault's withdrawal signaled the end of the factory-engine era for Williams, proving that constructor success is tethered to engine supply." }],
+    [{ year: 1992, text: "<strong>Drivers & Points:</strong><ul><li>Nigel Mansell (108 Points)</li><li>Riccardo Patrese (56 Points)</li></ul>Williams' active suspension was so advanced that rivals were reportedly two seconds slower per lap purely on electronics." }, 
+    { year: 1993, text: "<strong>Drivers & Points:</strong><ul><li>Alain Prost (99 Points)</li><li>Damon Hill (69 Points)</li></ul>The peak of the electronic era, where computer controlled hydraulics solved the porpoising effect that still effect modern F1." }, 
+    { year: 1994, text: "<strong>Drivers & Points:</strong><ul><li>Damon Hill (91 Points)</li><li>David Coulthard (14 Points)</li><li>Ayrton Senna (6 Points)</li></ul>The FIA banned all driver aids, forcing a massive design reset for Williams." }, 
+    { year: 1995, text: "<strong>Drivers & Points:</strong><ul><li>Damon Hill (69 Points)</li><li>David Coulthard (49 Points)</li></ul>One example where not having thier main racer meant losing. With Senna's absense William's Damon Hill unfortunately could win though they got second." }, 
+    { year: 1997, text: "<strong>Drivers & Points:</strong><ul><li>Jacques Villeneuve (81 Points)</li><li>Heinz-Harald Frentzen (42 Points)</li></ul>Renault's withdrawal signaled the end of the factory-engine era for Williams, proving that constructor success is tethered to engine supply." }],
     // 3: Ferrari
-    [{ year: 1999, text: "The start of the 'Schumacher Ferrari' project, which focused as much on pitcrew precision and data analysis as the car itself." }, 
-    { year: 2002, text: "Ferrari was so dominant they began to test for next year's car mid season. We can also see in the stream chart that it is the highest distribution of points they had in single season." }, 
-    { year: 2003, text: "A rule change forced cars to use the same tires for qualifying and racing, attempting to stop Ferrari's dominance." }, 
-    { year: 2004, text: "Schumacher won 13 of 18 races; this was the era that convinced the FIA that unlimited testing and budgets were destroying competition." }, 
-    { year: 2005, text: "Schumacher still raced in this year, but did not win. It can be seen that he fell to third with first place being Fernando Alonso who drove for Renault." }],
+    [{ year: 1999, text: "<strong>Drivers & Points:</strong><ul><li>Eddie Irvine (74 Points)</li><li>Michael Schumacher (44 Points)</li></ul>The start of the 'Schumacher Ferrari' project, which focused as much on pitcrew precision and data analysis as the car itself. Unfortunately Schumamer had a crash this year and stopped competing midway letting his second driver Irvine takeover. They did not win this year." }, 
+    { year: 2002, text: "<strong>Drivers & Points:</strong><ul><li>Michael Schumacher (144 Points)</li><li>Rubens Barrichello (77 Points)</li></ul>Ferrari was so dominant they began to test for next year's car mid season. We can also see in the stream chart that it is the highest distribution of points they had in single season." }, 
+    { year: 2003, text: "<strong>Drivers & Points:</strong><ul><li>Michael Schumacher (93 Points)</li><li>Rubens Barrichello (65 Points)</li></ul>A rule change forced cars to use the same tires for qualifying and racing, attempting to stop Ferrari's dominance." }, 
+    { year: 2004, text: "<strong>Drivers & Points:</strong><ul><li>Michael Schumacher (148 Points)</li><li>Rubens Barrichello (114 Points)</li></ul>Schumacher won 13 of 18 races; this was the era that convinced the FIA that unlimited testing and budgets were destroying competition." }, 
+    { year: 2005, text: "<strong>Drivers & Points:</strong><ul><li>Michael Schumacher (62 Points)</li><li>Rubens Barrichello (38 Points)</li></ul>Schumacher still raced in this year, but did not win. It can be seen that he fell to third with first place being Fernando Alonso who drove for Renault." }],
     // 4: Red Bull
-    [{ year: 2010, text: "The Red Bull RB6 utilized the Blown Diffuser, which used engine exhaust to create massive downforce. Sebastian Vettel and Mark Webber were the two representatives of this team and would be for the next 4 years." }, 
-    { year: 2011, text: "Red Bull dominated so completely that the FIA changed the points system to prevent the championship from being decided too early." }, 
-    { year: 2012, text: "The closest race of the era, where the design philosophy shifted from pure aero to engine map optimization. We can also see the effects of the new FIA points sytem change, unlike the last dominance era Red Bull never has that much more percentage of points." }, 
-    { year: 2013, text: "Vettel's dominance sparked the 'Jeep effect' where Red Bull was accused of traction control cheating due to engine mapping." }, 
-    { year: 2014, text: "After the hybrid regulation shift, Red Bull's inability to recover power parity exposed how dependent the competition is on a factory engine. Though they were still second Mercedes with their new engine absolutely outclassed the competition with 701 points compared to Red Bull Racing's 405. Sebastian Vettel was still the main racer but his second was Daniel Ricciardo." }],
+    [{ year: 2010, text: "<strong>Drivers & Points:</strong><ul><li>Sebastian Vettel (256 Points)</li><li>Mark Webber (242 Points)</li></ul>The Red Bull RB6 utilized the Blown Diffuser, which used engine exhaust to create massive downforce. Sebastian Vettel and Mark Webber were the two representatives of this team and would be for the next 4 years." }, 
+    { year: 2011, text: "<strong>Drivers & Points:</strong><ul><li>Sebastian Vettel (392 Points)</li><li>Mark Webber (258 Points)</li></ul>Red Bull dominated so completely that the FIA changed the points system to prevent the championship from being decided too early." }, 
+    { year: 2012, text: "<strong>Drivers & Points:</strong><ul><li>Sebastian Vettel (281 Points)</li><li>Mark Webber (179 Points)</li></ul>The closest race of the era, where the design philosophy shifted from pure aero to engine map optimization. We can also see the effects of the new FIA points sytem change, unlike the last dominance era Red Bull never has that much more percentage of points." }, 
+    { year: 2013, text: "<strong>Drivers & Points:</strong><ul><li>Sebastian Vettel (397 Points)</li><li>Mark Webber (199 Points)</li></ul>Vettel's dominance sparked the 'Jeep effect' where Red Bull was accused of traction control cheating due to engine mapping." }, 
+    { year: 2014, text: "<strong>Drivers & Points:</strong><ul><li>Daniel Ricciardo (238 Points)</li><li>Sebastian Vettel (167 Points)</li></ul>After the hybrid regulation shift, Red Bull's inability to recover power parity exposed how dependent the competition is on a factory engine. Though they were still second Mercedes with their new engine absolutely outclassed the competition with 701 points compared to Red Bull Racing's 405. Sebastian Vettel was still the main racer but his second was Daniel Ricciardo." }],
     // 5: Mercedes
-    [{ year: 2014, text: "Mercedes’ unlike Red Bull was able to perfect the split-turbo engine design, giving them a cooling and power advantage that no rival caught for 8 years." }, 
-    { year: 2016, text: "The Nico Rosberg versus Lewis Hamilton rivalry created a conflict within the team, making internal engineering a priority." }, 
-    { year: 2019, text: "Mercedes achieved 6 consecutive double titles, a level of constructor consistency that beat Ferrarri's." }, 
-    { year: 2021, text: "The final showdown between regulation stability and aggressive design, leading to the massive 2022 overhaul to kill the Mercedes advantage." },
-    { year: 2022, text: "The massive 2022 overhaul of regulations kills the Mercedes's advantage. In this year, the drivers were Lewis Hamilton and George Russel. Their combined total was 515 compared to Red Bull's 759 and Ferrari's 554." }]
+    [{ year: 2014, text: "<strong>Drivers & Points:</strong><ul><li>Lewis Hamilton (384 Points)</li><li>Nico Rosberg (317 Points)</li></ul>Mercedes’ unlike Red Bull was able to perfect the split-turbo engine design, giving them a cooling and power advantage that no rival caught for 8 years." }, 
+    { year: 2016, text: "<strong>Drivers & Points:</strong><ul><li>Nico Rosberg (385 Points)</li><li>Lewis Hamilton (380 Points)</li></ul>The Nico Rosberg versus Lewis Hamilton rivalry created a conflict within the team, making internal engineering a priority." }, 
+    { year: 2019, text: "<strong>Drivers & Points:</strong><ul><li>Lewis Hamilton (413 Points)</li><li>Valtteri Bottas (326 Points)</li></ul>Mercedes achieved 6 consecutive double titles, a level of constructor consistency that beat Ferrarri's." }, 
+    { year: 2021, text: "<strong>Drivers & Points:</strong><ul><li>Lewis Hamilton (387.5 Points)</li><li>Valtteri Bottas (226 Points)</li></ul>The final showdown between regulation stability and aggressive design, leading to the massive 2022 overhaul to kill the Mercedes advantage." },
+    { year: 2022, text: "<strong>Drivers & Points:</strong><ul><li>George Russell (275 Points)</li><li>Lewis Hamilton (240 Points)</li></ul>TThe massive 2022 overhaul of regulations kills the Mercedes's advantage. In this year, the drivers were Lewis Hamilton and George Russel. Their combined total was 515 compared to Red Bull's 759 and Ferrari's 554." }]
 ];
+
+
+   
 
 // Single graph dimensions so both line + stream are the same
 const SW = 480, SH = 220, SMT = 50, SMR = 16, SMB = 55, SML = 44;
