@@ -2,7 +2,7 @@ import { testMap, updateMap } from './charts/startermap.js';
 import { drawContinentTimeline, updateContinentTimeline } from './charts/continentTimeline.js';
 import { storyScenes } from './storyboard.js';
 import { drawConstructorDominance } from './charts/constructorDominance.js';
-import { drawConstructorNarrative, updateConstructorNarrative} from './charts/narrativeConstructor.js';
+import { drawConstructorNarrative, updateConstructorNarrative, updatePanelYear, clearAllMarkers} from './charts/narrativeConstructor.js';
 
 const sceneById = new Map(storyScenes.map(scene => [scene.id, scene]));
 const sceneByEra = new Map([
@@ -39,6 +39,7 @@ function resetConstructorDetailViews() {
             box.innerHTML = box.dataset.originalContent;
             delete box.dataset.originalContent; 
         }
+        clearAllMarkers();
     });
 }
 

@@ -535,3 +535,11 @@ function swapNarrativeText(panelIndex, year, specificText) {
         activeBox.innerHTML = activeBox.dataset.originalContent;
     });
 }
+
+ // set markers back to 0
+export function clearAllMarkers() {
+    Object.values(panelState).forEach(state => {
+        if (state.streamMarker) state.streamMarker.attr("opacity", 0);
+        if (state.lineMarker) state.lineMarker.attr("opacity", 0);
+    });
+}

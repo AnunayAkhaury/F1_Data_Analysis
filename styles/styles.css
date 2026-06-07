@@ -1054,6 +1054,45 @@ body {
     transform: translateX(-2px);
 }
 
+#constructor-narrative-stream svg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Ensure that it doesnt break everything with window size changes */
+@media (max-width: 1024px) {
+    .dominance-split-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+    .dominance-master-lock {
+        height: 90vh; 
+    }
+    .dominance-master-box {
+        height: 100%; 
+        padding: 20px; 
+        gap: 16px; 
+        overflow-y: auto; 
+    }
+    .chart-box, .text-canvas-box {
+        padding: 16px;
+    }
+    .text-canvas-box {
+        font-size: 20px;
+        margin-bottom: 10px;
+        padding-bottom: 8px;
+    }
+    .narrative-text-box p, .narrative-text-box ul {
+        font-size: 14px;
+        margin: 8px 0;
+    }
+    .d3-era-title {
+        margin-bottom: 8px;
+    }
+}
+
+
 
 /* Interactive Vis*/
 #constructor-stream.planned-chart {
