@@ -95,7 +95,55 @@ const worldMap = d3.geoPath().projection(projection);
 let raceRows = [];
 let firstCircuitRows = [];
 let firstYearByCircuit = new Map();
+let raceDetailBySeasonName = new Map();
 let pendingYear = 1950;
+
+function cleanRaceName(value) {
+    return String(value ?? "")
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, " ")
+        .trim();
+}
+
+function raceSeasonKey(year, raceName) {
+    return `${year}-${cleanRaceName(raceName)}`;
+}
+
+function cleanRaceDate(rawDate) {
+    if (!rawDate || rawDate === "\\N") return "Date unavailable";
+    if (rawDate instanceof Date) {
+        return rawDate.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" });
+    }
+
+    const [year, month, day] = String(rawDate).split("-").map(Number);
+    return new Date(Date.UTC(year, month - 1, day)).toLocaleDateString("en-US", {
+        month: "short",
+        day: "numeric",
+        year: "numeric",
+        timeZone: "UTC"
+    });
+}
+
+function buildRaceDetailBook(races, results, constructors) {
+    const racesById = new Map(races.map(race => [race.raceId, race]));
+    const constructorsById = new Map(constructors.map(team => [team.constructorId, team.name]));
+    const detailBook = new Map(races.map(race => [
+        raceSeasonKey(race.year, race.name),
+        { date: cleanRaceDate(race.date), constructor: "" }
+    ]));
+
+    results
+        .filter(result => result.positionOrder === 1)
+        .forEach(result => {
+            const race = racesById.get(result.raceId);
+            if (!race) return;
+
+            const detail = detailBook.get(raceSeasonKey(race.year, race.name));
+            if (detail) detail.constructor = constructorsById.get(result.constructorId) || "";
+        });
+
+    return detailBook;
+}
 
 function show_circuit_detail(d) {
     if (!d) return;
@@ -117,9 +165,15 @@ function show_circuit_detail(d) {
     detail.append("p")
         .text("Location: Lat " + d.lat + ", Lng " + d.lng);
 
+    detail.append("p")
+        .html("Date: " + (d.raceDate || "Date unavailable"));
+
     
     detail.append("p")
         .html("Winner: " + d.winner_driver);
+
+    detail.append("p")
+        .html("Constructor: " + (d.winner_constructor || "Constructor unavailable"));
     
     
 }
@@ -134,7 +188,9 @@ function cleanRaceRows(rawCalendar) {
         .flatMap(([year, races]) => races.map(race => ({
             ...race,
             year: +year,
-            circuitKey: circuitKey(race)
+            circuitKey: circuitKey(race),
+            raceDate: raceDetailBySeasonName.get(raceSeasonKey(+year, race.name_race))?.date,
+            winner_constructor: raceDetailBySeasonName.get(raceSeasonKey(+year, race.name_race))?.constructor
         })))
         .filter(race => Number.isFinite(race.lat) && Number.isFinite(race.lng))
         .sort((a, b) => d3.ascending(a.year, b.year));
@@ -257,9 +313,15 @@ export function testMap() {
 
             drawCountries(countries);
 
-            return d3.json("data/f1_processed.json");
+            return Promise.all([
+                d3.json("data/f1_processed.json"),
+                d3.csv("data/races.csv", d3.autoType),
+                d3.csv("data/results.csv", d3.autoType),
+                d3.csv("data/constructors.csv", d3.autoType)
+            ]);
         })
-        .then(jsonData => {
+        .then(([jsonData, races, results, constructors]) => {
+            raceDetailBySeasonName = buildRaceDetailBook(races, results, constructors);
             raceRows = cleanRaceRows(jsonData);
             firstCircuitRows = findFirstCircuitRows(raceRows);
             firstYearByCircuit = new Map(firstCircuitRows.map(race => [race.circuitKey, race.firstYear]));
