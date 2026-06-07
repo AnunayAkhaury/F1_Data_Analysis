@@ -128,8 +128,8 @@ const countryRegion = new Map([
 
 const timelineBox = {
     width: 2200,
-    height: 190,
-    margin: { top: 48, right: 70, bottom: 48, left: 70 }
+    height: 160,
+    margin: { top: 38, right: 70, bottom: 38, left: 70 }
 };
 
 const timelineState = {
@@ -298,7 +298,7 @@ function drawTimelineMarks() {
     const svg = d3.select(".era-timeline-svg");
     const innerLeft = timelineBox.margin.left;
     const innerRight = timelineBox.width - timelineBox.margin.right;
-    const yTrack = 104;
+    const yTrack = 84;
     const xYear = d3.scaleLinear()
         .domain([1950, 2024])
         .range([innerLeft, innerRight])
@@ -312,10 +312,10 @@ function drawTimelineMarks() {
         .join("rect")
         .attr("class", "era-band")
         .attr("x", era => xYear(era.start))
-        .attr("y", yTrack - 34)
+        .attr("y", yTrack - 24)
         .attr("width", era => Math.max(8, xYear(era.end) - xYear(era.start)))
-        .attr("height", 68)
-        .attr("rx", 34);
+        .attr("height", 48)
+        .attr("rx", 24);
 
     svg.append("line")
         .attr("class", "era-track")
@@ -340,11 +340,11 @@ function drawTimelineMarks() {
         .attr("transform", year => `translate(${xYear(year)},${yTrack})`)
         .call(group => {
             group.append("line")
-                .attr("y1", 28)
-                .attr("y2", 42);
+                .attr("y1", 22)
+                .attr("y2", 34);
 
             group.append("text")
-                .attr("y", 70)
+                .attr("y", 56)
                 .attr("text-anchor", "middle")
                 .text(year => year);
         });
@@ -359,7 +359,7 @@ function drawTimelineMarks() {
         .on("click", (event, era) => dispatchYear(era.start, true));
 
     eraGroup.append("circle")
-        .attr("r", 11)
+        .attr("r", 10)
         .attr("fill", "#ffffff");
 
     eraGroup.append("text")
@@ -386,22 +386,22 @@ function drawTimelineMarks() {
 
     handle.append("line")
         .attr("class", "current-year-rule")
-        .attr("y1", -66)
-        .attr("y2", 52);
+        .attr("y1", -50)
+        .attr("y2", 42);
 
     handle.append("circle")
-        .attr("r", 19);
+        .attr("r", 15);
 
     handle.append("rect")
-        .attr("x", -48)
-        .attr("y", -98)
-        .attr("width", 96)
-        .attr("height", 36)
-        .attr("rx", 18);
+        .attr("x", -42)
+        .attr("y", -78)
+        .attr("width", 84)
+        .attr("height", 30)
+        .attr("rx", 15);
 
     handle.append("text")
         .attr("class", "current-year-label")
-        .attr("y", -73)
+        .attr("y", -57)
         .attr("text-anchor", "middle")
         .text("1950");
 
@@ -414,9 +414,9 @@ function drawTimelineMarks() {
     svg.append("rect")
         .attr("class", "timeline-hitbox")
         .attr("x", innerLeft)
-        .attr("y", yTrack - 58)
+        .attr("y", yTrack - 48)
         .attr("width", innerRight - innerLeft)
-        .attr("height", 116)
+        .attr("height", 96)
         .on("click", event => moveToPointerYear(event, true))
         .call(d3.drag()
             .on("start", event => moveToPointerYear(event, false))
@@ -571,9 +571,9 @@ export function updateContinentTimeline(sceneInfo = {}) {
             eraCircles.transition()
                 .duration(220)
                 .ease(d3.easeCubicOut)
-                .attr("r", era => era.id === activeEra.id ? 16 : 11);
+                .attr("r", era => era.id === activeEra.id ? 14 : 10);
         } else {
-            eraCircles.attr("r", era => era.id === activeEra.id ? 16 : 11);
+            eraCircles.attr("r", era => era.id === activeEra.id ? 14 : 10);
         }
 
         d3.selectAll(".era-band")
