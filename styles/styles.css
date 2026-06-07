@@ -983,7 +983,7 @@ body {
 
 .step.constructor-step {
     grid-column: 2;
-    height: 100vh; 
+    height: 40vh; 
     pointer-events: none; 
 }
 
@@ -992,10 +992,9 @@ body {
     position: absolute;
     top: 0; 
     left: 0;
-    width: 100%;
-    height: 100%;
-    padding: 32px; 
-    box-sizing: border-box;
+    right: 0;
+    bottom:0 ;
+    padding: 22px; 
     overflow-y: auto;
     opacity: 0;
     visibility: hidden;
@@ -1064,6 +1063,18 @@ body {
     max-width: 100%;
     height: auto;
     display: block;
+}
+
+.scroll-hint {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ded9d9;
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    pointer-events: none;
+    opacity: 0.7;
 }
 
 /* Ensure that it doesnt break everything with window size changes */
