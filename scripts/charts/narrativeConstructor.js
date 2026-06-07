@@ -1,9 +1,9 @@
 const constructorHueBook = {
     "Ferrari": "#e10600",
-    "Williams": "#3867a8",
+    "Williams": "#1064d8",
     "Mercedes": "#2a9d8f",
-    "Red Bull": "#6c63b8",
-    "Tyrrell": "#6f7d4f",
+    "Red Bull": "#7669ea",
+    "Tyrrell": "#79a415",
     "Matra": "#1565c0",
     "Maserati": "#8b5e9c",
     "Alfa Romeo": "#b94be8",
@@ -276,7 +276,6 @@ function buildLineChart(svgSel, era) {
         .forEach(rank => {
             const yPos = y(rank);
             drawGridLine(yPos);
-            drawRankLabel(rank, yPos);
     });
 
     g.append("rect")
@@ -297,16 +296,15 @@ function buildLineChart(svgSel, era) {
             .attr("stroke-width", 1);
     }
 
-    function drawRankLabel(rank, yPos) {
-        g.append("text")
-            .attr("x", -5)
-            .attr("y", yPos)
-            .attr("text-anchor", "end")
-            .attr("dominant-baseline", "middle")
+    g.append("g").call(d3.axisLeft(y).tickFormat(d => `P${d}`))
+        .call(ax => ax.select(".domain").remove()) 
+        .call(ax => ax.selectAll("text")
             .attr("fill", LABEL_COLOR)
-            .attr("font-size", LABEL_SIZE)
-            .text(`P${rank}`);
-    }
+            .attr("font-size", LABEL_SIZE))
+        .call(ax => ax.selectAll("line")
+            .attr("stroke", "#8a9baa") 
+            .attr("opacity", 0.6));
+
    const xAxis = d3.axisBottom(x)
     .tickValues(years)
     .tickFormat(d3.format("d"))
@@ -419,9 +417,6 @@ function buildLineChart(svgSel, era) {
     const defs = svgSel.append("defs");
     const filter = defs.append("filter")
         .attr("id", `glow-${era.panelIndex}`);
-    filter.append("feGaussianBlur")
-        .attr("stdDeviation", "2.5")
-        .attr("result", "coloredBlur");
     const feMerge = filter.append("feMerge");
     feMerge.append("feMergeNode").attr("in", "coloredBlur");
     feMerge.append("feMergeNode").attr("in", "SourceGraphic");

@@ -877,7 +877,7 @@ body {
         #12345e 0%, 
         #0b1d35 30%, 
         #000000 70%, 
-        #0a0a0a 100%
+        #000000 100%
     );
     padding: 0 24px;
     text-align: center;
@@ -1151,7 +1151,84 @@ body {
     }
 }
 
+/* Next Transition*/
+.transition-2-spacer {
+    min-height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000000; 
+    padding: 60px 24px;
+    text-align: center;
+}
 
+.transition-2-content {
+    max-width: 700px;
+}
+
+.transition-2-content h2 {
+    font-size: clamp(36px, 5vw, 56px);
+    margin-bottom: 24px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    line-height: 1.1;
+}
+
+.transition-2-content p {
+    font-size: clamp(18px, 2vw, 22px);
+    color: #e0e5ea;
+    line-height: 1.6;
+    font-weight: 400;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* Button Layout */
+.transition-actions {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.btn-map, .btn-constructor {
+    text-decoration: none;
+    padding: 14px 32px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-map {
+    background: #e10600; 
+    color: #ffffff;
+    border: 2px solid #e10600;
+}
+
+.btn-map:hover {
+    background: #b30500;
+    border-color: #b30500;
+    transform: translateY(-2px);
+}
+
+.btn-constructor {
+    background: transparent;
+    color: #c9d8e3;
+    border: 2px solid #52616f;
+}
+
+.btn-constructor:hover {
+    background: rgba(255, 255, 255, 0.05);
+    color: #ffffff;
+    border-color: #c9d8e3;
+    transform: translateY(-2px);
+}
 
 /* Interactive Vis*/
 #constructor-stream.planned-chart {
@@ -1345,10 +1422,6 @@ body {
     filter: drop-shadow(0 6px 8px rgba(225, 6, 0, 0.22));
     stroke: #e10600;
     stroke-width: 2;
-}
-
-.constructor-win-bar.is-dimmed {
-    opacity: 0.34;
 }
 
 .constructor-win-label {
