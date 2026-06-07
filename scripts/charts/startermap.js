@@ -74,6 +74,13 @@ const countryDebut = new Map([
     ["United States of America", 1950]
 ]);
 
+const countryNameAliases = new Map([
+    ["United States", "United States of America"],
+    ["UAE", "United Arab Emirates"],
+    ["Korea", "South Korea"],
+    ["Republic of Korea", "South Korea"]
+]);
+
 const svg = d3.select("#f1-map");
 const width = +svg.attr("width");
 const height = +svg.attr("height");
@@ -124,6 +131,72 @@ function projectedPoint(race) {
     return projection([race.lng, race.lat]);
 }
 
+function bestMapCountryName(feature) {
+    const props = feature.properties ?? {};
+    const possibleNames = [props.name, props.name_long, props.admin, props.geounit, props.sovereignt]
+        .filter(Boolean);
+
+    for (const name of possibleNames) {
+        const fixedName = countryNameAliases.get(name) ?? name;
+
+        if (countryDebut.has(fixedName)) {
+            return fixedName;
+        }
+    }
+
+    return possibleNames[0] ?? "";
+}
+
+function splitFrenchGuianaFromFrance(feature) {
+    if (feature?.properties?.name !== "France" || feature?.geometry?.type !== "MultiPolygon") {
+        return [feature];
+    }
+
+    return feature.geometry.coordinates.map(coordinates => {
+        const singlePiece = {
+            ...feature,
+            geometry: { type: "Polygon", coordinates },
+            properties: { ...feature.properties }
+        };
+        const [lon, lat] = d3.geoCentroid(singlePiece);
+        const isFrenchGuiana = lon < -40 && lat > -10 && lat < 15;
+
+        if (!isFrenchGuiana) {
+            return singlePiece;
+        }
+
+        return {
+            ...singlePiece,
+            properties: {
+                ...singlePiece.properties,
+                name: "French Guiana",
+                displayRegion: "Americas",
+                displayColor: "#2a9d8f",
+                displayDebut: 1950
+            }
+        };
+    });
+}
+
+function mapFeaturesFromGeo(geoData) {
+    const features = geoData.type === "FeatureCollection"
+        ? geoData.features
+        : topojson.feature(geoData, geoData.objects.countries).features;
+
+    return features.flatMap(splitFrenchGuianaFromFrance);
+}
+
+function countryFillForYear(feature) {
+    if (feature.properties?.displayColor && feature.properties?.displayDebut <= pendingYear) {
+        return feature.properties.displayColor;
+    }
+
+    const country = bestMapCountryName(feature);
+    const debutYear = countryDebut.get(country);
+
+    return debutYear <= pendingYear ? countryColor.get(country) : "#e7edf2";
+}
+
 function drawCountries(countries) {
     projection.fitExtent([[100, 20], [width - 100, height - 200]], { type: "Sphere" });
 
@@ -146,17 +219,13 @@ function updateCountryColors() {
     svg.selectAll(".country")
         .transition()
         .duration(400)
-        .attr("fill", d => {
-            const country = d.properties.name;
-            const debutYear = countryDebut.get(country);
-            return debutYear <= pendingYear ? countryColor.get(country) : "#e7edf2";
-        })
+        .attr("fill", countryFillForYear)
 }
 
 export function testMap() {
-    d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json")
-        .then(topology => {
-            const countries = topojson.feature(topology, topology.objects.countries).features;
+    d3.json("data/custom.geo.json")
+        .then(mapData => {
+            const countries = mapFeaturesFromGeo(mapData);
 
             drawCountries(countries);
 
