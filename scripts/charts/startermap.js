@@ -1,4 +1,3 @@
-//import { show_circuit_detail } from "./driverDrilldown.js";
 // scripts/charts/startermap.js
 const countryColor = new Map([
     ["Argentina", "#2a9d8f"],

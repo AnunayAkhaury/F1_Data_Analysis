@@ -60,14 +60,6 @@ export const storyScenes = [
         transitionIdea: "Pause on the final map so the next section feels like a new chapter."
     },
     {
-        id: "driver-drilldown",
-        title: "Drivers inside dominant teams",
-        mainGoal: "Let the viewer inspect the drivers who explain a selected constructor era.",
-        activeView: "driver-focus",
-        activeEra: "modern-global-calendar",
-        transitionIdea: "Drill down from a selected constructor band into driver-level detail."
-    },
-    {
         id: "open-exploration",
         title: "Open exploration",
         mainGoal: "Give users a final interactive stage after the guided story explains the views.",

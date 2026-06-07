@@ -1428,7 +1428,6 @@ body {
     }
 }
 
-
 #detailPanel {
     display: none;
     position: fixed;
@@ -1466,4 +1465,12 @@ body {
 #detailPanel .detail-subtitle {
     color: #e63946;
     font-weight: bold;
+}
+
+.post-map-story {
+    padding-bottom: 28px;
+}
+
+.post-map-story #constructor-panel {
+    margin-bottom: 0;
 }
