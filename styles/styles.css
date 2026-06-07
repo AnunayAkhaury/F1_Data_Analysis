@@ -92,6 +92,27 @@ body {
     z-index: 3;
 }
 
+.map-help-note {
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(197, 217, 232, 0.9);
+    border-radius: 16px;
+    box-shadow: 0 14px 34px rgba(2, 12, 27, 0.18);
+    color: #314154;
+    font-size: 14px;
+    line-height: 1.45;
+    max-width: 330px;
+    padding: 13px 15px;
+    position: absolute;
+    right: 28px;
+    top: 22px;
+    z-index: 3;
+}
+
+.map-help-note span {
+    display: block;
+    margin-top: 5px;
+}
+
 #f1-map {
     display: block;
     height: 100%;
