@@ -9,7 +9,7 @@ const constructorHueBook = {
     "Alfa Romeo": "#b94be8",
 };
 const GRID_COLOR = "#333333";
-const LABEL_COLOR = "#cccccc";
+const LABEL_COLOR = "#8a9baa";
 const LABEL_SIZE = "10px";
 const MARKER_COLOR = "#86898b";
 const MARKER_WIDTH = 1.5;
@@ -216,8 +216,8 @@ function buildStreamChart(svgSel, era) {
         )
         .call(ax => ax.select(".domain").remove())
         .call(ax => ax.selectAll("text")
-            .attr("fill", "#8a9baa")
-            .attr("font-size", "11px"));
+            .attr("fill", LABEL_COLOR)
+            .attr("font-size", LABEL_SIZE));
 
     const years = d3.range(
         era.windowStart,
@@ -232,8 +232,8 @@ function buildStreamChart(svgSel, era) {
                 .tickFormat(d3.format("d"))
         )
         .call(ax => ax.selectAll("text")
-            .attr("fill", "#8a9baa")
-            .attr("font-size", "10px"));
+            .attr("fill", LABEL_COLOR)
+            .attr("font-size", LABEL_SIZE));
 
     g.append("text")
         .attr("x", -20)
@@ -302,7 +302,7 @@ function buildLineChart(svgSel, era) {
             .attr("fill", LABEL_COLOR)
             .attr("font-size", LABEL_SIZE))
         .call(ax => ax.selectAll("line")
-            .attr("stroke", "#8a9baa") 
+            .attr("stroke", MARKER_COLOR) 
             .attr("opacity", 0.6));
 
    const xAxis = d3.axisBottom(x)

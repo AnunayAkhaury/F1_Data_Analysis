@@ -1230,6 +1230,36 @@ html {
     transform: translateY(-2px);
 }
 
+
+/* Control button return logic only after user clicks it*/
+#return-down-btn {
+    position: absolute;
+    top: -65px; 
+    right: 10px; 
+    padding: 14px 28px; 
+    font-size: 16px;    
+    font-weight: 800;   
+    background: #ffffff;              
+    color: #111111;    
+    border: 2px solid #52616f;              
+    border-radius: 12px;             
+    opacity: 0;
+    pointer-events: none; 
+    transform: translateY(10px);
+}
+
+#return-down-btn.is-visible {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+}
+
+#return-down-btn:hover {
+    background: #f4f7f9;                    
+    transform: translateY(-2px);      
+    outline: none;
+}
+
 /* Interactive Vis*/
 #constructor-stream.planned-chart {
     align-items: stretch;

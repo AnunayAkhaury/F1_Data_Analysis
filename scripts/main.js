@@ -251,4 +251,19 @@ function startStoryScaffold() {
     requestStorySync();
 }
 
+//Button should appear again after clicking
+document.addEventListener("DOMContentLoaded", () => {
+    const goUpBtn = document.getElementById("go-up-btn");
+    const returnDownBtn = document.getElementById("return-down-btn");
+
+    if (goUpBtn && returnDownBtn) {
+        goUpBtn.addEventListener("click", () => {
+            returnDownBtn.classList.add("is-visible");
+        });
+        returnDownBtn.addEventListener("click", (e) => {
+            e.preventDefault();
+            document.getElementById("constructor-panel").scrollIntoView({ behavior: 'smooth' });
+        });
+    }
+});
 startStoryScaffold();
