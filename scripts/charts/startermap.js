@@ -1,3 +1,4 @@
+
 // scripts/charts/startermap.js
 const countryColor = new Map([
     ["Argentina", "#2a9d8f"],
@@ -115,7 +116,14 @@ function show_circuit_detail(d) {
 
     detail.append("p")
         .text("Location: Lat " + d.lat + ", Lng " + d.lng);
+
+    
+    detail.append("p")
+        .html("Winner: " + d.winner_driver);
+    
+    
 }
+
 
 function circuitKey(race) {
     return `${race.location}-${race.country}-${race.lat}-${race.lng}`.toLowerCase();
@@ -313,6 +321,7 @@ export function updateMap(selectedYear, options = {}) {
                 .interrupt()
                 .attr("r", 2.6)
                 .attr("opacity", 0.32);
+            d3.select("#detailPanel").style("display", "none");
         })
         .on("click", function(event, d) {
             show_circuit_detail(d);
@@ -366,6 +375,8 @@ export function updateMap(selectedYear, options = {}) {
                 .interrupt()
                 .attr("r", firstYearByCircuit.get(d.circuitKey) === pendingYear ? 7.2 : 5.8)
                 .attr("opacity", 0.92);
+
+            d3.select("#detailPanel").style("display", "none");
         })
         .on("click", function(event, d) {
             show_circuit_detail(d);
