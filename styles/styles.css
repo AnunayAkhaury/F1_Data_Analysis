@@ -1388,3 +1388,43 @@ body {
         display: block;
     }
 }
+
+
+#detailPanel {
+    display: none;
+    position: fixed;
+    right: 40px;
+    top: 25vh;
+    width: 320px;
+    min-height: 140px;
+    z-index: 9999;
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid #c5d9e8;
+    border-top: 4px solid #e63946;
+    border-radius: 8px;
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.18);
+    padding: 20px;
+    box-sizing: border-box;
+    color: #1f2933;
+    pointer-events: auto;
+}
+
+#detailPanel h3 {
+    margin: 0 0 10px 0;
+    font-size: 17px;
+    color: #1f2933;
+    border-bottom: 1px solid #edf3f8;
+    padding-bottom: 6px;
+}
+
+#detailPanel p {
+    margin: 6px 0;
+    font-size: 13px;
+    color: #52616f;
+    line-height: 1.45;
+}
+
+#detailPanel .detail-subtitle {
+    color: #e63946;
+    font-weight: bold;
+}
