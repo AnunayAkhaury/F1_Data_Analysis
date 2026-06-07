@@ -11,10 +11,11 @@ const COLORS = {
 const GRID_COLOR = "#333333";
 const LABEL_COLOR = "#cccccc";
 const LABEL_SIZE = "10px";
-const MARKER_COLOR = "#e10600";
+const MARKER_COLOR = "#86898b";
 const MARKER_WIDTH = 1.5;
-const MARKER_DASH = "3 2";
+const MARKER_DASH = "4 3";
 
+// for button text panels
 const ERA_MILESTONES = [
     // 0: Fangio
     [{ year: 1951, text: "Alfa Romeo's 159 Alfetta was a prewar design, but dominated the inaugural championship years." }, 
@@ -256,6 +257,7 @@ function buildStreamChart(svgSel, era) {
     };
 }
 
+//creates the line chart
 function buildLineChart(svgSel, era) {
     const years = d3.range(era.windowStart, era.windowEnd + 1);
     const maxRank = 4;
@@ -450,6 +452,7 @@ function buildLineChart(svgSel, era) {
             .on("click", function(event) {
                 event.stopPropagation();
                 swapNarrativeText(era.panelIndex, m.year, m.text);
+                updatePanelYear(era.panelIndex, m.year);
             });
 
         // create the buttons
@@ -493,12 +496,9 @@ export function updatePanelYear(panelIndex, year) {
         .attr("x1", state.lineX(year))
         .attr("x2", state.lineX(year))
         .attr("opacity", 1);
-
-        /** 
-    const note = yearData.note ?? `${champion} led the constructors' championship with ${championPts} points.`;
-    */
 }
 
+//controls our button interactions such as swapping text panels
 function swapNarrativeText(panelIndex, year, specificText) {
     // specifically for panelIndex
     const activeBox = document.querySelector(`.narrative-text-box[data-panel="${panelIndex}"]`);
@@ -512,6 +512,7 @@ function swapNarrativeText(panelIndex, year, specificText) {
         activeBox.dataset.originalContent = activeBox.innerHTML;
     }
 
+    //controller for colors
     activeBox.innerHTML = `
         <div class="detail-view" style="animation: fadeIn 0.3s ease;">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
