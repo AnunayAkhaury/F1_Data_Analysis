@@ -18,16 +18,16 @@ const MARKER_DASH = "4 3";
 // for button text panels
 const ERA_MILESTONES = [
     // 0: Fangio
-    [{ year: 1951, text: "<strong>Drivers & Points:</strong><ul><li>Juan Manuel Fangio (31 Points)</li><li>Giuseppe Farina (19 Points)</li></ul>Alfa Romeo's 159 Alfetta was a prewar design, but dominated the inaugural championship years." }, 
-    { year: 1952, text: "<strong>Drivers & Points:</strong><ul><li>Alberto Ascari (36 Points)</li><li>Nino Farina (24 Points)</li></ul>With Ferrari dominant, F1 temporarily switched to Formula 2 rules to save the series, showcasing the fragility of constructor stability." }, 
-    { year: 1954, text: "<strong>Drivers & Points:</strong><ul><li>Juan Manuel Fangio (42 Points)</li><li>Karl Kling (12 Points)</li></ul>Fangio’s mid-season switch to Mercedes proved that driver adaptability was more important, as he won with two different teams in one year." }, 
-    { year: 1957, text: "<strong>Drivers & Points:</strong><ul><li>Juan Manuel Fangio (40 Points)</li><li>Stirling Moss (25 Points)</li></ul>Fangio’s Nurburgring drive remains the ultimate example of a driver overcoming a car deficit to secure a title." }],
+    [{ year: 1951, text: "<strong>Drivers & Points:</strong><ul><li>Juan Manuel Fangio (31 Points) - Alfa Romeo</li><li>Giuseppe Farina (19 Points) - Alfa Romeo</li></ul>Alfa Romeo's 159 Alfetta was a prewar design, but dominated the inaugural championship years." }, 
+    { year: 1952, text: "<strong>Drivers & Points:</strong><ul><li>Alberto Ascari (36 Points) - Ferrari</li><li>Nino Farina (24 Points) - Ferrari</li></ul>With Ferrari dominant, F1 temporarily switched to Formula 2 rules to save the series, showcasing the fragility of constructor stability." }, 
+    { year: 1954, text: "<strong>Drivers & Points:</strong><ul><li>Juan Manuel Fangio (42 Points) - Mercedes/Maserati</li><li>Karl Kling (12 Points) - Mercedes</li></ul>Fangio’s mid-season switch to Mercedes proved that driver adaptability was more important, as he won with two different teams in one year." }, 
+    { year: 1957, text: "<strong>Drivers & Points:</strong><ul><li>Juan Manuel Fangio (40 Points) - Maserati</li><li>Stirling Moss (25 Points) - Vanwall</li></ul>Fangio’s Nurburgring drive remains the ultimate example of a driver overcoming a car deficit to secure a title." }],
     // 1: Stewart
-    [{ year: 1969, text: "<strong>Drivers & Points:</strong><ul><li>Jackie Stewart (63 Points)</li><li>Jean-Pierre Beltoise (21 Points)</li></ul>Matra's win with the MS80 was the first time a nonBritish team dominated, signaling the beginning of international competition." }, 
-    { year: 1970, text: "<strong>Drivers & Points:</strong><ul><li>Jochen Rindt (45 Points)</li><li>Emerson Fittipaldi (12 Points)</li></ul>The Lotus 72 introduced the sidepod radiator concept, which is still the fundamental design for every F1 car today." }, 
-    { year: 1971, text: "<strong>Drivers & Points:</strong><ul><li>Jackie Stewart (62 Points)</li><li>François Cevert (26 Points)</li></ul>Tyrrell’s '003' car combined simple mechanics with Stewart's precision, showing that driver skill could shine much more." }, 
-    { year: 1972, text: "<strong>Drivers & Points:</strong><ul><li>Emerson Fittipaldi (61 Points)</li><li>Dave Walker (0 Points)</li></ul>Fittipaldi became the youngest champion at the time, showing that the driver/car relationship was shifting toward younger talent." }, 
-    { year: 1973, text: "<strong>Drivers & Points:</strong><ul><li>Jackie Stewart (71 Points)</li><li>Francois Cevert (47 Points)</li></ul>Stewart’s final championship was defined by his commitment to driver safety, which led to the first standardized medical protocols in F1." }],
+    [{ year: 1969, text: "<strong>Drivers & Points:</strong><ul><li>Jackie Stewart (63 Points) - Matra</li><li>Jean-Pierre Beltoise (21 Points) - Matra</li></ul>Matra's win with the MS80 was the first time a nonBritish team dominated, signaling the beginning of international competition." }, 
+    { year: 1970, text: "<strong>Drivers & Points:</strong><ul><li>Jochen Rindt (45 Points) - Lotus</li><li>Emerson Fittipaldi (12 Points) - Lotus</li></ul>The Lotus 72 introduced the sidepod radiator concept, which is still the fundamental design for every F1 car today." }, 
+    { year: 1971, text: "<strong>Drivers & Points:</strong><ul><li>Jackie Stewart (62 Points) - Tyrrell</li><li>François Cevert (26 Points) - Tyrrell</li></ul>Tyrrell’s '003' car combined simple mechanics with Stewart's precision, showing that driver skill could shine much more." }, 
+    { year: 1972, text: "<strong>Drivers & Points:</strong><ul><li>Emerson Fittipaldi (61 Points) - Lotus</li><li>Dave Walker (0 Points) - Lotus</li></ul>Fittipaldi became the youngest champion at the time, showing that the driver/car relationship was shifting toward younger talent." }, 
+    { year: 1973, text: "<strong>Drivers & Points:</strong><ul><li>Jackie Stewart (71 Points) - Tyrrell</li><li>François Cevert (47 Points) - Tyrrell</li></ul>Stewart’s final championship was defined by his commitment to driver safety, which led to the first standardized medical protocols in F1." }],
     // 2: Williams
     [{ year: 1992, text: "<strong>Drivers & Points:</strong><ul><li>Nigel Mansell (108 Points)</li><li>Riccardo Patrese (56 Points)</li></ul>Williams' active suspension was so advanced that rivals were reportedly two seconds slower per lap purely on electronics." }, 
     { year: 1993, text: "<strong>Drivers & Points:</strong><ul><li>Alain Prost (99 Points)</li><li>Damon Hill (69 Points)</li></ul>The peak of the electronic era, where computer controlled hydraulics solved the porpoising effect that still effect modern F1." }, 
@@ -54,8 +54,6 @@ const ERA_MILESTONES = [
     { year: 2022, text: "<strong>Drivers & Points:</strong><ul><li>George Russell (275 Points)</li><li>Lewis Hamilton (240 Points)</li></ul>TThe massive 2022 overhaul of regulations kills the Mercedes's advantage. In this year, the drivers were Lewis Hamilton and George Russel. Their combined total was 515 compared to Red Bull's 759 and Ferrari's 554." }]
 ];
 
-
-   
 
 // Single graph dimensions so both line + stream are the same
 const SW = 480, SH = 220, SMT = 50, SMR = 16, SMB = 55, SML = 44;
