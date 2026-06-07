@@ -97,6 +97,27 @@ let firstCircuitRows = [];
 let firstYearByCircuit = new Map();
 let pendingYear = 1950;
 
+function show_circuit_detail(d) {
+    if (!d) return;
+
+    const detail = d3.select("#detailPanel");
+    detail.selectAll("*").remove();
+    detail.style("display", "block");
+
+    detail.append("h3")
+        .text("Circuit Detail");
+
+    detail.append("p")
+        .attr("class", "detail-subtitle")
+        .text("Country: " + d.country);
+
+    detail.append("p")
+        .html("Race Name: " + d.name_race);
+
+    detail.append("p")
+        .text("Location: Lat " + d.lat + ", Lng " + d.lng);
+}
+
 function circuitKey(race) {
     return `${race.location}-${race.country}-${race.lat}-${race.lng}`.toLowerCase();
 }
