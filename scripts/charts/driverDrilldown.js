@@ -158,7 +158,7 @@ function drawWinRacePieChart(wins, races) {
 
   const color = d3.scaleOrdinal()
     .domain(pieData.map(d => d.type))
-    .range(["steelblue", "lightgray"]);
+    .range(["#2a9d8f", "#dce7ef"]);
 
   g.selectAll("path")
     .data(pie(pieData))

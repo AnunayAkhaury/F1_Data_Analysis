@@ -1,3 +1,28 @@
+const constructorColorBook = {
+    "Ferrari": "#e10600",
+    "Williams": "#3867a8",
+    "Mercedes": "#2a9d8f",
+    "Red Bull": "#6c63b8",
+    "McLaren": "#ff7a1a",
+    "Renault": "#e9a227",
+    "Lotus": "#6f7d4f",
+    "Benetton": "#2a9d8f",
+    "Brabham": "#3867a8",
+    "Brawn": "#d4af37",
+    "Racing Point": "#c85c54",
+    "AlphaTauri": "#8aa6c1",
+    "Haas F1 Team": "#8aa6c1",
+    "Alfa Romeo": "#b94be8",
+    "Alfa Romeo Racing": "#b94be8",
+    "Tyrrell": "#6f7d4f",
+    "Matra": "#1565c0",
+    "Maserati": "#8b5e9c"
+};
+
+function constructorColorFor(constructorName) {
+    return constructorColorBook[constructorName] ?? "#2a9d8f";
+}
+
 export async function drawConstructorDominance() {
     const [constructorStandings, races, constructors, results] = await Promise.all([
         d3.csv("data/constructor_standings.csv", d3.autoType),
@@ -198,6 +223,7 @@ export async function drawConstructorDominance() {
             .classed("is-champion", d => d.position === 1)
             .classed("is-selected", d => d.constructor === pinnedConstructorName)
             .classed("is-dimmed", d => pinnedConstructorName && d.constructor !== pinnedConstructorName)
+            .style("fill", d => d.position === 1 ? "#d4af37" : constructorColorFor(d.constructor))
             .style("cursor", "pointer")
             .on("click", (event, d) => {
                 pinnedConstructorName = pinnedConstructorName === d.constructor ? null : d.constructor;
@@ -297,7 +323,7 @@ export async function drawConstructorDominance() {
                 ${gridPresenceRows.map(d => `
                     <div class="constructor-entry-strip">
                         <span>${d.constructor}</span>
-                        <div><i style="width:${(d.races / busiestRaceCount) * 100}%"></i></div>
+                        <div><i style="width:${(d.races / busiestRaceCount) * 100}%; background:${constructorColorFor(d.constructor)}"></i></div>
                         <strong>${d.races}</strong>
                     </div>
                 `).join("")}

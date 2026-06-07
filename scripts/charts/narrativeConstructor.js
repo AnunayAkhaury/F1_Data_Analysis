@@ -1,12 +1,12 @@
-const COLORS = {
-    "Ferrari": "#dc0000", 
-    "Williams": "#005aff",
-    "Mercedes": "#00d2be", 
-    "Red Bull": "#ff00ea", 
-    "Tyrrell": "#30dd05", 
-    "Matra": "#1565c0", 
-    "Maserati": "#8b5e9c", 
-    "Alfa Romeo": "#c73ef5",
+const constructorHueBook = {
+    "Ferrari": "#e10600",
+    "Williams": "#3867a8",
+    "Mercedes": "#2a9d8f",
+    "Red Bull": "#6c63b8",
+    "Tyrrell": "#6f7d4f",
+    "Matra": "#1565c0",
+    "Maserati": "#8b5e9c",
+    "Alfa Romeo": "#b94be8",
 };
 const GRID_COLOR = "#333333";
 const LABEL_COLOR = "#cccccc";
@@ -93,7 +93,7 @@ export async function drawConstructorNarrative() {
             panelIndex: index,
             label: era.label,
             focusTeams: focusTeams,
-            focusColor: COLORS[focusTeams[0]] || "#dc0000",
+            focusColor: constructorHueBook[focusTeams[0]] || "#e10600",
             windowStart: parseInt(years[0]),
             windowEnd: parseInt(years[years.length - 1]),
             pct: years.map(y => {
@@ -361,7 +361,7 @@ function buildLineChart(svgSel, era) {
             .attr("cx", x(pt.year))
             .attr("cy", y(pt.rank))
             .attr("r", 6)
-            .attr("fill", COLORS[pt.team] || "#aaa").attr("stroke", "#fff").attr("stroke-width", 2);
+            .attr("fill", constructorHueBook[pt.team] || "#8a9baa").attr("stroke", "#fff").attr("stroke-width", 2);
         });
     } else {
         // Just for constructors
