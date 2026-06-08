@@ -60,3 +60,83 @@ http://localhost:8000
 4. Build the constructor streamgraph as the advanced visualization.
 5. Add driver drilldown interaction.
 6. Add annotations and transitions that support the main story.
+
+
+
+
+## Description
+
+This project is a narrative visualization about Formula 1's global expansion and the racing eras defined by dominant constructors and drivers.
+
+data/ contains all the F1 datasets used by the visualizations
+docs/ contains project planning documents
+scripts/ contains the JavaScript source code
+styles/ contains the CSS styling used 
+
+**structure**
+   
+  ```text
+    ├── README.md
+    ├── index.html
+    ├── docs/
+    │   ├── data-plan.md
+    │   └── storyboard.md
+    ├── scripts/
+    │   ├── charts/
+    │   │   ├── constructorDominance.js
+    │   │   ├── continentTimeline.js
+    │   │   ├── driverDrilldown.js
+    │   │   ├── narrativeConstructor.js
+    │   │   └── startermap.js
+    │   ├── dataprocessing/
+    │   │   ├── narrativeCombination.py
+    │   │   └── testcombination.py
+    │   ├── main.js
+    │   └── storyboard.js
+    ├── styles/
+    │   └── styles.css
+    ├── data/
+    │   ├── circuits.csv
+    │   ├── constructorNarrativeData.json
+    │   ├── constructor_results.csv
+    │   ├── constructor_standings.csv   
+    │   ├── constructors.csv
+    │   ├── custom.geo.json
+    │   ├── driver_standings.csv
+    │   ├── drivers.csv
+    │   ├── f1_processed.json
+    │   ├── lap_times.csv
+    │   ├── pit_stops.csv
+    │   ├── qualifying.csv
+    │   ├── races.csv
+    │   ├── sprint_results.csv
+    │   ├── results.csv
+    │   ├── seasons.csv
+    │   └── status.csv
+  ```
+    
+   
+
+
+## Installation
+
+Clone the repository:
+```bash
+git clone https://github.com/AnunayAkhaury/F1_Data_Analysis.git
+```
+No additional steps are required.
+
+## Execution
+
+Run a local server from this folder:
+
+```bash
+python3 -m http.server 8000
+```
+
+Then open:
+
+```text
+http://localhost:8000
+```
+
