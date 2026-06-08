@@ -1,5 +1,6 @@
 
-
+//detailed information about a selected circuit
+//triggered when the user clicks a race location on the world map and updates the detail panel 
   function show_circuit_detail(d) {
     if (!d) return;
 
@@ -28,10 +29,8 @@
 }
     
   
-
-
-
-
+//display constructor performance statistics for the selected season
+//Shows wins, race participation, and a pie chart summarizin the constructor's season performance
 
 
 function show_constructor_detail(d, year, constructorStandings, results) {
@@ -70,7 +69,8 @@ function show_constructor_detail(d, year, constructorStandings, results) {
 }
 
 
-
+//Display constructor participation information.
+//Triggered from the participation chart and reuses the detail panel 
 function show_constructor_participation(d, year, constructorStandings, results) {
 
   const constructorName = d.constructor;
@@ -105,7 +105,7 @@ function show_constructor_participation(d, year, constructorStandings, results) 
 }
 
 
-
+//Count the number of unique races entered by a constructor
 function getConstructorRaceCount(constructorName, year, results) {
 
   const raceCount = new Set(
@@ -119,7 +119,7 @@ function getConstructorRaceCount(constructorName, year, results) {
 }
 
 
-
+//get the total number of wins recorded for a constructor in a given season
 function getConstructorWins(constructorName, year, constructorStandings) {
 
   const row = constructorStandings
@@ -134,7 +134,8 @@ function getConstructorWins(constructorName, year, constructorStandings) {
 }
 
 
-
+//pie chart comparing wins against total race participation.
+//inside the detail panel to help users understand constructor dominance 
 function drawWinRacePieChart(wins, races) {
 
   const svg = d3.select("#detailPieChart");
@@ -210,7 +211,7 @@ function drawWinRacePieChart(wins, races) {
     .text(`Other: ${nonWins}`);
 }
 
-
+//Clear and hide the detail panel.
 function clear_detail() {
 
   const detail = d3.select("#detailPanel");
