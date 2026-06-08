@@ -1,3 +1,5 @@
+// Maps constructor names to consistent colors.
+// Used throughout the visualization so the same team always appears with the same color.
 const constructorColorBook = {
     "Ferrari": "#e10600",
     "Williams": "#3867a8",
@@ -19,29 +21,57 @@ const constructorColorBook = {
     "Maserati": "#8b5e9c"
 };
 
+// Returns the color assigned to a constructor.
+// If no color is defined, a default teal color is used.
 function constructorColorFor(constructorName) {
     return constructorColorBook[constructorName] ?? "#2a9d8f";
 }
 
+// Main entry point for the Constructor Dominance section.
+//
+// Responsibilities:
+// 1. Load constructor, race, and result datasets.
+// 2. Build season-by-season summaries.
+// 3. Create the interactive dashboard layout.
+// 4. Set up season controls.
+// 5. Render charts and information panels.
 export async function drawConstructorDominance() {
     const [constructorStandings, races, constructors, results] = await Promise.all([
+        // Load all CSV files needed for constructor analysis.
         d3.csv("data/constructor_standings.csv", d3.autoType),
         d3.csv("data/races.csv", d3.autoType),
         d3.csv("data/constructors.csv", d3.autoType),
         d3.csv("data/results.csv", d3.autoType)
     ]);
-
+    // Create lookup tables for fast conversion between IDs and human-readable names.
     const constructorNameById = new Map(constructors.map(d => [d.constructorId, d.name]));
     const raceById = new Map(races.map(d => [d.raceId, d]));
+    
+    // Determine the first and last seasons available so the season controls know their valid range.
     const seasonYears = Array.from(new Set(races.map(d => d.year))).sort((a, b) => a - b);
     const firstSeasonYear = d3.min(seasonYears);
     const latestSeasonYear = d3.max(seasonYears);
-
+    
+    // Creates a season-by-season data structure that stores:
+    // - Constructor standings
+    // - Champion information
+    // - Wins
+    // - Points
+    // - Race participation
+    // This prevents expensive recalculations every time the user changes seasons.
     const constructorSeasonBook = buildConstructorSeasonBook(constructorStandings, results, raceById, constructorNameById);
     const constructorPanel = d3.select("#constructor-stream");
+    // Tracks the currently selected season and the constructor currently selected by the user.
     let activeSeasonYear = latestSeasonYear;
     let pinnedConstructorName = null;
 
+    // Creates the dashboard layout:
+    // Left side:
+    // - Constructor wins chart
+    // Right side:
+    // - Season summary
+    // - Selected constructor details
+    // - Participation summary
     constructorPanel.html(`
         <div class="constructor-lab">
             <div class="constructor-lab-heading">
@@ -89,6 +119,7 @@ export async function drawConstructorDominance() {
         </div>
     `);
 
+    // Quick navigation buttons that jump to important Formula 1 historical periods.
     const eraJumpButtons = [
         { label: "Origins", start: 1950, end: 1967 },
         { label: "Commercial growth", start: 1968, end: 1989 },
@@ -96,6 +127,7 @@ export async function drawConstructorDominance() {
         { label: "Modern era", start: 2010, end: latestSeasonYear }
     ];
 
+    // Creates the era navigation buttons and updates the dashboard when one is clicked.
     d3.select("#constructor-era-jumps")
         .selectAll("button")
         .data(eraJumpButtons)
@@ -109,18 +141,21 @@ export async function drawConstructorDominance() {
             refreshConstructorLab(true);
         });
 
+    // Move one season backward.
     d3.select("#constructor-season-slider")
         .on("input", event => {
             activeSeasonYear = Number(event.target.value);
             refreshConstructorLab(true);
         });
 
+    // Move one season backward.
     d3.select("#constructor-season-prev")
         .on("click", () => {
             activeSeasonYear = Math.max(firstSeasonYear, activeSeasonYear - 1);
             refreshConstructorLab(true);
         });
 
+    // Move one season forward.
     d3.select("#constructor-season-next")
         .on("click", () => {
             activeSeasonYear = Math.min(latestSeasonYear, activeSeasonYear + 1);
@@ -129,6 +164,16 @@ export async function drawConstructorDominance() {
 
     refreshConstructorLab(false);
 
+
+    // Central update function.
+    // Called whenever:
+    // - season changes
+    // - constructor selection changes
+    // Updates:
+    // - wins chart
+    // - season summary
+    // - constructor detail panel
+    // - participation summary
     function refreshConstructorLab(shouldAnimate) {
         const seasonSlice = constructorSeasonBook.get(activeSeasonYear) ?? blankConstructorSeason(activeSeasonYear);
         const topWinRows = seasonSlice.standings
@@ -152,6 +197,8 @@ export async function drawConstructorDominance() {
         writeGridPresenceSnapshot(seasonSlice);
     }
 
+
+    // Draws the horizontal bar chart showing constructor race wins for the selected season.
     function drawSeasonWinBars(topWinRows, seasonSlice, shouldAnimate) {
         const svg = d3.select("#constructor-win-chart");
         const chartWidth = 760;
@@ -160,11 +207,13 @@ export async function drawConstructorDominance() {
         const largestWinCount = Math.max(1, d3.max(topWinRows, d => d.wins) ?? 1);
         const seasonShift = svg.transition().duration(shouldAnimate ? 450 : 0).ease(d3.easeCubicOut);
 
+        // Converts win counts into pixel positions.
         const winsScale = d3.scaleLinear()
             .domain([0, largestWinCount])
             .nice()
             .range([chartPad.left, chartWidth - chartPad.right]);
 
+        // Positions constructors vertically.
         const teamScale = d3.scaleBand()
             .domain(topWinRows.map(d => d.constructor))
             .range([chartPad.top, chartHeight - chartPad.bottom])
@@ -186,6 +235,7 @@ export async function drawConstructorDominance() {
             .transition(seasonShift)
             .call(d3.axisLeft(teamScale).tickSizeOuter(0));
 
+        // Draw vertical guide lines to improve readability.
         svg.selectAll(".constructor-win-guide")
             .data(winsScale.ticks(5), d => d)
             .join(
@@ -205,6 +255,11 @@ export async function drawConstructorDominance() {
             .attr("y2", chartHeight - chartPad.bottom)
             .attr("opacity", 1);
 
+        
+        // Draw constructor win bars.
+        // Gold = champion.
+        // Team color = other constructors.
+        // Clicking a bar selects a constructor and updates the detail panel.
         const winBarSelection = svg.selectAll(".constructor-win-bar")
             .data(topWinRows, d => d.constructor)
             .join(
@@ -236,6 +291,7 @@ export async function drawConstructorDominance() {
             .attr("width", d => winsScale(d.wins) - chartPad.left)
             .attr("opacity", 1);
 
+        // Display numeric win totals next to bars.
         svg.selectAll(".constructor-win-label")
             .data(topWinRows, d => d.constructor)
             .join(
@@ -271,6 +327,11 @@ export async function drawConstructorDominance() {
             .text(d => `No constructor standing data for ${d}.`);
     }
 
+    // Displays season-level information:
+    // - season year
+    // - champion constructor
+    // - race count
+    // - final points total
     function writeSeasonSnapshot(seasonSlice) {
         const championRow = seasonSlice.champion;
         const raceText = seasonSlice.raceCount === 1 ? "race" : "races";
@@ -288,6 +349,7 @@ export async function drawConstructorDominance() {
         `);
     }
 
+    // Displays detailed information for the currently selected constructor.
     function writePinnedTeamSnapshot(seasonSlice) {
         const focusRow = pinnedConstructorName
             ? seasonSlice.byConstructor.get(pinnedConstructorName)
@@ -309,6 +371,7 @@ export async function drawConstructorDominance() {
         `);
     }
 
+    // Displays constructors with the highest number of race entries in the selected season.
     function writeGridPresenceSnapshot(seasonSlice) {
         const gridPresenceRows = seasonSlice.standings
             .filter(d => d.races > 0)
@@ -332,13 +395,24 @@ export async function drawConstructorDominance() {
     }
 }
 
+
+// Converts raw datasets into season summaries.
+// Produces:
+// season ->
+//   standings
+//   champion
+//   race count
+//   participation
+// Used throughout the dashboard.
 function buildConstructorSeasonBook(constructorStandings, results, raceById, constructorNameById) {
+    // Count races held each season.
     const raceCountBySeason = d3.rollup(
         Array.from(raceById.values()),
         rows => rows.length,
         d => d.year
     );
 
+    // Count how many races each constructor entered during each season.
     const entryCountBySeasonAndConstructor = d3.rollup(
         results,
         rows => new Set(rows.map(d => d.raceId)).size,
@@ -346,6 +420,8 @@ function buildConstructorSeasonBook(constructorStandings, results, raceById, con
         d => constructorNameById.get(d.constructorId)
     );
 
+    // Group constructor standings by season and constructor.
+    // The final round of the season is used to determine the constructor's final championship position.
     const standingsBySeasonAndConstructor = d3.group(
         constructorStandings
             .map(d => {
@@ -386,6 +462,8 @@ function buildConstructorSeasonBook(constructorStandings, results, raceById, con
     }));
 }
 
+// Returns an empty season object when no data exists.
+// Prevents rendering errors.
 function blankConstructorSeason(year) {
     return {
         year,
@@ -396,4 +474,5 @@ function blankConstructorSeason(year) {
     };
 }
 
+// Reserved for future integration with the scrolling story framework.
 export function updateConstructorDominance(sceneState) {}
