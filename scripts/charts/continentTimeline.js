@@ -1,3 +1,4 @@
+// this is the main f1 story checkpoints that the timeline uses while the user scrolls
 const f1Eras = [
     {
         id: "f1-origins",
@@ -164,6 +165,7 @@ function countBlankRegions() {
     return Object.fromEntries(regionNames.map(region => [region, 0]));
 }
 
+// this function helps combine the race rows with cirucit rows such that each race has a year, country, rigion and circuit name.
 function cleanRaceCalendar(races, circuits) {
     const circuitById = new Map(circuits.map(circuit => [circuit.circuitId, circuit]));
 
@@ -188,6 +190,7 @@ function cleanRaceCalendar(races, circuits) {
         .filter(row => row && row.year >= 1950 && row.year <= 2024);
 }
 
+// this helps prepare the per-year numbers shows in the timeline which included the race counts and circuit info
 function summarizeByYear(calendarRows) {
     return new Map(d3.range(1950, 2025).map(year => {
         const seasonRows = calendarRows.filter(row => row.year === year);
@@ -215,6 +218,7 @@ function yearFromScene(sceneInfo) {
     return clampTimelineYear(sceneInfo?.mapYear ?? sceneInfo?.startYear ?? sceneInfo?.endYear ?? timelineState.year);
 }
 
+// this builds the containter for the timeline, the year pill, the play button, and summary
 function drawTimelineShell() {
     const holder = d3.select("#continent-timeline")
         .classed("planned-chart", false)
@@ -250,6 +254,7 @@ function drawTimelineShell() {
         .attr("class", "era-summary");
 }
 
+// sends the timeline year back to map so the cards and maps can update
 function dispatchYear(year, animate = true) {
     const cleanYear = clampTimelineYear(year);
     const era = eraForYear(cleanYear);
@@ -294,6 +299,7 @@ function stopTimelinePlayback() {
         .text("▶ Play");
 }
 
+// this draws the actual time line tracks and era checkpoints and moveing year handle
 function drawTimelineMarks() {
     const svg = d3.select(".era-timeline-svg");
     const innerLeft = timelineBox.margin.left;
@@ -426,6 +432,7 @@ function drawTimelineMarks() {
     timelineState.yTrack = yTrack;
 }
 
+// this helps refresh the summary tect and regional bars
 function updateSummary(summary, animate = false) {
     const rows = regionNames.map(region => ({
         region,
@@ -497,6 +504,7 @@ function updateSummary(summary, animate = false) {
         .text(d => d.races);
 }
 
+// this starts the timeline by drawing the UI, loading the data and summarys
 export async function drawContinentTimeline() {
     drawTimelineShell();
     drawTimelineMarks();
@@ -513,6 +521,7 @@ export async function drawContinentTimeline() {
     updateContinentTimeline(timelineState.pendingScene ?? { mapYear: timelineState.year });
 }
 
+// this is the core udpate function that is called when user scroll across the timeline or click play
 export function updateContinentTimeline(sceneInfo = {}) {
     timelineState.pendingScene = sceneInfo;
 
