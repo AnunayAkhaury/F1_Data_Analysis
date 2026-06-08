@@ -188,6 +188,18 @@ function startStoryScaffold() {
                 updateConstructorNarrative(panelIndex);
                 resetConstructorDetailViews();
 
+                //Determine whether it is constructo or driver era
+                const eraBadge = document.getElementById("era-badge");
+                if (eraBadge) {
+                    if (panelIndex <= 1) { 
+                        eraBadge.textContent = "DRIVER CENTRIC ERA";
+                    } else { 
+                        eraBadge.textContent = "CONSTRUCTOR CENTRIC ERA";
+                    }
+                }
+
+                
+
                 d3.selectAll("#constructor-story .constructor-step")
                    .classed("is-active", false);
                 d3.selectAll(".narrative-text-box").classed("is-active", false);

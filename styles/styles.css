@@ -962,6 +962,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    position: relative;
 }
 
 .main-title-container {
@@ -1095,6 +1096,26 @@ body {
     text-transform: uppercase;
     box-shadow: none;
 }
+/*Constructor or Driver Title */
+.era-badge {
+    position: absolute;  
+    left: 0;             
+    top: 100%;           
+    margin-top: 6px;     
+    
+    padding: 0; 
+    border: none;
+    background: transparent;
+    
+    font-size: 14px;            
+    font-weight: 900; 
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    
+    /* This perfectly matches your .era-title subtitle color */
+    color: #888888; 
+}
+
 
 /*Button interactions :D */
 @keyframes fadeIn {
