@@ -141,6 +141,28 @@ function syncStoryToScroll() {
 
     if (!scrollState) return;
 
+    const firstStep = document.querySelector(".scroll__text .step");
+
+    if (window.scrollY < pageTop(firstStep)) {
+        d3.selectAll(".scroll__text .step")
+            .classed("is-active", false);
+    } else {
+        setActiveStep(scrollState.sceneInfo.id);
+    }
+
+    const transition = document.querySelector(".story-transition-spacer");
+    const transitionRect = transition.getBoundingClientRect();
+
+    if (transitionRect.top < window.innerHeight * 0.5) {
+        d3.selectAll(".scroll__text .step")
+            .classed("is-active", false);
+        return;
+    }
+
+    console.log(document.querySelector(".step.is-active")?.dataset.scene);
+    console.log(document.body.classList.contains("hide-map-story-card"));
+    console.log(getComputedStyle(document.querySelector(".step-card")).opacity);
+
     updateStoryYear(
         scrollState.sceneInfo,
         yearInsideScene(scrollState.sceneInfo, scrollState.progress)
