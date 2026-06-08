@@ -1,24 +1,34 @@
 
-function show_circuit_detail(d) {
-  const detail = d3.select("#detailPanel");
-  detail.selectAll("*").remove();
-  detail.style("display", "block");
 
-  detail.append("h3")
-    .text("Circuit Detail");
+  function show_circuit_detail(d) {
+    if (!d) return;
 
-  detail.append("p")
-    .attr("class", "detail-subtitle")
-    .text("Country: " + d.country);
+    const detail = d3.select("#detailPanel");
+    detail.selectAll("*").remove();
+    detail.style("display", "block");
 
-  detail.append("p")
-    .html("Race Name: " + d.name_race );
+    detail.append("h3")
+        .text("Circuit Detail");
 
-  detail.append("p")
-    .text("Location: Lat " + d.lat + ", Lng " + d.lng);
+    detail.append("p")
+        .attr("class", "detail-subtitle")
+        .text("Country: " + d.country);
+
+    detail.append("p")
+        .html("Race Name: " + d.name_race);
+
+    detail.append("p")
+        .text("Location: Lat " + d.lat + ", Lng " + d.lng);
+
+    
+    detail.append("p")
+        .html("Winner: " + d.winner_driver);
+    
+    
+}
     
   
-}
+
 
 
 
