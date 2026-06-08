@@ -1,5 +1,4 @@
-
-// scripts/charts/startermap.js
+// Fill colors for each country by their geographical region.
 const countryColor = new Map([
     ["Argentina", "#2a9d8f"],
     ["Australia", "#6c63b8"],
@@ -37,6 +36,7 @@ const countryColor = new Map([
     ["United States of America", "#2a9d8f"]
 ]);
 
+// Countries are colored in after hosting their first race.
 const countryDebut = new Map([
     ["Argentina", 1953],
     ["Australia", 1985],
@@ -145,6 +145,7 @@ function buildRaceDetailBook(races, results, constructors) {
     return detailBook;
 }
 
+// Shows specific race details when clicking a circle on the world map.
 function show_circuit_detail(d) {
     if (!d) return;
 
@@ -281,6 +282,7 @@ function countryFillForYear(feature) {
     return debutYear <= pendingYear ? countryColor.get(country) : "#e7edf2";
 }
 
+// Draws all of the countries to create the world map.
 function drawCountries(countries) {
     projection.fitExtent([[100, 20], [width - 100, height - 200]], { type: "Sphere" });
 
@@ -299,6 +301,7 @@ function drawCountries(countries) {
     svg.append("g").attr("class", "current-race-layer");
 }
 
+// Colors in countries when they have hosted at least one F1 race.
 function updateCountryColors() {
     svg.selectAll(".country")
         .transition()
@@ -306,6 +309,7 @@ function updateCountryColors() {
         .attr("fill", countryFillForYear)
 }
 
+// Creates the world map upon initialization.
 export function testMap() {
     d3.json("data/custom.geo.json")
         .then(mapData => {
@@ -331,6 +335,7 @@ export function testMap() {
         .catch(err => console.error("Error drawing spatial-temporal map layers:", err));
 }
 
+// Updates the world map markers upon changing the year.
 export function updateMap(selectedYear, options = {}) {
     pendingYear = Math.max(1950, Math.min(2024, Math.round(selectedYear)));
     updateCountryColors();

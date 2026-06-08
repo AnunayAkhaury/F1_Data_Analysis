@@ -159,10 +159,6 @@ function syncStoryToScroll() {
         return;
     }
 
-    console.log(document.querySelector(".step.is-active")?.dataset.scene);
-    console.log(document.body.classList.contains("hide-map-story-card"));
-    console.log(getComputedStyle(document.querySelector(".step-card")).opacity);
-
     updateStoryYear(
         scrollState.sceneInfo,
         yearInsideScene(scrollState.sceneInfo, scrollState.progress)
